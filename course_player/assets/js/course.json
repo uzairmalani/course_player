@@ -1,0 +1,17 @@
+
+[
+
+{
+	"course_title":{"Cost_Management":{"lesson_name":"Cost Management1","Question":"what is cost Management",
+		"paragraph":{"span":{"text":"cost Management setting, remaining essentially unchanged.", "time":"0.02"},
+				"span1":{"text":"It was popularised in the 1960s with the release of Letraset sheets", "time":"0.04"},
+				"span2":{"text":"containing Lorem Ipsum passages", "time":"0.06"},
+				"span3":{"text":"and more recently with desktop publishing.", "time":"0.08"},
+				"span4":{"text":"including versions of cost Management", "time":"0.10"},
+				"span5":{"text":"Ut enim ad minim veniam, quis nostrud exercitation ullamco", "time":"0.12"},
+				"span7":{"text":"laboris nisi ut aliquip ex ea commodo consequat.", "time":"0.14"},
+				"span8":{"text":"Duis aute irure dolor in reprehenderit in voluptate", "time":"0.16"},
+				"span9":{"text":"velit esse cillum dolore eu fugiat nulla pariatur.", "time":"0.18"},
+				"span10":{"text":"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", "time":"0.21"}},
+"image":"http://localhost/players/course_player/assets/images/Picto_Cost_Management.svg"}}},
+]
