@@ -1,9 +1,9 @@
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn">&times;</a>
-  <a href="http://localhost/players/course_player/">Lesson 1: Lorem Ipsum is simply dummy text of the printing</a>
+  <!-- <a href="http://localhost/players/course_player/">Lesson 1: Lorem Ipsum is simply dummy text of the printing</a>
   <a href="http://localhost/players/course_player/">Lesson 2: Lorem Ipsum is simply dummy text of the printing</a>
   <a href="http://localhost/players/course_player/">Lesson 3: Lorem Ipsum is simply dummy text of the printing</a>
-  <a href="http://localhost/players/course_player/">Lesson 4: Lorem Ipsum is simply dummy text of the printing</a>
+  <a href="http://localhost/players/course_player/">Lesson 4: Lorem Ipsum is simply dummy text of the printing</a> -->
 </div>
 <div id="main" class="">
 	<div>
@@ -99,6 +99,15 @@
 
 	
 		</div> -->
+	</div>
+	</div>
+
+	<div class="popup" data-popup="popup-1">
+	<div class="popup-inner">
+		
+		<p><a data-popup-close="popup-1" href="#">Close</a></p>
+		
+		<a class="popup-close" data-popup-close="popup-1" href="#">x</a>
 	</div>
 	</div>
 

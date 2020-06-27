@@ -4,6 +4,7 @@ var currentValue = 0;
 var paragraphs = [];
 var ticks = [];
 var obj = {};
+var lesson_count=0;
 var course = "";
 $(document).ready( function(){
 	let url = "http://localhost/players/course_player/assets/js/course.xml";
@@ -17,12 +18,13 @@ $(document).ready( function(){
 		var count = '';
 		var center = false;
 
-		// Lesson Navigation
+		    // Lesson Navigation
 		if (Array.isArray(obj.root.course.lesson) == true) {
 			for(var i = 0;i < obj.root.course.lesson.length; i++){
 				value = obj.root.course.lesson[i]
 	 			course +='<a class="lesson" data-rel="'+i+'" href="http://localhost/players/course_player/">'
 	 			+value['@attributes'].name+'</a>';
+	 			
 			}
 		} else {
 			var lesson=obj.root.course.lesson["@attributes"].name;
@@ -33,8 +35,8 @@ $(document).ready( function(){
 
 		$('.sidenav').prepend(course);
 
-		getLesson(0);
- 	
+		
+ 	    getLesson(0);
  		play(0);
  	});
 
@@ -49,27 +51,46 @@ $(document).ready( function(){
 	});
 });
 
-$(document).on('click', '.lesson', function(){
+$(document).on('click', '.lesson', function(e){
+	e.preventDefault()
 	var i = $(this).data('rel');
+	$('#player-container').html("");
+	$('.slides').html("");
 
-	multipleTopic(lesson1.topics[i], i);
+	getLesson(i);
+	$('.play-narration i').removeClass('fa-pause-circle').addClass('fa-play-circle');
+	
+	play(0);
+
+	setTimeout(function() {
+        player.play();
+    	$('.play-narration i').addClass('fa-pause-circle').removeClass('fa-play-circle');}, 2000);
+
+	$('.player0').on('canplaythrough', function(e) {
+		var duration=$(this).duration;
+		duration = Math.round(duration);
+		$('.start-time').text('0:00');
+		initializeSlider(duration, [], 0);
+	});
+	
+	
+
+	return false;
 });
+
 
 function play(count){
 	var count = count;
 	player = $('.player'+count+'')[0];
-	//console.log(player.duration);
-	
-
 	
 
 	$(player).on('canplaythrough', function(e) {
 		var duration=player.duration;
 		duration = Math.round(duration);
-		//console.log(duration)		
+		
 		if(progressBar == null && $('#player_slider').length > 0) {
 			initializeSlider(duration, [], 0);
-			//console.log(duration)
+		
 		}
 		
 	});
@@ -92,16 +113,30 @@ function play(count){
 	player.onended = function() {
 		
 		$('.play-narration i').removeClass('fa-pause-circle').addClass('fa-play-circle');
+		var length1 = $('.slide_'+count+'').next().length;
+		console.log(length1)
+		if(length1 > 0) {
+			$('.slide_'+count+'').fadeOut('fast');
+		$('.slide_'+count+'').hide();
+		$('.slide_'+count+'').next().show( "slide", {direction: "right" }, 2000 );
 
-		$('.slide_'+count+'').fadeOut('fast');
-		$('.slide_'+count+'').next().fadeIn('slow');
-		
 		play(count+1);
+		setTimeout(function() {
+        player.play();
+    	$('.play-narration i').addClass('fa-pause-circle').removeClass('fa-play-circle');}, 2000);
+		
 		var duration= $('.player'+count+'').duration;
-		//console.log(duration);
 		$('.start-time').text('0:00');
 		initializeSlider(duration, [], 0);
-
+		}else{
+			$('.popup-inner h1').html("");
+			$('[data-popup="popup-1"]').fadeIn(350);
+			$('.popup-inner').prepend("<h1>Thankyou</h1>");
+			$('[data-popup-close]').on('click', function(e) {			
+			$('[data-popup="popup-1"]').fadeOut(350);
+			e.preventDefault();
+			});
+		}
 	}
 
 	setSlideHeight();
@@ -122,7 +157,7 @@ function getLesson(index){
 		}
 	} else {
 		var topics=lesson1.topics["@attributes"].name;
-		quest +='<h2  id=Question>'+topics+'</h2>';  
+		//quest +='<h2  id=Question>'+topics+'</h2>';  
 		multipleTopic(lesson1.topics, 0);		
 	}
 }
@@ -138,7 +173,7 @@ function setNarration(){
 
 // creating topic div from json
 function multipleTopic(topic, i){
-//	console.log(topic["@attributes"].name)
+
 	
 	var count= i, aContent=[], link ='', img = '', center=false, questCenter='';
 	var quest ='<h2 class="heading">'+topic["@attributes"].name+'</h2>';
@@ -149,20 +184,18 @@ function multipleTopic(topic, i){
 				quest += aContent[0];
 				link += aContent[1];
 				img += aContent[2];
-				center += aContent[3];
-				questCenter += aContent[4];
-				console.log(center);
+				
 			}
 		} else {
 			aContent = getContent(topic.content, count)
 			quest += aContent[0];
 			link += aContent[1];
 			img += aContent[2];
-			center += aContent[3];
-			questCenter += aContent[4];
 		}
 	}
-	console.log(questCenter);
+
+
+
 
 	var row = "<div class='container-fluid slide_"+count+" slide-section'>"
 		row +="	  <div class='p-4'>"
@@ -173,21 +206,48 @@ function multipleTopic(topic, i){
 		row +="     </div>"
 		row +="   </div>"
 		row +="</div>"
+
 	$('.slides').append(row);
 	$('.slide_0').nextAll().hide();
-	if(quest)
+
+	if(quest){
 		$('.slide_'+count+'').find('.quest').prepend(quest);
+	}
 	if(link){
 		$('.slide_'+count+'').find('.quest').append(link);
 	}
 	$('.slide_'+count+'').find('#img').html(img);
+
+	if($('.slide_'+count+'').find(".align_center").length){
+		$('.slide_'+count+'').find('.quest').remove();
+		$('.slide_'+count+'').find('#img').remove();
+		$('.slide_'+count+'').find('#center').html(quest);
+		if(img){
+		$('.slide_'+count+'').find('#center').html(img);
+		}
+	}
+
+	if($('.slide_'+count+'').find(".align_right").length){
+	    var newrow	 = "<div class='col-md-4 text-center' id='img'></div>"
+			newrow	+= "<div class='col-md-8 slide-text-content quest' id='quest'></div>"
+		$('.slide_'+count+'').find('.row').html(newrow)
+
+	if(quest){
+		$('.slide_'+count+'').find('.quest').prepend(quest);
+	}
+	if(link){
+		$('.slide_'+count+'').find('.quest').append(link);
+	}
+	$('.slide_'+count+'').find('#img').html(img);
+	}
+
 	
 	SelectPlayer(topic ,count)
 }
 
 function SelectPlayer(topics ,i){
 var count= i
-//console.log(topics);
+
 	if(topics.video !== undefined && topics.video){
  		var Video = topics.video;
  		var video ='<video  class="player'+count+'">';
@@ -206,49 +266,77 @@ var count= i
 
 }
 
+//Dispay Content
+
+
 // creating content from json
 function getContent(cont, count){
-	var align = "", quest = '', link = '', img = '', questCenter='',
+	var align = "",content_align='center', quest = '', link = '', img = '',
 	
 	align = cont["@attributes"].align;
+	console.log(align);
 	if(align == 'left'){
+		if(cont.par){
 	 	for(var value of cont.par){
 		 	var time=value["@attributes"].time;
 		 	if(value["@attributes"].type=='text'){
-		 		quest +='<span  data-time="'+time+'">'+value.span+'</span>';
+		 		quest +='<span class="align_left"  data-time="'+time+'">'+value.span+'</span>';
 		 	}
 		 	if(value["@attributes"].type=='link'){
 		 		link +='<span data-time="'+time+'"><a href="'+value.link+'">'+value.span+'</a></span>'
 		 	}
 	 	}
 	 }
+	 if(cont.img){
+	 		var img1=cont.img["@attributes"].src;
+	 	img +='<img src="'+img1+'" class="img-fluid img-thumbnail">'
+	 }
+	 }
+
 	if(align == 'right'){	
-	 	var img1=cont.img["@attributes"].src;
-	 	img +='<img src="'+img1+'" class="img-fluid img-thumbnail">' 	
-	}
-	if(align == 'center'){
-	 	 
-	 	
-	 	 
+	 	if(cont.par){
 	 	for(var value of cont.par){
-	 		var time=value["@attributes"].time;
-	 		if(value["@attributes"].type=='text'){
-	 			questCenter +='<span  data-time="'+time+'">'+value.span+'</span>';
-	 		}
-	 		if(value["@attributes"].type=='link'){		 		
-	 			link +='<span data-time="'+time+'"><a href="'+value.link+'">'+value.span+'</a></span>'
-	 		}
+		 	var time=value["@attributes"].time;
+		 	if(value["@attributes"].type=='text'){
+		 		quest +='<span class="align_right" data-time="'+time+'">'+value.span+'</span>';
+		 	}
+		 	if(value["@attributes"].type=='link'){
+		 		link +='<span data-time="'+time+'"><a href="'+value.link+'">'+value.span+'</a></span>'
+		 	}
 	 	}
-	 
+	 }
+	 if(cont.img){
+	 		var img1=cont.img["@attributes"].src;
+	 	img +='<img   src="'+img1+'" class="img-fluid img-thumbnail">'
+	 } 	
 	}
+	if(align == 'center' || align == '' ){ 
+	 if(cont.par){
+	 	for(var value of cont.par){
+		 	var time=value["@attributes"].time;
+		 	if(value["@attributes"].type=='text'){
+		 		quest +='<span class="align_center" data-time="'+time+'">'+value.span+'</span>';
+		 	}
+		 	if(value["@attributes"].type=='link'){
+		 		link +='<span   data-time="'+time+'"><a href="'+value.link+'">'+value.span+'</a></span>'
+		 	}
+	 	}
+	 }
+	 if(cont.img){
+	 		var img1=cont.img["@attributes"].src;
+	 	img +='<img  src="'+img1+'" class="img-fluid img-thumbnail align_center">'
+	} 	
+	}
+	 
+
 
 	
 	
-	return [quest, link, img, questCenter];
+	return [quest,  link, img];
 }
 
 function initializeSlider(duration, ticks, value) {
-	//console.log(Math.round(duration));
+
 	progressBar = $('#player_slider').bootstrapSlider({
 		min: 0,
 		max: Math.round(player.duration),
