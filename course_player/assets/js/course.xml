@@ -3,36 +3,29 @@
   <course name="40 Hour HAZWOPER OSHA Online Training">
     <lesson name="1 OSHA AND THE HAZWOPER STANDARD">
       <topics name="The Occupational Safety and Health (OSH) Act  1" time="">
-        <!--  <content align="center">
-             
-         </content> -->
-       <!--   <video>http://localhost/players/course_player/assets/video/1.mp4</video> -->
-       <!--   <audio>http://localhost/players/course_player/assets/audios/L1_Slide_2.wav</audio> -->
-          <audio>http://localhost/players/course_player/assets/audios/sprint4.mp3</audio>
+          <audio>http://localhost/players/course_player/assets/audios/L1_Slide_2.wav</audio>
          <content align="left">
             <par time="0.23" type="text">
-               <span>On December 29,1970, President Nixon signed the Occupational Safety and Health Act of 1970 (OSH Act) into law, establishing the Occupational Safety and Health Administration (OSHA).</span></par>
+               <span>
+             </span></par>
             <par time="0.34" type="text">
                <span>It is a national public health agency which is dedicated to protecting America’s workers so that no worker should have to choose between their life and job.</span></par>
             <par time="0.38" type="text">
                <span>The purpose of the OSH Act is:</span></par>
             <par time="0.49" type="text">
-               <span>“to assure so far as possible every working man and woman in the Nation safe and healthful working conditions and to preserve our human resources.“</span></par>
+               <span>
+                <ol><li >On December 29,1970, President Nixon signed the Occupational Safety and Health Act of 1970 (OSH Act) into law, establishing the Occupational Safety and Health Administration (OSHA).</li>
+               <li>It is a national public health agency which is dedicated to protecting America’s workers so that no worker should have to choose between their life and job.</li></ol></span></par>
             <par time="0.55" type="link">
-               <link>#</link>
-               <span>Click here for more information on the OSH Act
-               </span></par>
+            <link>#</link>
+            <span>Click here for more information on the OSH Act
+            </span></par>
          </content>
          <content align="right">
                <img src="http://localhost/players/course_player/assets/images/slide1.png" />
          </content>
       </topics>
        <topics name="The Occupational Safety and Health (OSH) Act 2 " time="">
-        <!--  <content align="center">
-             
-         </content> -->
-       <!--   <video>http://localhost/players/course_player/assets/video/1.mp4</video> -->
-       <!--   <audio>http://localhost/players/course_player/assets/audios/L1_Slide_2.wav</audio> -->
           <audio>http://localhost/players/course_player/assets/audios/sprint3.mp3</audio>
          <content align="right">
             <par time="0.23" type="text">
@@ -53,11 +46,6 @@
          </content>
       </topics>
        <topics name="The Occupational Safety and Health (OSH) Act 3" time="">
-        <!--  <content align="center">
-             
-         </content> -->
-       <!--   <video>http://localhost/players/course_player/assets/video/1.mp4</video> -->
-       <!--   <audio>http://localhost/players/course_player/assets/audios/L1_Slide_2.wav</audio> -->
           <audio>http://localhost/players/course_player/assets/audios/sprint4.mp3</audio>
          <content align="center">
             <par time="0.23" type="text">
@@ -73,41 +61,14 @@
                <span>Click here for more information on the OSH Act
                </span></par>
          </content>
-         <!-- <content align="right">
-               <img src="http://localhost/players/course_player/assets/images/slide1.png" />
-         </content> -->
       </topics>
        <topics name="The Occupational Safety and Health (OSH) Act 4" time="">
-        <!--  <content align="center">
-             
-         </content> -->
-       <!--   <video>http://localhost/players/course_player/assets/video/1.mp4</video> -->
-       <!--   <audio>http://localhost/players/course_player/assets/audios/L1_Slide_2.wav</audio> -->
           <audio>http://localhost/players/course_player/assets/audios/sprint4.mp3</audio>
-        <!--  <content align="left">
-            <par time="0.23" type="text">
-               <span>On December 29,1970, President Nixon signed the Occupational Safety and Health Act of 1970 (OSH Act) into law, establishing the Occupational Safety and Health Administration (OSHA).</span></par>
-            <par time="0.34" type="text">
-               <span>It is a national public health agency which is dedicated to protecting America’s workers so that no worker should have to choose between their life and job.</span></par>
-            <par time="0.38" type="text">
-               <span>The purpose of the OSH Act is:</span></par>
-            <par time="0.49" type="text">
-               <span>“to assure so far as possible every working man and woman in the Nation safe and healthful working conditions and to preserve our human resources.“</span></par>
-            <par time="0.55" type="link">
-               <link>#</link>
-               <span>Click here for more information on the OSH Act
-               </span></par>
-         </content> -->
          <content align="center">
                <img src="http://localhost/players/course_player/assets/images/slide1.png" />
          </content>
       </topics>
        <topics name="The Occupational Safety and Health (OSH) Act 5" time="">
-        <!--  <content align="center">
-             
-         </content> -->
-       <!--   <video>http://localhost/players/course_player/assets/video/1.mp4</video> -->
-       <!--   <audio>http://localhost/players/course_player/assets/audios/L1_Slide_2.wav</audio> -->
           <audio>http://localhost/players/course_player/assets/audios/sprint4.mp3</audio>
          <content align="left">
             <par time="0.23" type="text">
@@ -132,8 +93,6 @@
             <video>http://localhost/players/course_player/assets/video/1.mp4</video>
 
       </topics>
-
-
     </lesson>
     <lesson name="2 OSHA AND THE HAZWOPER STANDARD 2">
       <topics name="The Occupational Safety and Health (OSH) Act 2 " time="">
@@ -155,7 +114,6 @@
          <content align="right">
                <img src="http://localhost/players/course_player/assets/images/slide1.png" />
          </content>
-
       </topics>
        <topics name="The Occupational Safety and Health (OSH) Act 2 " time="">
          <audio>http://localhost/players/course_player/assets/audios/sprint4.mp3</audio>
@@ -175,8 +133,7 @@
          </content>
          <content align="right">
                <img src="http://localhost/players/course_player/assets/images/slide1.png" />
-         </content>
-         
+         </content>    
       </topics>
     </lesson>
       <lesson name="3 OSHA AND THE HAZWOPER STANDARD 2">
@@ -199,7 +156,6 @@
          <content align="right">
                <img src="http://localhost/players/course_player/assets/images/slide1.png" />
          </content>
-
       </topics>
        <topics name="The Occupational Safety and Health (OSH) Act 2 " time="">
          <audio>http://localhost/players/course_player/assets/audios/L1_Slide_2.wav</audio>
@@ -219,8 +175,7 @@
          </content>
          <content align="right">
                <img src="http://localhost/players/course_player/assets/images/slide1.png" />
-         </content>
-         
+         </content>        
       </topics>
     </lesson>
   </course>

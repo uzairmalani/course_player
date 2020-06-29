@@ -35,19 +35,24 @@ function xmlToJson(xml) {
     for (var i = 0; i < xml.childNodes.length; i++) {
       var item = xml.childNodes.item(i);
       var nodeName = item.nodeName;
-      if (typeof obj[nodeName] == "undefined") {
-        obj[nodeName] = xmlToJson(item);
-      } else {
-        if (typeof obj[nodeName].push == "undefined") {
-          var old = obj[nodeName];
-          obj[nodeName] = [];
-          obj[nodeName].push(old);
+ 
+
+      if(nodeName != '#text'){
+        if (typeof obj[nodeName] == "undefined") {
+          obj[nodeName] = xmlToJson(item);
+        } else {
+          if (typeof obj[nodeName].push == "undefined") {
+            var old = obj[nodeName];
+            obj[nodeName] = [];
+            obj[nodeName].push(old);
+          }
+          obj[nodeName].push(xmlToJson(item));
         }
-        obj[nodeName].push(xmlToJson(item));
       }
     }
   }
   return obj;
+
 }
 
 /*
@@ -69,3 +74,32 @@ xmlToJson(XmlNode);
 
 xmlToJson(YourXmlNode);
 */
+function OBJtoXML(obj) {
+  var xml = '';
+  var time ='';
+  for (var prop in obj) {
+
+      console.log(obj[prop])
+    xml += obj[prop] instanceof Array ? '' : "<" + prop + ">";
+
+
+    if (obj[prop] instanceof Array) {
+      for (var array in obj[prop]) {
+        xml += "<";
+        xml += prop 
+        xml += ">";
+        xml += OBJtoXML(new Object(obj[prop][array]));
+        xml += "</" + prop + ">";
+      }
+    } else if (typeof obj[prop] == "object") {
+      xml += OBJtoXML(new Object(obj[prop]));
+    } else {
+      xml += obj[prop];
+    }
+    xml += obj[prop] instanceof Array ? '' : "</" + prop + ">";
+  }
+  var xml = xml.replace(/<\/?[0-9]{1,}>/g, '');
+  return xml
+}
+
+

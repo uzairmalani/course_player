@@ -12,7 +12,7 @@ $(document).ready( function(){
     let parser = new DOMParser();
     let xml = parser.parseFromString(data, "application/xml");
     obj = xmlToJson(xml);
-		
+
 		var link ='';
 		var img = '';
 		var count = '';
@@ -101,12 +101,18 @@ function play(count){
 			currentValue = player.currentTime;
 		if(progressBar != null)
 			progressBar.bootstrapSlider('setValue',player.currentTime);
+
 		$.each(paragraphs, function(i,para) {
 			var time = player.currentTime / 100;
 			if(time < para.min || time > para.max)
 				return;
+			if($('.quest').find('li')){
+			$('.quest').find('span[data-time]').find('li').removeClass('bg-info');
+			$('.quest').find('span[data-time="' + para.max + '"]').find('li').addClass('bg-info');
+			}
 			$('.quest').find('span[data-time]').removeClass('bg-info');
 			$('.quest').find('span[data-time="' + para.max + '"]').addClass('bg-info');
+		
 		});
 	}
 
@@ -114,19 +120,21 @@ function play(count){
 		
 		$('.play-narration i').removeClass('fa-pause-circle').addClass('fa-play-circle');
 		var length1 = $('.slide_'+count+'').next().length;
-		console.log(length1)
+
 		if(length1 > 0) {
 			$('.slide_'+count+'').fadeOut('fast');
 		$('.slide_'+count+'').hide();
 		$('.slide_'+count+'').next().show( "slide", {direction: "right" }, 2000 );
 
 		play(count+1);
+		progressBar.bootstrapSlider('setValue',0);
 		setTimeout(function() {
         player.play();
     	$('.play-narration i').addClass('fa-pause-circle').removeClass('fa-play-circle');}, 2000);
 		
 		var duration= $('.player'+count+'').duration;
 		$('.start-time').text('0:00');
+
 		initializeSlider(duration, [], 0);
 		}else{
 			$('.popup-inner h1').html("");
@@ -271,19 +279,19 @@ var count= i
 
 // creating content from json
 function getContent(cont, count){
-	var align = "",content_align='center', quest = '', link = '', img = '',
-	
+	var align = "",content_align='center', quest = '', link = '', img = '';
 	align = cont["@attributes"].align;
-	console.log(align);
 	if(align == 'left'){
 		if(cont.par){
 	 	for(var value of cont.par){
 		 	var time=value["@attributes"].time;
 		 	if(value["@attributes"].type=='text'){
-		 		quest +='<span class="align_left"  data-time="'+time+'">'+value.span+'</span>';
+		 		quest +='<span class="align_left"  data-time="'+time+'">';
+		 		quest +=OBJtoXML(value.span);
+		 		quest +='</span>';
 		 	}
 		 	if(value["@attributes"].type=='link'){
-		 		link +='<span data-time="'+time+'"><a href="'+value.link+'">'+value.span+'</a></span>'
+		 		link +='<span data-time="'+time+'"><a href="'+value.link+'">'+OBJtoXML(value.span)+'</a></span>'
 		 	}
 	 	}
 	 }
