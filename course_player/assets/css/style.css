@@ -110,7 +110,9 @@ video {
 .slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle{
   border-radius: 0px;
 }
-
+table td {
+    border: 1px solid white;
+}
 html{
     overflow-x: hidden;
 }
@@ -120,6 +122,22 @@ span a {
 }
 span a:hover{
    color: gold;
+}
+.option-heading:before { 
+  content: "\25bc"; 
+  color: white;
+  margin-right: 14px;}
+.option-heading.is-active:before {
+ content: "\25b2"; 
+}
+.option-heading a{
+display: contents;
+}/* Helpers */
+.is-hidden { 
+  display: none;
+   }
+.option-heading {
+    padding: 16px 0px 13px 10px;
 }
 /*********POPUP*************/
   .popup {

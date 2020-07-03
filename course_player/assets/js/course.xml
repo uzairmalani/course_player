@@ -2,12 +2,15 @@
 <root>
   <course name="40 Hour HAZWOPER OSHA Online Training">
     <lesson name="1 OSHA AND THE HAZWOPER STANDARD">
+
       <topics name="The Occupational Safety and Health (OSH) Act  1" time="">
           <audio>http://localhost/players/course_player/assets/audios/L1_Slide_2.wav</audio>
          <content align="left">
-            <par time="0.23" type="text">
-               <span>
-             </span></par>
+            <par type="text">
+               <span><ol type='a'>
+                 <li><span data-time="0.09">It is a national public health agency which is dedicated to protecting America’s workers so that no worker should have to choose between their life and job.</span></li>
+               </ol></span>
+            </par>
             <par time="0.34" type="text">
                <span>It is a national public health agency which is dedicated to protecting America’s workers so that no worker should have to choose between their life and job.</span></par>
             <par time="0.38" type="text">
@@ -141,7 +144,9 @@
          <audio>http://localhost/players/course_player/assets/audios/L1_Slide_2.wav</audio>
          <content align="left">
             <par time="0.23" type="text">
-               <span> 3 On December 29,1970, President Nixon signed the Occupational Safety and Health Act of 1970 (OSH Act) into law, establishing the Occupational Safety and Health Administration (OSHA).</span></par>
+               <span><ul>
+                 <li></li>
+               </ul></span></par>
             <par time="0.34" type="text">
                <span>It is a national public health agency which is dedicated to protecting America’s workers so that no worker should have to choose between their life and job.</span></par>
             <par time="0.38" type="text">

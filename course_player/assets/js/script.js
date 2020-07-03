@@ -1,5 +1,6 @@
 var player = null;
 var progressBar = null;
+var lessons = null;
 var currentValue = 0;
 var paragraphs = [];
 var ticks = [];
@@ -7,11 +8,15 @@ var obj = {};
 var lesson_count=0;
 var course = "";
 $(document).ready( function(){
-	let url = "http://localhost/players/course_player/assets/js/course.xml";
+	let url = "http://localhost/players/course_player/assets/js/course2.xml";
     fetch(url).then(response=>response.text()).then( data => {
-    let parser = new DOMParser();
-    let xml = parser.parseFromString(data, "application/xml");
-    obj = xmlToJson(xml);
+	    //let parser = new DOMParser();
+	    //let xml = parser.parseFromString(data, "application/xml");
+	    //obj = xmlToJson(xml); 
+	    //OBJtoXML(obj);
+	    let xml = $.parseXML(data);
+	    obj = $(xml);
+
 
 		var link ='';
 		var img = '';
@@ -19,23 +24,31 @@ $(document).ready( function(){
 		var center = false;
 
 		    // Lesson Navigation
-		if (Array.isArray(obj.root.course.lesson) == true) {
-			for(var i = 0;i < obj.root.course.lesson.length; i++){
-				value = obj.root.course.lesson[i]
-	 			course +='<a class="lesson" data-rel="'+i+'" href="http://localhost/players/course_player/">'
-	 			+value['@attributes'].name+'</a>';
-	 			
+		lessons = obj.find('lesson');
+
+		if (lessons.length > 0) {
+			for(var i = 0;i < lessons.length; i++){
+				value = lessons[i];
+	 			course +='<div class="option-heading"><a class="lesson" data-rel="'+i+'" href="http://localhost/players/course_player/">'
+	 			+$(value).attr('name')+'</a></div>';
+				var lesson1 = $(lessons[i]);
+				let topics = lesson1.find('topics');
+				course +='<div class="option-content is-hidden">';
+				for(var j=0; j < topics.length; j++ ){
+				topic = topics[j];
+				course +='<a class="topics" data-lesson="'+i+'" data-topic="'+j+'" href="http://localhost/players/course_player/">'
+	 			+$(topic).attr('name')+'</a>';
+				}
+				course +='</div>';
 			}
 		} else {
-			var lesson=obj.root.course.lesson["@attributes"].name;
+			var lesson=lessons.prop('name');
 			course +='<a class="lesson" data-rel="0" href="http://localhost/players/course_player/">'
 			+lesson+'</a>';
-			obj.root.course.lesson = [obj.root.course.lesson];
 		}
 
 		$('.sidenav').prepend(course);
 
-		
  	    getLesson(0);
  		play(0);
  	});
@@ -50,7 +63,15 @@ $(document).ready( function(){
 		}
 	});
 });
+$(document).on('click', '.option-heading', function(e){
+	e.preventDefault()
+ $(this).toggleClass('is-active').next(".option-content").stop().slideToggle(500);
+});
+$(document).on('click', '.topics', function(e){
+	e.preventDefault()
 
+
+});
 $(document).on('click', '.lesson', function(e){
 	e.preventDefault()
 	var i = $(this).data('rel');
@@ -69,7 +90,9 @@ $(document).on('click', '.lesson', function(e){
 	$('.player0').on('canplaythrough', function(e) {
 		var duration=$(this).duration;
 		duration = Math.round(duration);
+
 		$('.start-time').text('0:00');
+		currentValue = 0;
 		initializeSlider(duration, [], 0);
 	});
 	
@@ -103,15 +126,30 @@ function play(count){
 			progressBar.bootstrapSlider('setValue',player.currentTime);
 
 		$.each(paragraphs, function(i,para) {
-			var time = player.currentTime / 100;
+			var time = (player.currentTime / 100).toFixed(2);
+			if(time > 0.59){
+				time = time/0.60;
+			}
 			if(time < para.min || time > para.max)
 				return;
-			if($('.quest').find('li')){
-			$('.quest').find('span[data-time]').find('li').removeClass('bg-info');
-			$('.quest').find('span[data-time="' + para.max + '"]').find('li').addClass('bg-info');
+
+
+
+			// if($('.quest:visible').find('li')){
+			// $('.quest:visible').find('span[data-time]').removeClass('bg-info');
+			// $('.quest:visible').find('span[data-time="' + para.max + '"]').addClass('bg-info');
+			// $('.slide-section:visible').find('.quest:visible').find('span[data-time]').removeClass('bg-info');
+			// $('.slide-section:visible').find('.quest:visible').find('span[data-time="' + para.max + '"]').addClass('bg-info');
+			// }
+			if($('.slide-section:visible').find('.quest:visible')){
+			$('.slide-section:visible').find('.quest:visible').find('span[data-time]').removeClass('bg-info');
+			$('.slide-section:visible').find('.quest:visible').find('span[data-time="' + para.max + '"]').addClass('bg-info');
 			}
-			$('.quest').find('span[data-time]').removeClass('bg-info');
-			$('.quest').find('span[data-time="' + para.max + '"]').addClass('bg-info');
+			if($('.slide-section:visible').find('#center:visible')){
+			$('.slide-section:visible').find('#center:visible').find('span[data-time]').removeClass('bg-info');
+			$('.slide-section:visible').find('#center:visible').find('span[data-time="' + para.max + '"]').addClass('bg-info');
+			}
+			
 		
 		});
 	}
@@ -126,6 +164,7 @@ function play(count){
 		$('.slide_'+count+'').hide();
 		$('.slide_'+count+'').next().show( "slide", {direction: "right" }, 2000 );
 
+		paragraphs = [];
 		play(count+1);
 		progressBar.bootstrapSlider('setValue',0);
 		setTimeout(function() {
@@ -134,7 +173,7 @@ function play(count){
 		
 		var duration= $('.player'+count+'').duration;
 		$('.start-time').text('0:00');
-
+		currentValue = 0;
 		initializeSlider(duration, [], 0);
 		}else{
 			$('.popup-inner h1').html("");
@@ -157,22 +196,22 @@ function play(count){
 
 
 function getLesson(index){
-	var lesson1 = obj.root.course.lesson[index];
+	var lesson1 = $(lessons[index]);
 	// Main Topics view
-	if (Array.isArray(lesson1.topics)== true) {
-		for (i = 0; i < lesson1.topics.length; i++) {	
-			multipleTopic(lesson1.topics[i], i);
+	let topics = lesson1.find('topics');
+	if (topics.length > 0) {
+		for (i = 0; i < topics.length; i++) {	
+			multipleTopic(topics[i], i);
 		}
 	} else {
-		var topics=lesson1.topics["@attributes"].name;
 		//quest +='<h2  id=Question>'+topics+'</h2>';  
-		multipleTopic(lesson1.topics, 0);		
+		multipleTopic(topics, 0);		
 	}
 }
 
 function setNarration(){
 	var minTime = 0;
-	$('.slide-text-content span[data-time]').each(function() {
+	$('.slide-section:visible span[data-time]').each(function() {
 		var max = parseFloat($(this).attr('data-time'));
 		paragraphs.push({min:minTime,max: max});
 		minTime = max;
@@ -181,36 +220,33 @@ function setNarration(){
 
 // creating topic div from json
 function multipleTopic(topic, i){
-
-	
 	var count= i, aContent=[], link ='', img = '', center=false, questCenter='';
-	var quest ='<h2 class="heading">'+topic["@attributes"].name+'</h2>';
-	if(topic.content !== undefined){
-		if (Array.isArray(topic.content)== true) {
-			for(var cont of topic.content){
+	let t = $(topic);
+	let name = t.attr('name');
+	let time = t.attr('data-time');
+	var quest ='<h2 data-time="" class="heading"><span data-time="'+time+'">'+name+'</span></h2>';
+	let content = t.find('content'); 
+		if (content.length > 0) {
+			for(var cont of content){
 				aContent = getContent(cont, count);
 				quest += aContent[0];
-				link += aContent[1];
-				img += aContent[2];
-				
+				link = aContent[1];
+				img = aContent[2];
 			}
 		} else {
-			aContent = getContent(topic.content, count)
+			aContent = getContent(content, count)
 			quest += aContent[0];
-			link += aContent[1];
-			img += aContent[2];
+			link = aContent[1];
+			img = aContent[2];
+
 		}
-	}
-
-
-
 
 	var row = "<div class='container-fluid slide_"+count+" slide-section'>"
 		row +="	  <div class='p-4'>"
 		row +="     <div class='row'>"
 		row	+= "      <div class='col-md-8 slide-text-content quest' id='quest'></div>"
 		row	+= "      <div class='col-md-4 text-center' id='img'></div>"
-		row +="       <div class='col-md-12 text-content' id='center'></div>"
+		row +="       <div class='col-md-12 text-content center' id='center'></div>"
 		row +="     </div>"
 		row +="   </div>"
 		row +="</div>"
@@ -218,9 +254,9 @@ function multipleTopic(topic, i){
 	$('.slides').append(row);
 	$('.slide_0').nextAll().hide();
 
-	if(quest){
-		$('.slide_'+count+'').find('.quest').prepend(quest);
-	}
+	
+
+	$('.slide_'+count+'').find('.quest').prepend(quest);
 	if(link){
 		$('.slide_'+count+'').find('.quest').append(link);
 	}
@@ -255,17 +291,19 @@ function multipleTopic(topic, i){
 
 function SelectPlayer(topics ,i){
 var count= i
-
-	if(topics.video !== undefined && topics.video){
- 		var Video = topics.video;
+	let t = $(topics);
+	let vid = t.find('video');
+	if(vid.length){
+ 		var Video = vid.html();
  		var video ='<video  class="player'+count+'">';
 		video +='<source src="'+Video+'" type="video/webm;codecs=vp8,vorbis"/>';
 		video +='</video>';
 		$('.slide_'+count+'').find('#center').append(video);
 	}
+	let aud = t.find('audio');
 
-	if (topics.audio !== undefined && topics.audio) {
- 		var Audio=topics.audio;
+	if (aud.length) {
+ 		var Audio=aud.html();
  		var audio ='<audio class="player'+count+'">';
 		audio +='<source src="'+Audio+'" type="audio/mp3">'
 		audio +='</audio>';
@@ -275,70 +313,43 @@ var count= i
 }
 
 //Dispay Content
-
+function makeContent(value, align, quest, link){
+	var v = $(value);
+	let time = v.attr('data-time');
+	let span = v.find('span');;
+ 	if(v.attr('type')=='text'){
+ 		quest +='<span class="align_'+align+'"  data-time="'+time+'">';
+ 		quest +=span.html();
+ 		quest +='</span>';
+ 	}
+ 	if(v.attr('type')==='link'){
+ 		link +='<span data-time="'+time+'"><a href="'+v.find('link')+'">'+span+'</a></span>'
+ 	}
+ 	return [quest,link]
+}
 
 // creating content from json
 function getContent(cont, count){
-	var align = "",content_align='center', quest = '', link = '', img = '';
-	align = cont["@attributes"].align;
-	if(align == 'left'){
-		if(cont.par){
-	 	for(var value of cont.par){
-		 	var time=value["@attributes"].time;
-		 	if(value["@attributes"].type=='text'){
-		 		quest +='<span class="align_left"  data-time="'+time+'">';
-		 		quest +=OBJtoXML(value.span);
-		 		quest +='</span>';
+	var align = "", quest = '', link = '', img = '';
+	var cont = $(cont);
+	align = cont.attr('align');
+	var par = cont.find('par');
+	var image = cont.find('img');
+	if(par.length){
+		
+		if (par.length > 0){
+			for(var value of par){
+	 			[quest, link] = makeContent(value, align, quest, link);
+
 		 	}
-		 	if(value["@attributes"].type=='link'){
-		 		link +='<span data-time="'+time+'"><a href="'+value.link+'">'+OBJtoXML(value.span)+'</a></span>'
-		 	}
-	 	}
-	 }
-	 if(cont.img){
-	 		var img1=cont.img["@attributes"].src;
+		} else {
+		 	[quest, link] = makeContent(par[0], align, quest, link);
+		}
+	}
+	if(image.length > 0){
+		var img1=image.attr('src');
 	 	img +='<img src="'+img1+'" class="img-fluid img-thumbnail">'
-	 }
-	 }
-
-	if(align == 'right'){	
-	 	if(cont.par){
-	 	for(var value of cont.par){
-		 	var time=value["@attributes"].time;
-		 	if(value["@attributes"].type=='text'){
-		 		quest +='<span class="align_right" data-time="'+time+'">'+value.span+'</span>';
-		 	}
-		 	if(value["@attributes"].type=='link'){
-		 		link +='<span data-time="'+time+'"><a href="'+value.link+'">'+value.span+'</a></span>'
-		 	}
-	 	}
-	 }
-	 if(cont.img){
-	 		var img1=cont.img["@attributes"].src;
-	 	img +='<img   src="'+img1+'" class="img-fluid img-thumbnail">'
-	 } 	
 	}
-	if(align == 'center' || align == '' ){ 
-	 if(cont.par){
-	 	for(var value of cont.par){
-		 	var time=value["@attributes"].time;
-		 	if(value["@attributes"].type=='text'){
-		 		quest +='<span class="align_center" data-time="'+time+'">'+value.span+'</span>';
-		 	}
-		 	if(value["@attributes"].type=='link'){
-		 		link +='<span   data-time="'+time+'"><a href="'+value.link+'">'+value.span+'</a></span>'
-		 	}
-	 	}
-	 }
-	 if(cont.img){
-	 		var img1=cont.img["@attributes"].src;
-	 	img +='<img  src="'+img1+'" class="img-fluid img-thumbnail align_center">'
-	} 	
-	}
-	 
-
-
-	
 	
 	return [quest,  link, img];
 }
@@ -353,20 +364,20 @@ function initializeSlider(duration, ticks, value) {
 		ticks: ticks,
 		value: value
 	}).on('change',function(event) {
-		if(event.value.newValue > currentValue) {
-			event.stopPropagation();
-			var value = fancyTimeFormat(event.value.oldValue);
-			$('.start-time').text(value);
-			progressBar.bootstrapSlider('setValue',event.value.oldValue);
-			return false;
-		}
-		else {
+		 // if(event.value.newValue > currentValue) {
+		 // 	event.stopPropagation();
+		 // 	var value = fancyTimeFormat(event.value.oldValue);
+		 // 	$('.start-time').text(value);
+		 // 	progressBar.bootstrapSlider('setValue',event.value.oldValue);
+		 // 	return false;
+		 // }
+		// else {
 			var value = fancyTimeFormat(event.value.newValue);
 			$('.start-time').text(value);
 		    player.currentTime = event.value.newValue;
 		    if(player.paused === false)
 		    	playPausePlayer();
-		}
+		//}
 	});
 }
 

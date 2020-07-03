@@ -14,11 +14,13 @@ function xmlToJson(xml) {
       obj["@attributes"] = {};
       for (var j = 0; j < xml.attributes.length; j++) {
         var attribute = xml.attributes.item(j);
+        console.log(xml, xml.attributes, attribute.nodeName, obj);
         obj["@attributes"][attribute.nodeName] = attribute.nodeValue;
       }
     }
   } else if (xml.nodeType == 3) {
     // text
+    console.log(xml)
     obj = xml.nodeValue;
   }
 
@@ -43,6 +45,7 @@ function xmlToJson(xml) {
         } else {
           if (typeof obj[nodeName].push == "undefined") {
             var old = obj[nodeName];
+            console.log(old,  nodeName , obj);
             obj[nodeName] = [];
             obj[nodeName].push(old);
           }
@@ -74,19 +77,35 @@ xmlToJson(XmlNode);
 
 xmlToJson(YourXmlNode);
 */
+var attr = '';
 function OBJtoXML(obj) {
   var xml = '';
   var time ='';
+  if(typeof obj == 'string'){
+    attr = '';
+    return obj;
+  }
+  
+  for (var prop in obj) { 
+    for(var at in obj[prop]){
+      if(at == '@attributes'){
+         $.each(obj[prop][at], function( key, value ) { 
+            attr += key+'="'+value+'"';
+        });
+      }
+    }
+    delete obj[prop]['@attributes'];
+  }
   for (var prop in obj) {
-
-      console.log(obj[prop])
-    xml += obj[prop] instanceof Array ? '' : "<" + prop + ">";
-
-
+    xml += obj[prop] instanceof Array ? '' : "<" + prop + (attr? " "+attr:"")+">";
+    attr = '';
     if (obj[prop] instanceof Array) {
       for (var array in obj[prop]) {
         xml += "<";
         xml += prop 
+        if(attr){
+          xml += attr;
+        }
         xml += ">";
         xml += OBJtoXML(new Object(obj[prop][array]));
         xml += "</" + prop + ">";
