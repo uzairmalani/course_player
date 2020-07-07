@@ -1,3 +1,11 @@
+@font-face{
+  font-family:course_playericon;
+  src:url(/assets/font/course_playericon.woff2) 
+  format('woff2'),
+  font-weight:400;
+  font-style:normal;
+  font-display:block
+}
 .navbar-brand img {
 	width: 75px;
 }
@@ -123,22 +131,38 @@ span a {
 span a:hover{
    color: gold;
 }
-.option-heading:before { 
-  content: "\25bc"; 
-  color: white;
-  margin-right: 14px;}
-.option-heading.is-active:before {
- content: "\25b2"; 
+
+.option-heading a ,.option-lesson a{
+padding: 0px 0px 0px 16px;
 }
-.option-heading a{
-display: contents;
-}/* Helpers */
+.fa-plus-square:before , .fa-minus-square:before {
+    color: white;
+     transition: all .3s linear 0s;
+}
+.option-heading i, .option-lesson i {
+    float: left;
+    font-size: 20px;
+    margin-top: 4px;
+}
+.option-heading a:hover{
+ color: black;
+}
+.option-lesson a.topics {
+    padding: 8px 0px 8px 22px;
+}
+/* Helpers */
 .is-hidden { 
   display: none;
    }
-.option-heading {
-    padding: 16px 0px 13px 10px;
+.option-heading  {
+  border-bottom: 1px solid #dedfe0;
+    background-color: #f7f8fa;
+    padding: 16px 0px 16px 10px;
 }
+.option-lesson{
+   padding: 16px 0px 5px 30px;
+}
+
 /*********POPUP*************/
   .popup {
   width:100%;

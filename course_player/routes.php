@@ -4,3 +4,4 @@ $app->notFound(function () use ($app) {
 });
 
 $app->get('/','ControllerPlayer:view');
+$app->get('/get_course/:id','ControllerCourse:GetCourse');

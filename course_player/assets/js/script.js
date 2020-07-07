@@ -7,7 +7,14 @@ var ticks = [];
 var obj = {};
 var lesson_count=0;
 var course = "";
+var Modules="";
 $(document).ready( function(){
+
+	 $.getJSON("http://localhost/players/course_player/get_course/1",
+	  function(data){
+      Modules = data['modules'];
+
+    });
 	let url = "http://localhost/players/course_player/assets/js/course2.xml";
     fetch(url).then(response=>response.text()).then( data => {
 	    //let parser = new DOMParser();
@@ -25,27 +32,89 @@ $(document).ready( function(){
 
 		    // Lesson Navigation
 		lessons = obj.find('lesson');
+		// if (lessons.length > 0) {
+		// 	for(var i = 0;i < lessons.length; i++){
+		// 		value = lessons[i];
+	 // 			course +='<div class="option-heading"><a class="lesson" data-rel="'+i+'" href="http://localhost/players/course_player/">'
+	 // 			+$(value).attr('name')+'</a></div>';
+		// 		var lesson1 = $(lessons[i]);
+		// 		let topics = lesson1.find('topics');
+		// 		course +='<div class="option-content is-hidden">';
+		// 		for(var j=0; j < topics.length; j++ ){
+		// 		topic = topics[j];
+		// 		course +='<a class="topics" data-lesson="'+i+'" data-topic="'+j+'" href="http://localhost/players/course_player/">'
+	 // 			+$(topic).attr('name')+'</a>';
+		// 		}
+		// 		course +='</div>';
+		// 	}
+		// } else {
+		// 	var lesson=lessons.prop('name');
+		// 	course +='<a class="lesson" data-rel="0" href="http://localhost/players/course_player/">'
+		// 	+lesson+'</a>';
+		// }
 
-		if (lessons.length > 0) {
-			for(var i = 0;i < lessons.length; i++){
-				value = lessons[i];
-	 			course +='<div class="option-heading"><a class="lesson" data-rel="'+i+'" href="http://localhost/players/course_player/">'
-	 			+$(value).attr('name')+'</a></div>';
-				var lesson1 = $(lessons[i]);
-				let topics = lesson1.find('topics');
-				course +='<div class="option-content is-hidden">';
-				for(var j=0; j < topics.length; j++ ){
-				topic = topics[j];
-				course +='<a class="topics" data-lesson="'+i+'" data-topic="'+j+'" href="http://localhost/players/course_player/">'
-	 			+$(topic).attr('name')+'</a>';
-				}
-				course +='</div>';
+		console.log(Modules);
+		if(Array.isArray(Modules)){
+			for(var i = 0;i < Modules.length; i++){
+	  		course +='<div class="option-heading"><i class="fa fa-angle-down" aria-hidden="true"></i><a class="lesson" data-rel="0" href="http://localhost/players/course_player/">'
+	 		+Modules[i].name+'</a></div>';
+	 		course +='<div class="option-content is-hidden">';
+	 		if(Modules[i].lessons){
+	 		SelectTopics(Modules[i],i);
+	 		SelectLesson(Modules[i],i);
+	 		}else{
+			SelectTopics(Modules[i],i);	 		
 			}
-		} else {
-			var lesson=lessons.prop('name');
-			course +='<a class="lesson" data-rel="0" href="http://localhost/players/course_player/">'
-			+lesson+'</a>';
-		}
+	 		course += '</div>';	
+	 	}
+
+		}else{
+		 course +='<div class="option-heading"><i class="fa fa-angle-down" aria-hidden="true"></i><a class="lesson" data-rel="0" href="http://localhost/players/course_player/">'
+	 		+Modules.name+'</a></div>';
+	 		course +='<div class="option-content is-hidden">';
+	 		if(Modules.lessons){
+	 		console.log(Modules)
+	 		SelectTopics(Modules,0);
+	 		SelectLesson(Modules,0);
+	 		}else{
+			SelectTopics(Modules,0);	 		
+			}
+	 		course += '</div>';
+
+	 	}
+
+
+	 // 		var Lesson=Modules.lessons;
+	 // 		if(Array.isArray(Lesson)){
+	 // 			course +='<div class="option-content is-hidden">';
+	 // 			for(var i = 0;i < Lesson.length; i++){
+	 // 				var lesson_name = Lesson[i].name;
+	 // 				if(lesson_name==""){
+	 // 					var topics = Lesson[i].topic;
+		// 				 for(var j = 0;j < topics.length; j++){
+		// 				 	var topic_name =topics[j];
+ 	// 						course +='<a class="topics" data-lesson="'+i+'" data-topic="'+j+'" href="http://localhost/players/course_player/">'
+	 // 	 				 	+topic_name+'</a>';
+
+		// 				 }
+	 // 				}
+	 // 				course += '<div class="option-lesson">';
+	 // 				course +='<a class="Lesson" data-lesson="'+i+'" href="http://localhost/players/course_player/">'
+	 // 	 			+lesson_name+'</a>';
+	 // 	 			course += '</div>';
+	 // 			}
+	 // 			course +='</div>';
+	 // 		}else{
+	 // 			course +='<div class="option-content is-hidden">';
+	 // 			course +='<a class="topics" data-lesson="'+i+'" data-topic="'+j+'" href="http://localhost/players/course_player/">'
+	 // 	 				 	+lesson_name+'</a>';
+	 // 	 		course +='</div>';
+
+	 // 		}
+	 		
+
+		//}
+		
 
 		$('.sidenav').prepend(course);
 
@@ -63,18 +132,64 @@ $(document).ready( function(){
 		}
 	});
 });
+
+function SelectLesson(Module,i){
+	var Lessons = Module.lessons;
+
+	if(Array.isArray(Lessons)){	
+	 	for(var j = 0;j < Lessons.length; j++){
+	 	course += '<div class="option-lesson">';
+	 	var count = j+1;
+	  	course +='<i class="fa fa-plus-square" aria-hidden="true"></i><a class="lesson" data-module="'+i+'" data-rel="'+count+'" data-lesson="'+j+'" href="http://localhost/players/course_player/">'
+	  	 			+Lessons[j].name+'</a>';
+	  	course += '<div class="option-topics is-hidden">';
+	  	SelectTopics(Lessons[j],j)
+	  	course += '</div>';
+	  	course += '</div>';
+	 	}
+
+	}else{
+		console.log(Lessons);
+	 	course += '<div class="option-lesson">';
+	  	course +='<i class="icon-plus icon-white"></i><a class="lesson" data-module="'+i+'" data-lesson="0" href="http://localhost/players/course_player/">'
+	  	 			+Lessons.name+'</a>';
+	  	 course += '</div>';
+
+	}
+}
+function SelectTopics(lesson,i){
+	var Topics= lesson.topic;
+	if(Array.isArray(Topics)){
+	 	for(var j = 0;j < Topics.length; j++){
+	  		course +='<a class="topics" data-lesson="'+i+'" data-topic="'+j+'" href="http://localhost/players/course_player/">'
+	 		+Topics[j]+'</a>';	
+	 	}
+	 	
+	} else {
+	  	course +='<a class="topics" data-lesson="'+i+'" data-topic="1" href="http://localhost/players/course_player/">'
+	 		+Topics+'</a>';	
+	}
+}
+
+
 $(document).on('click', '.option-heading', function(e){
 	e.preventDefault()
  $(this).toggleClass('is-active').next(".option-content").stop().slideToggle(500);
+ $(this).find('i').toggleClass('fa-angle-down fa-angle-up', 1500)
 });
-$(document).on('click', '.topics', function(e){
-	e.preventDefault()
 
+$(document).on('click', '.option-lesson', function(e){
+	e.preventDefault()
+ $(this).toggleClass('is-active').find(".option-topics").stop().slideToggle(500);
+  $(this).find('i').toggleClass('fa-plus-square fa-minus-square', 1500)
+
+ 
 
 });
 $(document).on('click', '.lesson', function(e){
 	e.preventDefault()
 	var i = $(this).data('rel');
+	console.log(i)
 	$('#player-container').html("");
 	$('.slides').html("");
 
@@ -126,11 +241,21 @@ function play(count){
 			progressBar.bootstrapSlider('setValue',player.currentTime);
 
 		$.each(paragraphs, function(i,para) {
-			var time = (player.currentTime / 100).toFixed(2);
-			if(time > 0.59){
-				time = time/0.60;
-			}
-			if(time < para.min || time > para.max)
+			//var time = parseFloat((player.currentTime / 100).toFixed(2));
+			var time1 = player.currentTime;
+			var mins = ~~((time1 % 3600) / 60);
+    		var secs = ~~time1 % 60;
+    		var ret = "";
+    		ret += "" + mins + "." + (secs < 10 ? "0" : "");
+    		ret += "" + secs;
+    		ret = parseFloat(ret);
+
+			// if(parseFloat(time % 0.60) == 0){
+
+		 //  	time = parseFloat(((time % 0.60) + (++count)).toFixed(2));
+		 //  	// console.log(time);
+			// }
+			if(ret < para.min || ret > para.max)
 				return;
 
 

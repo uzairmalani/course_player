@@ -1,0 +1,17 @@
+RewriteEngine On
+
+# Some hosts may require you to use the `RewriteBase` directive.
+# If you need to use the `RewriteBase` directive, it should be the
+# absolute physical path to the directory that contains this htaccess file.
+#
+RewriteBase /players/course_player/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+
+php_value upload_max_filesize 100M
+php_value post_max_size 100M
+php_value max_input_time 9000
+php_value max_execution_time 9000
+php_value memory_limit 2G

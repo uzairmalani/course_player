@@ -14,10 +14,10 @@
             <audio>http://localhost/players/course_player/assets/audios/M-Intro1_Slide_2.wav</audio>
             
             <content align="left">
-               <par data-time="0.05" type="text">
+               <par data-time="0.07" type="text">
                   <span>This module covers the regulatory part of the Hazardous </span>
                </par>
-               <par data-time="0.12" type="text">
+               <par data-time="0.13" type="text">
                   <span>Waste Operations and Emergency Response (HAZWOPER) training. It includes:</span>
                </par>
                <par data-time="0.17" type="text">
@@ -35,12 +35,12 @@
             </content>
          </topics>
 
-         <topics name="Learning Objectives " data-time="">
+         <topics name="Learning Objectives " data-time="0.02">
             
             <audio>http://localhost/players/course_player/assets/audios/M-Intro1_Slide_3.wav</audio>
             
             <content align="left">
-               <par data-time="0.05" type="text">
+               <par data-time="0.06" type="text">
                   <span>By the end of this module, you will be able to:</span>
                </par>
                <par data-time="0.09" type="text">
@@ -48,11 +48,11 @@
                <ul>
                <li><span data-time="0.09">Define OSHA and explain why it is important;</span></li>
                <li><span data-time="0.14">Define HAZWOPER and explain who is affected by these regulations;</span></li>
-               <li><span data-time="0.20">Explain why OSHA developed the Hazard Communication Standard (HCS);</span></li>
-               <li><span data-time="0.28">Describe the Globally Harmonized System (GHS) of Classification and Labelling of Chemicals and its importance;</span></li>
+               <li><span data-time="0.21">Explain why OSHA developed the Hazard Communication Standard (HCS);</span></li>
+               <li><span data-time="0.29">Describe the Globally Harmonized System (GHS) of Classification and Labelling of Chemicals and its importance;</span></li>
                <li><span data-time="0.34">List required labeling elements under the GHS system;</span></li>
-               <li><span data-time="0.39">Give examples of information that can be found on Safety Data Sheets (SDSs);</span></li>
-               <li><span data-time="0.43">Explain the four parts of the NFPA labelling system;</span></li>
+               <li><span data-time="0.401">Give examples of information that can be found on Safety Data Sheets (SDSs);</span></li>
+               <li><span data-time="0.44">Explain the four parts of the NFPA labelling system;</span></li>
                <li><span data-time="0.49">List the various Department of Transportation (DOT) chemical hazard classes.</span></li>
                   </ul>
                   </span>
@@ -64,7 +64,7 @@
          </topics> 
       </lesson>
       <lesson name="Lesson 1: OSHA AND THE HAZWOPER STANDARD">
-         <topics name="Lesson 1:" data-time="0.03">
+         <topics name="Lesson 1:" data-time="0.02">
             
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_1.wav</audio>
             
@@ -75,32 +75,22 @@
 
          </topics>
 
-         <topics name="The Occupational Safety and Health (OSH) Act" data-time="">
+         <topics name="The Occupational Safety and Health (OSH) Act" data-time="0.06">
             
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_2.wav</audio>
             
             <content align="left">
-               <par data-time="0.12" type="text">
-                  <span>On December 29, 1970, President Nixon signed the Occupational Safety</span>
-               </par>
                <par data-time="0.23" type="text">
-                  <span>and Health Act of 1970 (OSH Act) into law, establishing the Occupational Safety and Health Administration (OSHA).</span>
+                  <span>On December 29, 1970, President Nixon signed the Occupational Safety and Health Act of 1970 (OSH Act) into law, establishing the Occupational Safety and Health Administration (OSHA).</span>
                </par>
-               <par data-time="0.29" type="text">
-                  <span>It is a national public health agency which is dedicated to protecting America’s workers</span>
+               <par data-time="0.34" type="text">
+                  <span> It is a national public health agency which is dedicated to protecting America’s workers so that no worker should have to choose between their life and job.</span>
                </par>
-               <par data-time="0.33" type="text">
-                  <span>so that no worker should have to choose between their life and job.</span>
+               <par data-time="0.5105" type="text">
+                  <span> The purpose of the OSH Act is: “to assure so far as possible every working man and woman in the Nation safe and healthful working conditions and to preserve our human resources."</span>
                </par>
-               <par data-time="0.38" type="text">
-                  <span>The purpose of the OSH Act is:</span>
-               </par>
-               <par data-time="0.51" type="text">
-                  <span>“to assure so far as possible every working man and woman in the Nation safe and healthful working conditions and to preserve our human resources."</span>
-               </par>
-               <par data-time="0.51" type="link">
-               <link>#</link>
-               <span>Click here for more information on the OSH Act</span>
+               <par data-time="0.55" type="text">
+               <span><a href="#"><p><span data-time="0.55">Click here for more information on the OSH Act</span></p></a></span>
                </par>
                
             </content>
@@ -109,36 +99,36 @@
             </content>
          </topics>
 
-         <topics name="Hazardous Waste Operations and Emergency Response (HAZWOPER)" data-time="">
+         <topics name="Hazardous Waste Operations and Emergency Response (HAZWOPER)" data-time="0.06">
             
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_3.wav</audio>
             
             <content align="left">
-               <par data-time="0.16" type="text">
-                  <span>The dumping of hazardous substances poses a significant threat and is a serious safety and health problem that continues to endanger</span>
+               <par data-time="0.22" type="text">
+                  <span>The dumping of hazardous substances poses a significant threat and is a serious safety and health problem that continues to endanger the lives of humans and animals and the quality of their environment.</span>
                </par>
-               <par data-time="0.28" type="text">
-                  <span>the lives of humans and animals and the quality of their environment. The seriousness of this issue has led to OSHA issuing the HAZWOPER Standard.</span>
+               <par data-time="0.29" type="text">
+                  <span> The seriousness of this issue has led to OSHA issuing the HAZWOPER Standard.</span>
                </par>
-               <par data-time="0.41" type="text">
+               <par data-time="0.42" type="text">
                   <span>HAZWOPER stands for Hazardous Waste Operations and Emergency Response. HAZWOPER regulations are covered under the Title</span>
                </par>
-               <par data-time="0.48" type="link">
+               <par data-time="0.49" type="text">
                   <link>#</link>
-                  <span>29 Code of Federal Regulations (CFR), part 1910.120.</span>
+                  <span><a href="#"> 29 Code of Federal Regulations (CFR), part 1910.120. </a></span>
                </par>
-            <par data-time="1.01" type="text">
+            <par data-time="1.02" type="text">
                   <span>This standard was issued to protect the health and safety of those working at waste sites and to help them handle hazardous substances safely and effectively.</span>
                </par>
-               <par data-time="1.06" type="text">
+               <par data-time="1.07" type="text">
                   <span>OSHA requires HAZWOPER training for anyone who is:</span>
                </par>
-               <par data-time="1.21" type="text">
+               <par data-time="1.101" type="text">
                   <span>
                   <ul>
-               <li>Cleaning up hazardous waste sites;</li>
-               <li>Working with hazardous waste at treatment, storage, and disposal sites; or</li>
-               <li>Responding to emergencies concerning hazardous material releases.</li>
+               <li><span data-time="1.101">Cleaning up hazardous waste sites;</span></li>
+               <li><span data-time="1.16">Working with hazardous waste at treatment, storage, and disposal sites; or</span></li>
+               <li><span data-time="1.21">Responding to emergencies concerning hazardous material releases.</span></li>
                   </ul>
                   </span>
                </par>
@@ -147,32 +137,32 @@
                   <img src="http://localhost/players/course_player/assets/images/L1_slide_3_picture1.png" />
             </content>
          </topics>
-         <topics name="The HAZWOPER Regulation" data-time="">   
+         <topics name="The HAZWOPER Regulation" data-time="0.05">   
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_4.wav</audio>
             
             <content align="left">
-               <par data-time="0.06" type="text">
+               <par data-time="0.07" type="text">
                   <span>The HAZWOPER regulation </span>
                </par>
-               <par data-time="0.10" type="text">
-                  <span><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120">29 CFR 1910.120</a></span>
+               <par data-time="0.101" type="text">
+                  <span><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120">29 CFR 1910.120 </a></span>
                </par>
-               <par data-time="0.25" type="text">
+               <par data-time="0.26" type="text">
                   <span>contains 17 different sections. There are also five appendices, Appendix A to Appendix E, that help employers and employees comply with the regulations of this standard.</span>
                </par>
-               <par data-time="0.38" type="text">
+               <par data-time="0.39" type="text">
                   <span>Under federal code, Title 29 CFR 1910.120 establishes Hazardous Waste Operations and Emergency Response regulations concerning:</span>
                </par>
-               <par data-time="1.21" type="text">
+               <par data-time="0.43" type="text">
                   <span>
-                  <ol>
-               <li>Scope, Application, and Definitions</li>
-               <li>Safety and Health Program</li>
-               <li>Site Characterization and Analysis</li>
-               <li>Site Control</li>
-               <li>Training (General Site Remediation)</li>
-               <li>Medical Surveillance</li>
-               <li>Engineering Controls, Work Practices, and Personal Protective Equipment (PPE) for Protection of employees</li>
+                  <ol type="a">
+               <li><span data-time="0.43">Scope, Application, and Definitions</span></li>
+               <li><span data-time="0.46">Safety and Health Program</span></li>
+               <li><span data-time="0.501">Site Characterization and Analysis</span></li>
+               <li><span data-time="0.53">Site Control</span></li>
+               <li><span data-time="0.57">Training (General Site Remediation)</span></li>
+               <li><span data-time="0.59">Medical Surveillance</span></li>
+               <li><span data-time="1.09">Engineering Controls, Work Practices, and Personal Protective Equipment (PPE) for Protection of employees</span></li>
                   </ol>
                   </span>
                </par> 
@@ -181,44 +171,43 @@
                   <img src="http://localhost/players/course_player/assets/images/L1_slide_4_picture1.png" />
             </content>
          </topics>
-         <topics name="The HAZWOPER Regulation" data-time="">
+         <topics name="The HAZWOPER Regulation" data-time="0.05">
             
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_5.wav</audio>
             
             <content align="left">
-            <par data-time="0.42" type="text">
+            <par data-time="0.07" type="text">
                   <span>
-                  <ol>
-               <li>Monitoring</li>
-               <li>Information Programs</li>
-               <li>Handling Drums and Containers</li>
-               <li>Decontamination</li>
-               <li>Emergency Response at an Uncontrolled Hazardous Waste Site</li>
-               <li>Illumination</li>
-               <li>Sanitation at Temporary Workplaces</li>
-               <li>New Technology Programs</li>
-               <li>Certain Operations Conducted Under RCRA</li>
-               <li>Emergency Response to Hazardous Substance Releases</li>
+                  <ol type="a" start="8">
+               <li><span data-time="0.07">Monitoring</span></li>
+               <li><span data-time="0.101">Information Programs</span></li>
+               <li><span data-time="0.14">Handling Drums and Containers</span></li>
+               <li><span data-time="0.17">Decontamination</span></li>
+               <li><span data-time="0.23">Emergency Response at an Uncontrolled Hazardous Waste Site</span></li>
+               <li><span data-time="0.25">Illumination</span></li>
+               <li><span data-time="0.29">Sanitation at Temporary Workplaces</span></li>
+               <li><span data-time="0.33">New Technology Programs</span></li>
+               <li><span data-time="0.38">Certain Operations Conducted Under RCRA</span></li>
+               <li><span data-time="0.43">Emergency Response to Hazardous Substance Releases</span></li>
                   </ol>
                   </span>
                </par>
-               <par data-time="0.51" type="link">
-               <link>table.pdf</link>
-               <span>Click here to view examples of scope and application of the HAZWOPER standard</span>
+               <par data-time="0.51" type="text">
+               <span><a href="table.pdf">Click here to view examples of scope and application of the HAZWOPER standard</a></span>
                </par>
             </content>
             <content align="right">
                   <img src="http://localhost/players/course_player/assets/images/L1_slide_5_picture1.png" />
             </content>
             </topics>
-            <topics name="Scope of the HAZWOPER Standard" data-time="0.03">
+            <topics name="Scope of the HAZWOPER Standard" data-time="0.04">
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_6.wav</audio>
             <content align="center">
-            <par data-time="0.06" type="text">
+            <par data-time="0.07" type="text">
             <span>
             <table>
             <tr>
-            <th><span data-time="0.06">Sections of the HAZWOPER Standard</span></th>
+            <th><span data-time="0.07">Sections of the HAZWOPER Standard</span></th>
             <th>Description</th>
             </tr>
             <tr>
@@ -235,47 +224,50 @@
             <tr>
             <td>
             <ol type="a" start="2">
-            <li><span data-time="0.19">Safety and Health Program</span></li>
-            <li><span data-time="0.23">Site Characterization and Analysis</span></li>
-            <li>Site Control</li>
-      <li>Training (General Site Remediation)</li>
-      <li>Medical Surveillance</li>
-      <li>Engineering Controls, Work Practices, and Personal Protective Equipment (PPE) for Protection of employees</li>
-      <li>Monitoring</li>
-      <li>Information Programs</li>
-      <li>Handling Drums and Containers</li>
-      <li>Decontamination</li>
-      <li>Emergency Response at an Uncontrolled Hazardous Waste Site</li>
-      <li>Illumination</li>
-      <li>Sanitation at Temporary Workplaces</li>
-      <li>New Technology Programs</li>    
+            <li><span data-time="0.201">Safety and Health Program</span></li>
+            <li><span data-time="0.24">Site Characterization and Analysis</span></li>
+            <li><span data-time="0.26">Site Control</span></li>
+      <li><span data-time="0.301">Training (General Site Remediation)</span></li>
+      <li><span data-time="0.33">Medical Surveillance</span></li>
+      <li><span data-time="0.43">Engineering Controls, Work Practices, and Personal Protective Equipment (PPE) for Protection of employees</span></li>
+      <li><span data-time="0.44">Monitoring</span></li>
+      <li><span data-time="0.47">Information Programs</span></li>
+      <li><span data-time="0.501">Handling Drums and Containers</span></li>
+      <li><span data-time="0.53">Decontamination</span></li>
+      <li><span data-time="0.59">Emergency Response at an Uncontrolled Hazardous Waste Site</span></li>
+      <li><span data-time="1.01">Illumination</span></li>
+      <li><span data-time="1.05">Sanitation at Temporary Workplaces</span></li>
+      <li><span data-time="1.08">New Technology Programs</span></li>    
    </ol>
    </td>
       <td><ul>
-      <li>Sections (b) to (o) of the standard regulates operations where employees are engaged in the cleanup of uncontrolled hazardous waste sites.</li>
-      <li>Section (e) of the HAZWOPER regulation applies to general site workers, and this is by far the largest number of people requiring the HAZWOPER training.</li>
+      <li><span data-time="1.21">Sections (b) to (o) of the standard regulates operations where employees are engaged in the cleanup of uncontrolled hazardous waste sites.</span></li>
+      <li><span data-time="1.32">Section (e) of the HAZWOPER regulation applies to general site workers, and this is by far the largest number of people requiring the HAZWOPER training.</span></li>
    </ul>
    </td>
    </tr>
    <tr>
       <td>
-      <ol type="a" start="17">
-      <li>Certain Operations Conducted Under RCRA</li>
+      <ol type="a" start="16">
+      <li><span data-time="1.37">Certain Operations Conducted Under RCRA</span></li>
       </ol>
       </td>
       <td>
       <ul>
-      <li>Section (p) covers those employees who are engaged in treatment, storage and disposal (TSD) facility operations for hazardous waste.</li>
+      <li><span data-time="1.49">Section (p) covers those employees who are engaged in treatment, storage and disposal (TSD) facility operations for hazardous waste.</span></li>
       </ul>
       </td>
    </tr>
    <tr>
       <td>
-      <ol type="a" start="18">
-      <li>Emergency Response to Hazardous Substance Releases</li>
+      <ol type="a" start="17">
+      <li><span data-time="1.55">Emergency Response to Hazardous Substance Releases</span></li>
       </ol>
       </td>
       <td>
+      	<ul>
+      <li><span data-time="2.06">Section (q) covers emergency responders for releases of hazardous substances without regard to the location of the hazard.</span></li>
+      </ul>
       </td>
    </tr>
    </table>
@@ -283,23 +275,20 @@
    </par>
    </content>
          </topics>
-         <topics name="Appendices to the HAZWOPER Regulation" data-time="">
+         <topics name="Appendices to the HAZWOPER Regulation" data-time="0.05">
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_7.wav</audio>
             <content align="left">
-               <par data-time="0.10" type="text">
-                  <span>There are five appendices to the HAZWOPER regulation that assist employers</span>
+               <par data-time="0.17" type="text">
+                  <span>There are five appendices to the HAZWOPER regulation that assist employers and employees in complying with the provisions of this standard. These include:</span>
                </par>
-               <par data-time="0.16" type="text">
-                  <span>and employees in complying with the provisions of this standard. These include:</span>
-               </par>
-               <par data-time="0.38" type="text">
+               <par data-time="0.201" type="text">
                   <span>
                   <ul>
-                  <li><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120AppB">Appendix A: Personal protective clothing test methods</a></li>
-                  <li><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120AppB">Appendix B: General description and discussion of the levels of protection and protective gear</a></li>
-                  <li><a href="">Appendix C: Compliance guidelines</a></li>
-                  <li><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120AppD">Appendix D: References</a></li>
-                  <li><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120AppE">Appendix E: Training curriculum guidelines</a></li>
+                  <li><span data-time="0.201"><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120AppB">Appendix A: Personal protective clothing test methods</a></span></li>
+                  <li><span data-time="0.28"><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120AppB">Appendix B: General description and discussion of the levels of protection and protective gear</a></span></li>
+                  <li><span data-time="0.31"><a href="">Appendix C: Compliance guidelines</a></span></li>
+                  <li><span data-time="0.34"><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120AppD">Appendix D: References</a></span></li>
+                  <li><span data-time="0.38"><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120AppE">Appendix E: Training curriculum guidelines</a></span></li>
                   </ul>                  
                   </span>
                </par>
@@ -308,86 +297,82 @@
                   <img src="http://localhost/players/course_player/assets/images/L1_slide_7_picture1.png"/>
             </content>
          </topics>
-         <topics name="Application of the HAZWOPER Standard" data-time="">
+         <topics name="Application of the HAZWOPER Standard" data-time="0.05">
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_8.wav</audio>
             <content align="left">
-               <par data-time="0.08" type="text">
+               <par data-time="0.09" type="text">
                   <span>HAZWOPER regulations apply in the following work areas:</span>
                </par>
-               <par data-time="0.21" type="text">
-                  <span>Clean-up operations required by a government body, whether local, state, federal or other, involving hazardous substances at uncontrolled hazardous waste sites.</span>
-               </par>
-              <par data-time="0.33" type="text">
-                  <span>Corrective measures and clean- up activities at sites covered by the 1976 Resource Conservation and Recovery Act( RCRA).</span>
-               </par>
-               <par data-time="0.44" type="text">
-                  <span>Voluntary clean-up operations at uncontrolled hazardous waste sites by local, state and federal government bodies.</span>
-               </par>
-               <par data-time="0.58" type="text">
-                  <span>Operations involving hazardous waste carried out in treatment, storage or disposal facilities (TSD), by agencies in accordance with the EPA Regulation.</span>
-               </par>
-               <par data-time="1.12" type="text">
-                  <span>Emergency response operations for the release of, or substantial threats of the release of, hazardous substances without regard to the location of the hazard.</span>
+               <par data-time="0.22" type="text">
+               	<span>
+               		<ol>
+                 <li><span data-time="0.22">Clean-up operations required by a government body, whether local, state, federal or other, involving hazardous substances at uncontrolled hazardous waste sites.</span></li>
+                 <li><span data-time="0.34">Corrective measures and clean- up activities at sites covered by the 1976 Resource Conservation and Recovery Act( RCRA).</span></li>
+                 <li><span data-time="0.45">Voluntary clean-up operations at uncontrolled hazardous waste sites by local, state and federal government bodies.</span></li>
+                 <li><span data-time="0.59">Operations involving hazardous waste carried out in treatment, storage or disposal facilities (TSD), by agencies in accordance with the EPA Regulation.</span></li>
+                 <li><span data-time="1.12">Emergency response operations for the release of, or substantial threats of the release of, hazardous substances without regard to the location of the hazard.</span></li>
+              </ol>
+              </span>
                </par>
             </content>
             <content align="right">
                   <img src="http://localhost/players/course_player/assets/images/L1_slide_8_picture1.png" />
             </content>
          </topics>
-         <topics name="HAZWOPER Training" data-time="">
+         <topics name="HAZWOPER Training" data-time="0.03">
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_9.wav</audio>
             <content align="left">
                <par data-time="0.11" type="text">
                   <span>There are several types of HAZWOPER training for the general site worker depending on your job type and experience:</span>
                </par>
-               <par data-time="0.16" type="text">
+               <par data-time="0.12" type="text">
                   <span>
                   <ul>
-                  <li>40-hour training</li>
-                  <li>24-hour training</li>
-                  <li>8-hour annual refresher</li>
+                  <li><span data-time="0.12">40-hour training</span></li>
+                  <li><span data-time="0.15">24-hour training</span></li>
+                  <li><span data-time="0.17">8-hour annual refresher</span></li>
                   </ul>                  
                   </span>
                </par>
               <par data-time="0.27" type="text">
                   <span>The 40-hour course, which you are just beginning, is intended for workers who perform activities that could expose or potentially expose them</span>
                </par>
-               <par data-time="0.41" type="text">
+               <par data-time="0.42" type="text">
                   <span>to hazardous substances above the Permissible Exposure Limit (PEL) established by OSHA. These individuals usually require the use of Personal Protective Equipment (PPE).</span>
                </par>
-               <par data-time="0.53" type="text">
-                  <span>The 24-hour HAZWOPER course is for workers who have a temporary or short-term assignment at a HAZWOPER site and will not be exposed to hazardous materials</span>
+               <par data-time="0.56" type="text">
+                  <span>The 24-hour HAZWOPER course is for workers who have a temporary or short-term assignment at a HAZWOPER site and will not be exposed to hazardous materials above the PEL established by OSHA,</span>
                </par>
                <par data-time="1.07" type="text">
-                  <span>above the PEL established by OSHA, and therefore will not require respiratory protection. These individuals do not require the use of Personal Protective Equipment (PPE).</span>
+                  <span> and therefore will not require respiratory protection. These individuals do not require the use of Personal Protective Equipment (PPE).</span>
                </par>
             </content>
             <content align="right">
                   <img src="http://localhost/players/course_player/assets/images/L1_slide_9_picture1.png"/>
             </content>
          </topics>
-         <topics name="HAZWOPER Training" data-time="">
+         <topics name="HAZWOPER Training" data-time="0.03">
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_10.wav</audio>
             <content align="left">
-               <par data-time="0.17" type="text">
+               <par data-time="0.19" type="text">
                   <span>The 8-hour annual refresher course is required for both the 24-hour and 40-hour certified individuals to re-emphasize the initial training and to update workers on any new policies or procedures.</span>
                </par>
-               <par data-time="0.25" type="text">
+               <par data-time="0.26" type="text">
                   <span>The level of training provided to general site workers should be consistent with their job function and responsibilities.</span>
                </par>
-              <par data-time="0.37" type="text">
+              <par data-time="0.39" type="text">
                   <span>General site workers represent the largest group of people who require the HAZWOPER training. According to OSHA, training should include instruction in the following areas:</span>
                </par>
                <par data-time="0.41" type="text">
                   <span>
                   <ul>
-                  <li>Site Safety and Health plan;</li>
-                  <li>Safe work practices;</li>
-                  <li>Expected nature of hazards at the worksite;</li>
-                  <li>Sampling and monitoring procedures;</li>
-                  <li>Safe and effective use of personal protective equipment (PPE);</li>
-                  <li>Employee rights and responsibilities; and</li>
-                  <li>Site emergencies, rescue and evacuation procedures.</li>
+                  <li><span data-time="0.41">Site Safety and Health plan;</span></li>
+                  <li><span data-time="0.43">Safe work practices;</span></li>
+                  <li><span data-time="0.47">Expected nature of hazards at the worksite;</span></li>
+                  <li><span data-time="0.49">Sampling and monitoring procedures;</span></li>
+                  <li><span data-time="0.55">Safe and effective use of personal protective equipment (PPE);</span></li>
+                  <li><span data-time="0.59">Employee rights and responsibilities; and</span></li>
+                  <li><span data-time="1.03">Site emergencies, rescue and evacuation procedures.</span></li>
                   </ul>
                   </span>
                </par>
@@ -396,44 +381,47 @@
                   <img src="http://localhost/players/course_player/assets/images/L1_slide_10_picture1.png"/>
             </content>
          </topics>
-         <topics name="The HAZWOPER Standard and Other Regulations" data-time="">
+         <topics name="The HAZWOPER Standard and Other Regulations" data-time="0.05">
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_11.wav</audio>
             <content align="left">
-               <par data-time="0.13" type="text">
+               <par data-time="0.15" type="text">
                   <span>A number of work tasks performed at a HAZWOPER work-site may over lap and cross over into other areas regulated by OSHA.</span>
                </par>
-               <par data-time="0.21" type="text">
-                  <span>All of these areas are related to HAZWOPER and will be discussed in detail in the modules that follow.</span>
+               <par data-time="0.22" type="text">
+                  <span> All of these areas are related to HAZWOPER and will be discussed in detail in the modules that follow.</span>
                </par>
-              <par data-time="0.35" type="text">
-                  <span>For example Bloodborne Pathogens Standard (29 CFR 1020.1030), Respiratory Protection Standard (29 CFR 1020.134) etc.</span>
+              <par data-time="0.36" type="text">
+                  <span> For example Bloodborne Pathogens Standard (29 CFR 1020.1030), Respiratory Protection Standard (29 CFR 1020.134) etc.</span>
                </par>
-               <par data-time="0.51" type="link">
-               <link>https://www.osha.gov/law-regs.html</link>
-               <span>Click here for more information on OSHA’s Regulations</span>
+               <par data-time="0.41" type="text">
+               	<span>
+               		<div>
+              <span data-time="0.41"><a href="https://www.osha.gov/law-regs.html"> Click here for more information on OSHA’s Regulations</a></span>
+               		</div>
+               	</span>
                </par>
             </content>
             <content align="right">
                   <img src="http://localhost/players/course_player/assets/images/L1_slide_11_picture1.png"/>
             </content>
          </topics>
-         <topics name="Rights and Responsibilities: Employer Responsibilities" data-time="">
+         <topics name="Rights and Responsibilities: Employer Responsibilities" data-time="0.06">
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_12.wav</audio>
             <content align="left">
-               <par data-time="0.11" type="text">
+               <par data-time="0.12" type="text">
                   <span>Under the OSH Act, employers have the following responsibilities:</span>
                </par>
-               <par data-time="1.12" type="text">
+               <par data-time="0.18" type="text">
                   <span>
                   <ul>
-                  <li>Conspicuously display the OSHA’s Job Safety and Health poster.</li>
-                  <li>Inform workers about chemical hazards through training, labels, alarms, color-coded systems, chemical information sheets and various other methods.</li>
-                  <li>Maintain records of work-related injuries and illnesses with accuracy.</li>
-                  <li>Perform tests in the workplace that are required by OSHA standards, such as air sampling.</li>
-                  <li>Provide required personal protective equipment (PPE) at no cost to employee.</li>
-                  <li>Provide medical tests required by OSHA standards.</li>
-                  <li>Notify OSHA within 8 hours of a workplace fatality.</li>
-                  <li>Not retaliate against workers for using their rights as given to them under this law; including their right to report a work-related complaint.</li>
+                  <li><span data-time="0.18">Conspicuously display the OSHA’s Job Safety and Health poster.</span></li>
+                  <li><span data-time="0.31">Inform workers about chemical hazards through training, labels, alarms, color-coded systems, chemical information sheets and various other methods.</span></li>
+                  <li><span data-time="0.37">Maintain records of work-related injuries and illnesses with accuracy.</span></li>
+                  <li><span data-time="0.42">Perform tests in the workplace that are required by OSHA standards, such as air sampling.</span></li>
+                  <li><span data-time="0.49">Provide required personal protective equipment (PPE) at no cost to employee.</span></li>
+                  <li><span data-time="0.54">Provide medical tests required by OSHA standards.</span></li>
+                  <li><span data-time="0.59">Notify OSHA within 8 hours of a workplace fatality.</span></li>
+                  <li><span data-time="1.12">Not retaliate against workers for using their rights as given to them under this law; including their right to report a work-related complaint.</span></li>
                   </ul>
                   </span>
                </par>
@@ -442,23 +430,23 @@
                   <img src="http://localhost/players/course_player/assets/images/L1_slide_12_picture1.png"/>
             </content>
          </topics>
-         <topics name="Rights and Responsibilities: Employer Rights" data-time="">
+         <topics name="Rights and Responsibilities: Employer Rights" data-time="0.05">
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_13.wav</audio>
             <content align="left">
-               <par data-time="0.09" type="text">
+               <par data-time="0.11" type="text">
                   <span>Under the OSH Act employees have the following rights:</span>
                </par>
-               <par data-time="1.07" type="text">
+               <par data-time="0.15" type="text">
                   <span>
                   <ul>
-                  <li>File a confidential complaint with OSHA for workplace inspection.</li>
-                  <li>Receive information and training related to hazards, methods to prevent harm, and OSHA standards that apply to their workplace.</li>
-                  <li>Be given training that must be done in a language that is easy for the workers to understand.</li>
-                  <li>Receive information about work-related injuries and illnesses that occur in their workplace.</li>
-                  <li>Receive the results obtained from tests and monitoring done to find and measure hazards in their workplace.</li>
-                  <li>Receive copies of their work-related medical records.</li>
-                  <li>Be a part of an OSHA inspection and speak with the inspector confidentially.</li>
-                  <li>File a complaint with OSHA in case of any retaliation by their employer for acting as a “whistleblower”.</li>
+                  <li><span data-time="0.15">File a confidential complaint with OSHA for workplace inspection.</span></li>
+                  <li><span data-time="0.24">Receive information and training related to hazards, methods to prevent harm, and OSHA standards that apply to their workplace.</span></li>
+                  <li><span data-time="0.31">Be given training that must be done in a language that is easy for the workers to understand.</span></li>
+                  <li><span data-time="0.401">Receive information about work-related injuries and illnesses that occur in their workplace.</span></li>
+                  <li><span data-time="0.47">Receive the results obtained from tests and monitoring done to find and measure hazards in their workplace.</span></li>
+                  <li><span data-time="0.52">Receive copies of their work-related medical records.</span></li>
+                  <li><span data-time="0.58">Be a part of an OSHA inspection and speak with the inspector confidentially.</span></li>
+                  <li><span data-time="1.07">File a complaint with OSHA in case of any retaliation by their employer for acting as a “whistleblower”.</span></li>
                   </ul>
                   </span>
                </par>
@@ -467,22 +455,22 @@
                   <img src="http://localhost/players/course_player/assets/images/L1_slide_13_picture1.png"/>
             </content>
          </topics>
-         <topics name="Rights and Responsibilities: Employer Responsibilities" data-time="">
+         <topics name="Rights and Responsibilities: Employer Responsibilities" data-time="0.04">
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_14.wav</audio>
             <content align="left">
-               <par data-time="0.09" type="text">
+               <par data-time="0.101" type="text">
                   <span>Employees also have certain responsibilities when it comes to workplace safety,</span>
                </par>
-               <par data-time="0.17" type="text">
+               <par data-time="0.18" type="text">
                   <span>even though OSHA does not cite employees for violations. The employees have the following responsibilities:</span>
                </par>
-               <par data-time="0.48" type="text">
+               <par data-time="0.22" type="text">
                   <span>
                   <ul>
-                  <li>Carefully read the OSHA Job Safety and Health poster.</li>
-                  <li>Follow the workplace safety rules and use the required personal protective equipment (PPE).</li>
-                  <li>In case of any conditions that pose a risk to the safety and well being of workers, employees must report to their supervisor or file a complaint with OSHA.</li>
-                  <li>Responsibly exercise the rights given to them under the OSH Act.</li>
+                  <li><span data-time="0.22">Carefully read the OSHA Job Safety and Health poster.</span></li>
+                  <li><span data-time="0.29">Follow the workplace safety rules and use the required personal protective equipment (PPE).</span></li>
+                  <li><span data-time="0.41">In case of any conditions that pose a risk to the safety and well being of workers, employees must report to their supervisor or file a complaint with OSHA.</span></li>
+                  <li><span data-time="0.48">Responsibly exercise the rights given to them under the OSH Act.</span></li>
                   </ul>
                   </span>
                </par>
@@ -491,25 +479,22 @@
                   <img src="http://localhost/players/course_player/assets/images/L1_slide_14_picture1.png"/>
             </content>
          </topics>
-          <topics name="Establishment of NIOSH" data-time="">
+          <topics name="Establishment of NIOSH" data-time="0.04">
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_15.wav</audio>
             <content align="left">
-               <par data-time="0.08" type="text">
-                  <span>The OSH Act resulted in the establishment of both The National Institute</span>
+               <par data-time="0.13" type="text">
+                  <span>The OSH Act resulted in the establishment of both The National Institute for Occupational Safety and Health (NIOSH)</span>
                </par>
-               <par data-time="0.16" type="text">
-                  <span>for Occupational Safety and Health (NIOSH) and the Occupational Safety and Health Administration (OSHA).</span>
+               <par data-time="0.22" type="text">
+                  <span>and the Occupational Safety and Health Administration (OSHA).NIOSH was established to ensure safe and healthful working conditions by:</span>
                </par>
-               <par data-time="0.21" type="text">
-                  <span>NIOSH was established to ensure safe and healthful working conditions by:</span>
-               </par>
-               <par data-time="0.36" type="text">
+               <par data-time="0.22" type="text">
                   <span>
                   <ul>
-                  <li>Gathering information;</li>
-                  <li>Conducting scientific research;</li>
-                  <li>Translating the knowledge gained to create relevant products and services; and</li>
-                  <li>Providing training in the field of occupational safety and health.</li>
+                  <li><span data-time="0.24">Gathering information;</span></li>
+                  <li><span data-time="0.27">Conducting scientific research;</span></li>
+                  <li><span data-time="0.32">Translating the knowledge gained to create relevant products and services; and</span></li>
+                  <li><span data-time="0.37">Providing training in the field of occupational safety and health.</span></li>
                   </ul>
                   </span>
                </par>
@@ -521,18 +506,18 @@
                   <img src="http://localhost/players/course_player/assets/images/L1_slide_15_picture1.png"/>
             </content>
          </topics>
-         <topics name="Hazardous Waste Legislation" data-time="">
+         <topics name="Hazardous Waste Legislation" data-time="0.03">
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_16.wav</audio>
             <content align="left">
-               <par data-time="0.14" type="text">
+               <par data-time="0.15" type="text">
                   <span>Congress enacted a number of legislative acts in order to deal with the problems and threats posed by the industrial hazardous waste. These include:</span>
                </par>
-               <par data-time="1.34" type="text">
+               <par data-time="0.45" type="text">
                   <span>
                   <ul>
-                  <li><b>Resource Conservation and Recovery Act (RCRA):</b><span>The Resource Conservation and Recovery Act (RCRA) which was passed in 1976. The main goal of RCRA was to create a "cradle to grave" system for the recordkeeping of hazardous wastes. Under this the RCRA hazardous wastes must be tracked from the data-time they are generated until they are finally disposed of off on-site or off-site.</span></li>
-                  <li><b>Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA):</b><span>The Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), was passed by the congress in 1980.  CERCLA regulates and enforces the clean-up and remediation of closed and abandoned hazardous waste sites.</span></li>
-                  <li><b>SARA:</b><span>The Superfund Amendments and Reauthorization Act (SARA) of 1986 amended CERCLA. This Act stressed the importance of permanent remedies and innovative treatment technologies for cleaning up of hazardous waste sites and increased the focus on human health problems caused by hazardous waste sites.</span></li>
+                  <li><span data-time="0.45"><b>Resource Conservation and Recovery Act (RCRA):</b>The Resource Conservation and Recovery Act (RCRA) which was passed in 1976. The main goal of RCRA was to create a "cradle to grave" system for the recordkeeping of hazardous wastes. Under this the RCRA hazardous wastes must be tracked from the data-time they are generated until they are finally disposed of off on-site or off-site.</span></li>
+                  <li><span data-time="1.11"><b>Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA):</b>The Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), was passed by the congress in 1980.  CERCLA regulates and enforces the clean-up and remediation of closed and abandoned hazardous waste sites.</span></li>
+                  <li><span data-time="1.34"><b>SARA:</b>The Superfund Amendments and Reauthorization Act (SARA) of 1986 amended CERCLA. This Act stressed the importance of permanent remedies and innovative treatment technologies for cleaning up of hazardous waste sites and increased the focus on human health problems caused by hazardous waste sites.</span></li>
                   </ul>
                   </span>
                </par>
@@ -541,24 +526,24 @@
                   <img src="http://localhost/players/course_player/assets/images/L1_slide_16_picture1.png"/>
             </content>
          </topics>
-         <topics name="Application of the HAZWOPER Standard to Chemical Spills" data-time="">
+         <topics name="Application of the HAZWOPER Standard to Chemical Spills" data-time="0.05">
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_17.wav</audio>
             <content align="left">
-               <par data-time="0.11" type="text">
+               <par data-time="0.12" type="text">
                   <span>In order to get a better understanding of how the various sections of the HAZWOPER Standard apply to various groups;</span>
                </par>
-               <par data-time="0.17" type="text">
+               <par data-time="0.18" type="text">
                   <span>let us apply this standard to chemical spills. There are two types of chemical spills:</span>
                </par>
-               <par data-time="0.29" type="text">
+               <par data-time="0.22" type="text">
                   <span>
                   <ul>
-                  <li><b>Incidental release:</b><span>These are simply cleaned-up.</span></li>
-                  <li><b>Uncontrolled release:</b><span>This type requires an emergency response effort and requires workers to be trained as responders.</span></li>
+                  <li><span data-time="0.22"><b>Incidental release:</b>These are simply cleaned-up.</span></li>
+                  <li><span data-time="0.31"><b>Uncontrolled release:</b>This type requires an emergency response effort and requires workers to be trained as responders.</span></li>
                   </ul>
                   </span>
                </par>
-               <par data-time="0.42" type="text">
+               <par data-time="0.43" type="text">
                   <span>The response effort is termed as “Emergency Response Phase”. The clean-up phase that follows an emergency response is called the “Post-Emergency Response Cleanup Operation”.</span>
                </par>
                <par data-time="0.57" type="text">
@@ -572,19 +557,19 @@
          <topics name="Application of the HAZWOPER Standard to Chemical Spills" data-time="">
          <video>http://localhost/players/course_player/assets/video/chemicalspills.mp4</video>
          </topics>
-         <topics name="Summary" data-time="">
+         <topics name="Summary" data-time="0.02">
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_18.wav</audio>
             <content align="left">
-               <par data-time="0.12" type="text">
+               <par data-time="0.13" type="text">
                   <span>The Occupational Safety and Health Administration (OSHA) establishes workplace standards related to health and safety for various occupations.</span>
                </par>
-               <par data-time="0.18" type="text">
+               <par data-time="0.19" type="text">
                   <span>To protect the health and safety of employees who deal directly with hazardous waste in their daily work</span>
                </par>
-               <par data-time="0.29" type="text">
+               <par data-time="0.301" type="text">
                   <span>OSHA requires a 40-hour HAZWOPER training. This HAZWOPER certification must be renewed every year with an 8-hour refresher course.</span>
                </par>
-               <par data-time="0.35" type="text">
+               <par data-time="0.36" type="text">
                   <span>The HAZWOPER training is required for anyone who is cleaning up hazardous waste sites,</span>
                </par>
                <par data-time="0.48" type="text">
@@ -595,16 +580,16 @@
                   <img src="http://localhost/players/course_player/assets/images/L1_slide_18_picture1.png"/>
             </content>
          </topics>
-         <topics name="LESSON QUIZ" data-time="">
+         <topics name="LESSON QUIZ" data-time="0.03">
          <audio>http://localhost/players/course_player/assets/audios/LessonQuiz_Audio.wav</audio>
             <content align="left">
-               <par data-time="0.06" type="text">
+               <par data-time="0.08" type="text">
                   <span><b>It is now data-time to take a quiz and see what you have learned so far!</b></span>
                </par>
                <par data-time="0.32" type="text">
                   <span>
                   <ul>
-                  <li>Please note, you do not have to pass the quiz in order to continue forward. However, it is highly recommended that you pass the quiz (70% or higher) as you will face similar questions in the final exam. Quiz questions give you important insight into the knowledge you should have acquired throughout this course</li>
+                  <li><span data-time="0.32">Please note, you do not have to pass the quiz in order to continue forward. However, it is highly recommended that you pass the quiz (70% or higher) as you will face similar questions in the final exam. Quiz questions give you important insight into the knowledge you should have acquired throughout this course</span></li>
                   </ul>
                   </span>
                </par>
@@ -615,55 +600,66 @@
          </topics>
       </lesson>
       <lesson name="Lesson 2: HAZARD COMMUNICATION">
-      <topics name="Lesson 2:" data-time="">
+      <topics name="Lesson 2:" data-time="0.02">
             <audio>http://localhost/players/course_player/assets/audios/L2_Slide_1.wav</audio>
             <content align="center">
                <par data-time="0.05" type="text">
                   <span>HAZARD COMMUNICATION</span></par>
             </content>
          </topics>
-         <topics name="Hazard Communication" data-time="">
+         <topics name="Hazard Communication" data-time="0.03">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_2.wav</audio>
             <content align="left">
                <par data-time="0.12" type="text">
-                  <span>Chemicals directly or indirectly affect our daily lives, impacting our food, health and lifestyle.</span>
-               </par>
-               <par data-time="0.21" type="text">
-                  <span>While chemicals can be helpful in many ways, they can also have serious and somedata-times deadly impacts on human health and the environment.</span>
-               </par>
-               <par data-time="0.32" type="text">
-                  <span>For example, chemicals can cause heart diseases, burns and rashes, kidney and lung damage, sterility, cancer and many more deadly side effects.</span>
+           		<span>
+           			<div>
+                  <span data-time="0.12">Chemicals directly or indirectly affect our daily lives, impacting our food, health and lifestyle.</span>
+                  <span data-time="0.22">While chemicals can be helpful in many ways, they can also have serious and somedata-times deadly impacts on human health and the environment.</span>
+                  <span data-time="0.33">For example, chemicals can cause heart diseases, burns and rashes, kidney and lung damage, sterility, cancer and many more deadly side effects.</span>
+                  </div>
+              	</span>
                </par>
                <par data-time="0.45" type="text">
-                  <span>Due to the possibility of severe injury, it is important to have readily available information on the hazardous properties of chemicals and recommended control measures.</span>
+               	<span>
+               		<div>
+                  <span data-time="0.45">Due to the possibility of severe injury, it is important to have readily available information on the hazardous properties of chemicals and recommended control measures.</span>
+              </div>
+              </span>
                </par>
-               <par data-time="1.04" type="text">
-                  <span>This is the purpose of OSHA’s Hazard Communication Standard, or HCS.  It requires employers to provide workers with information and identities of workplace chemicals to help them make smart decisions about chemical hazards to which they are exposed.</span>
+               <par data-time="0.51" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.51">This is the purpose of OSHA’s Hazard Communication Standard, or HCS.</span>  
+                <span data-time="1.04"> It requires employers to provide workers with information and identities of workplace chemicals to help them make smart decisions about chemical hazards to which they are exposed.</span>
+            </div>
+            </span>
                </par>
             </content>
             <content align="right">
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_2_picture1.png"/>
             </content>
          </topics>
-         <topics name="Hazard Communication Standard (HCS)" data-time="">
+         <topics name="Hazard Communication Standard (HCS)" data-time="0.05">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_3.wav</audio>
             <content align="left">
                <par data-time="0.17" type="text">
-                  <span>The HCS ensures that all chemicals produced, imported, or used by American companies are evaluated, and the information is communicated to workers</span>
+               	<span>
+                 <div>
+                  <span data-time="0.17">The HCS ensures that all chemicals produced, imported, or used by American companies are evaluated, and the information is communicated to workers</span>
+                  <span data-time="0.29">Information on the Hazard Communication Standard can be found in OSHA regulation <a href="">29 CFR Part 1910.1200.</a></span>
+              </div>
+              </span>
                </par>
-               <par data-time="0.28" type="text">
-                  <span>Information on the Hazard Communication Standard can be found in OSHA regulation <a href="">29 CFR Part 1910.1200.</a></span>
-               </par>
-               <par data-time="0.35" type="text">
+               <par data-time="0.37" type="text">
                   <span>The Hazard Communication Standard requires that employers provide employees with information through:</span>
                </par>
                <par data-time="0.45" type="text">
                   <span>
                   <ul>
-                  <li>A written program for each location to cover chemical safety, hazard communication and safe work procedures;</li>
-                  <li>Labelling containers of hazardous chemicals;</li>
-                  <li>Safety Data Sheets (SDSs) which provide detailed information about a hazardous chemical; and</li>
-                  <li>Training employees on labelling and SDSs information.</li>
+                  <li><span data-time="0.45">A written program for each location to cover chemical safety, hazard communication and safe work procedures;</span></li>
+                  <li><span data-time="0.48">Labelling containers of hazardous chemicals;</span></li>
+                  <li><span data-time="0.55">Safety Data Sheets (SDSs) which provide detailed information about a hazardous chemical; and</span></li>
+                  <li><span data-time="1.01">Training employees on labelling and SDSs information.</span></li>
                   </ul>
                   </span>
                </par>  
@@ -672,30 +668,32 @@
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_3_picture1.png"/>
             </content>
          </topics>
-         <topics name="Substances not covered by HCS" data-time="">
+         <topics name="Substances not covered by HCS" data-time="0.05">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_4.wav</audio>
             <content align="left">
-               <par data-time="0.11" type="text">
-                  <span>Some substances are not covered by HCS because they fall under the jurisdiction of regulations</span>
+               <par data-time="0.12" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.12">Some substances are not covered by HCS because they fall under the jurisdiction of regulations</span>
+                  <span data-time="0.201">other than OSHA’s Hazard Communication Standard <a href="">29 CFR Part 1910.1200.</a></span>
+              </div>
+              </span>
                </par>
-               <par data-time="0.19" type="text">
-                  <span>other than OSHA’s Hazard Communication Standard <a href="">29 CFR Part 1910.1200.</a></span>
-               </par>
-               <par data-time="0.23" type="text">
+               <par data-time="0.24" type="text">
                   <span>The chemicals not included under HCS are:</span>
                </par>
-               <par data-time="0.49" type="text">
+               <par data-time="0.28" type="text">
                   <span>
                   <ul>
-                  <li>Hazardous wastes defined by RCRA</li>
-                  <li>Any hazardous substance defined by CERCLA</li>
-                  <li>Tobacco products</li>
-                  <li>Wood products</li>
-                  <li>Food or alcoholic beverages</li>
-                  <li>Drugs</li>
-                  <li>Cosmetics</li>
-                  <li>Ionizing and non-ionizing radiation</li>
-                  <li>Biological hazards</li>
+                  <li><span data-time="0.28">Hazardous wastes defined by RCRA</span></li>
+                  <li><span data-time="0.34">Any hazardous substance defined by CERCLA</span></li>
+                  <li><span data-time="0.35">Tobacco products</span></li>
+                  <li><span data-time="0.37">Wood products</span></li>
+                  <li><span data-time="0.39">Food or alcoholic beverages</span></li>
+                  <li><span data-time="0.399">Drugs</span></li>
+                  <li><span data-time="0.41">Cosmetics</span></li>
+                  <li><span data-time="0.45">Ionizing and non-ionizing radiation</span></li>
+                  <li><span data-time="0.49">Biological hazards</span></li>
                   </ul>
                   </span>
                </par>  
@@ -704,68 +702,78 @@
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_4_picture1.png"/>
             </content>
          </topics>
-         <topics name="Globally Harmonized System (GHS)" data-time="">
+         <topics name="Globally Harmonized System (GHS)" data-time="0.06">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_5.wav</audio>
             <content align="left">
-               <par data-time="0.18" type="text">
-                  <span>In 2012, OSHA modified the HCS to fall in line with the United Nations’ Globally Harmonized System of Classification and Labeling of Chemicals,</span>
+               <par data-time="0.19" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.19">In 2012, OSHA modified the HCS to fall in line with the United Nations’ Globally Harmonized System of Classification and Labeling of chemicals,</span>
+                  <span data-time="0.301">also known as GHS. The GHS is a system used to harmonize and standardize the classification and labeling of chemicals.</span>
+                  <span data-time="0.41">It is a comprehensive approach for determining health, physical, and environmental hazards of chemicals. This system is updated every two years to keep it current.</span>
+              </div>
+              </span>
                </par>
-               <par data-time="0.29" type="text">
-                  <span>also known as GHS. The GHS is a system used to harmonize and standardize the classification and labeling of chemicals.</span>
-               </par>
-               <par data-time="0.39" type="text">
-                  <span>It is a comprehensive approach for determining health, physical, and environmental hazards of chemicals.  This system is updated every two years to keep it current.</span>
-               </par>
-               <par data-time="0.56" type="text">
-                  <span>The main objective of this system is for the same set of rules for classifying hazards, and the same format and content for labels and safety data sheets (SDSs) to be be adopted and used around the world.</span>
-               </par>
-               <par data-time="1.13" type="text">
-                  <span>Thus, increasing the quality and consistency of information provided to workers, employers and chemical users. GHS went partially into effect in 2012, and was fully effective by June 1, 2016.</span>
-               </par>
-               <par data-time="1.32" type="text">
-                  <span>A very important benefit that came from aligning OSHA’s HCS with the international GHS is that now every chemical imported into the United States is accompanied by easily understandable hazard and precaution information.</span>
-               </par>  
+               <par data-time="0.57" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.57">The main objective of this system is for the same set of rules for classifying hazards, and the same format and content for labels and safety data sheets (SDSs) to be be adopted and used around the world.</span>
+                  <span data-time="1.14">Thus, increasing the quality and consistency of information provided to workers, employers and chemical users. GHS went partially into effect in 2012,and was fully effective by June 1, 2016.</span>
+                  </div>
+              </span>
+              </par>
+              <par data-time="1.32" type="text">
+                  <span data-time="1.32">A very important benefit that came from aligning OSHA’s HCS with the international GHS is that now every chemical imported into the United States is accompanied by easily understandable hazard and precaution information.</span>
+              </par>
             </content>
             <content align="right">
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_5_picture1.png"/>
             </content>
          </topics>
-         <topics name="Which substances are covered by the GHS?" data-time="">
+         <topics name="Which substances are covered by the GHS?" data-time="0.05">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_6.wav</audio>
             <content align="left">
-               <par data-time="0.17" type="text">
-                  <span>The GHS regulations covers only hazardous chemicals. During the classification process, the manufacturer or importer must determine whether the chemical is hazardous or not.</span>
+               <par data-time="0.18" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.18">The GHS regulations covers only hazardous chemicals. During the classification process, the manufacturer or importer must determine whether the chemical is hazardous or not.</span>
+                  <span data-time="0.33">With the alignment of GHS to HCS, the hazard information became consistent in format making it easier to understand for both the employees and the employers.</span>
+                  <span data-time="0.41">GHS simply communicates the inherent risks of chemicals, and each country can implement its own chemical controls.</span>
+              </div>
+              </span>
                </par>
-               <par data-time="0.29" type="text">
-                  <span>With the alignment of GHS to HCS, the hazard information became consistent in format making it easier to understand for both the employees and the employers.</span>
-               </par>
-               <par data-time="0.39" type="text">
-                  <span>GHS simply communicates the inherent risks of chemicals, and each country can implement its own chemical controls.</span>
-               </par>
-               <par data-time="0.53" type="text">
-                  <span>The GHS has explicit criteria for the classification of hazardous chemicals which help determine both physical and health hazards. All these hazards will be discussed in detail in later lessons.</span>
+               <par data-time="0.54" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.54">The GHS has explicit criteria for the classification of hazardous chemicals which help determine both physical and health hazards. All these hazards will be discussed in detail in later lessons.</span>
+              </div>
+              </span>
                </par>
                <par data-time="1.06" type="text">
-                  <span>In order to stay safe, workers must receive training from their employers, and they should always use safe handling procedures, read labels, and check SDSs.</span>
+               	<span>
+               		<div>
+                  <span data-time="1.06">In order to stay safe, workers must receive training from their employers, and they should always use safe handling procedures, read labels, and check SDSs.</span>
+              </div>
+              </span>
                </par> 
             </content>
             <content align="right">
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_6_picture1.png"/>
             </content>
          </topics>
-         <topics name="Changes to HCS under GHS" data-time="">
+         <topics name="Changes to HCS under GHS" data-time="0.06">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_7.wav</audio>
             <content align="left">
-               <par data-time="0.16" type="text">
+               <par data-time="0.17" type="text">
                   <span>When OSHA modified its Hazard Communications Standard to align with the Globally Harmonized System, several key revisions to the HCS happened:</span>
                </par>
-               <par data-time="1.04" type="text">
+               <par data-time="0.28" type="text">
                   <span>
                   <ul>
-                  <li>Permissible exposure limit (PEL), threshold limit value (TLV) and carcinogen status for hazardous chemicals were to be disclosed.</li>
-                  <li>A new category was created that is Hazards Not Otherwise Classified (HNOC). These are disclosed on the Safety Data Sheets, not via a label.</li>
-                  <li>Pyrophoric gases, simple asphyxiant, and combustible dusts are no longer listed as hazards not otherwise classified (HNOC), but are instead discussed individually.</li>
-                  <li>Chemical mixtures for which data is not available, allows for educated guesses to be made based on similar mixes concerning the health hazards they pose to the exposed workers.</li>
+                  <li><span data-time="0.28">Permissible exposure limit (PEL), threshold limit value (TLV) and carcinogen status for hazardous chemicals were to be disclosed.</span></li>
+                  <li><span data-time="0.39">A new category was created that is Hazards Not Otherwise Classified (HNOC). These are disclosed on the Safety Data Sheets, not via a label.</span></li>
+                  <li><span data-time="0.52">Pyrophoric gases, simple asphyxiant, and combustible dusts are no longer listed as hazards not otherwise classified (HNOC), but are instead discussed individually.</span></li>
+                  <li><span data-time="1.06">Chemical mixtures for which data is not available, allows for educated guesses to be made based on similar mixes concerning the health hazards they pose to the exposed workers.</span></li>
                   </ul>
                   </span>
                </par>
@@ -777,20 +785,24 @@
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_7_picture1.png"/>
             </content>
          </topics>
-         <topics name="Hazardous Material Labeling" data-time="">
+         <topics name="Hazardous Material Labeling" data-time="0.03">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_8.wav</audio>
             <content align="left">
-               <par data-time="0.12" type="text">
-                  <span>One way of conveying specific information about a chemical to workers is via a HAZCOM label. Chemical manufacturers and importers</span>
-               </par>
-               <par data-time="0.21" type="text">
-                  <span>must create labels based on the classification of that particular chemical and make sure they are clearly displayed on each product.</span>
+               <par data-time="0.13" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.13">One way of conveying specific information about a chemical to workers is via a HAZCOM label. Chemical manufacturers and importers</span>
+                  <span data-time="0.22">must create labels based on the classification of that particular chemical and make sure they are clearly displayed on each product.</span>
+              </div>
+              </span>
                </par>
                <par data-time="0.29" type="text">
-                  <span>Labels contain important information, and workers should make sure to read them before beginning any work around workplace chemicals.</span>
-               </par>
-               <par data-time="0.44" type="text">
-                  <span>Labels under GHS are substantially different from other systems, such as  Hazardous Materials Identification System (HMIS) and National Fire Protection Association (NFPA).</span>
+               	<span>
+               		<div>
+                  <span data-time="0.31">Labels contain important information, and workers should make sure to read them before beginning any work around workplace chemicals.</span>
+                  <span data-time="0.44">Labels under GHS are substantially different from other systems, such as  Hazardous Materials Identification System (HMIS) and National Fire Protection Association (NFPA).</span>
+              </div>
+              </span>
                </par>
                <par data-time="1.02" type="text">
                   <span>For example under the NFPA and HMIS systems, “0” was least hazardous and “4” was most hazardous. Under the GHS severity ratings, “4” is least hazardous and “1” is most hazardous.</span>
@@ -800,24 +812,24 @@
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_8_picture1.png"/>
             </content>
          </topics>
-         <topics name="Labeling Requirements" data-time="">
+         <topics name="Labeling Requirements" data-time="0.03">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_9.wav</audio>
             <content align="left">
-               <par data-time="0.13" type="text">
+               <par data-time="0.14" type="text">
                   <span>In 2012, OSHA adopted new hazardous material labeling requirements to fall into line with the Globally Harmonized System (GHS).</span>
                </par>
-               <par data-time="0.23" type="text">
+               <par data-time="0.24" type="text">
                   <span>Under this system, all hazardous chemicals shipped after June 1, 2015 must be clearly labeled in English with the following elements:</span>
                </par>
-               <par data-time="1.14" type="text">
+               <par data-time="0.31" type="text">
                   <span>
                   <ul>
-                  <li>A product identifier, which is the chemical name, common name, trade name, or other designation;</li>
-                  <li>Pictograms, which are graphics, or pictures, that quickly give information about the chemical;</li>
-                  <li>A signal word, such as “Danger” or “Warning”, to indicate the level of caution that should be used with that particular chemical or mix;</li>
-                  <li>Hazard statements, which describe the type of potential hazard, such as, “Causes damage to kidneys when absorbed through the skin;”</li>
-                  <li>Precautionary statements, which describe measures that should be taken to minimize the impact of the chemical, such as, “If skin irritation occurs, seek medical help;” and</li>
-                  <li>Name, address and telephone number of the manufacturer, importer, or any other responsible party.</li>
+                  <li><span data-time="0.31">A product identifier, which is the chemical name, common name, trade name, or other designation;</span></li>
+                  <li><span data-time="0.37">Pictograms, which are graphics, or pictures, that quickly give information about the chemical;</span></li>
+                  <li><span data-time="0.46">A signal word, such as “Danger” or “Warning”, to indicate the level of caution that should be used with that particular chemical or mix;</span></li>
+                  <li><span data-time="0.54">Hazard statements, which describe the type of potential hazard, such as, “Causes damage to kidneys when absorbed through the skin;”</span></li>
+                  <li><span data-time="1.07">Precautionary statements, which describe measures that should be taken to minimize the impact of the chemical, such as, “If skin irritation occurs, seek medical help;” and</span></li>
+                  <li><span data-time="1.14">Name, address and telephone number of the manufacturer, importer, or any other responsible party.</span></li>
                   </ul>
                   </span>
                </par>
@@ -826,27 +838,27 @@
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_9_picture1.png"/>
             </content>
          </topics>
-         <topics name="Pictograms" data-time="">
+         <topics name="Pictograms" data-time="0.02">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_10.wav</audio>
             <content align="left">
-               <par data-time="0.09" type="text">
+               <par data-time="0.11" type="text">
                   <span>Pictograms are black pictures on a white background, surrounded by a red square frame set on the point.</span>
                </par>
                <par data-time="0.23" type="text">
                   <span>The graphic representation on the next slide shows the symbol, name and associated hazards for each pictogram. GHS uses nine pictograms to communicate hazard information:</span>
                </par>
-               <par data-time="0.42" type="text">
+               <par data-time="0.26" type="text">
                   <span>
                   <ol>
-                  <li>Explosive</li>
-                  <li>Flammable</li>
-                  <li>Oxidizing</li>
-                  <li>Compressed gas</li>
-                  <li>Corrosive</li>
-                  <li>Toxic</li>
-                  <li>Irritant</li>
-                  <li>Health hazard</li>
-                  <li>Environmental hazard</li>
+                  <li><span data-time="0.26">Explosive</span></li>
+                  <li><span data-time="0.28">Flammable</span></li>
+                  <li><span data-time="0.301">Oxidizing</span></li>
+                  <li><span data-time="0.32">Compressed gas</span></li>
+                  <li><span data-time="0.34">Corrosive</span></li>
+                  <li><span data-time="0.36">Toxic</span></li>
+                  <li><span data-time="0.38">Irritant</span></li>
+                  <li><span data-time="0.401">Health hazard</span></li>
+                  <li><span data-time="0.43">Environmental hazard</span></li>
                   </ol>
                   </span>
                </par>
@@ -858,13 +870,13 @@
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_10_picture1.png"/>
             </content>
          </topics>
-         <topics name="Pictograms" data-time="">
+         <topics name="Pictograms" data-time="0.03">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_11.wav</audio>
          <content align="center">
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_11_picture1.png"/>
             </content>
          </topics>
-         <topics name="Pictograms Categories" data-time="">
+         <topics name="Pictograms Categories" data-time="0.03">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_12.wav</audio>
          <content align="left">
          <par data-time="0.14" type="text">
@@ -878,23 +890,31 @@
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_12_picture1.png"/>
             </content>
          </topics>
-         <topics name="Safety Data Sheets (SDSs)" data-time="">
+         <topics name="Safety Data Sheets (SDSs)" data-time="0.04">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_13.wav</audio>
          <content align="left">
-         <par data-time="0.09" type="text">
-                  <span>In addition to the labeling changes that happened when OSHA aligned their HCS and GHS standards,</span>
+         <par data-time="0.11" type="text">
+         	<span>
+         		<div>
+                  <span data-time="0.11">In addition to the labeling changes that happened when OSHA aligned their HCS and GHS standards,</span>
+                  <span data-time="0.201">there were also important changes to data sheets that manufacturers or importers have to supply about their product.  We’ll look at those now.</span>
+              </div>
+              </span>
                </par>
-               <par data-time="0.19" type="text">
-                  <span>there were also important changes to data sheets that manufacturers or importers have to supply about their product.  We’ll look at those now.</span>
-               </par>
-               <par data-time="0.32" type="text">
-                  <span>Under GHS guidelines, OSHA documents that were formerly known as Material Safety Data Sheets (MSDSs) became known as Safety Data Sheets (SDSs).</span>
+               <par data-time="0.33" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.33">Under GHS guidelines, OSHA documents that were formerly known as Material Safety Data Sheets (MSDSs) became known as Safety Data Sheets (SDSs).</span>
+              </div>
+              </span>
                </par>
                <par data-time="0.39" type="text">
-                  <span>These are informational sheets provided by chemical manufacturers or importers to employers.</span>
-               </par>
-               <par data-time="0.52" type="text">
-                  <span>Employers must have an SDSs for every hazardous chemical on hand.  The primary use of SDSs is to inform employees of potential risks from exposure to the chemical.</span>
+               	<span>
+               		<div>
+                  <span data-time="0.401">These are informational sheets provided by chemical manufacturers or importers to employers.</span>
+                  <span data-time="0.52">Employers must have an SDSs for every hazardous chemical on hand. The primary use of SDSs is to inform employees of potential risks from exposure to the chemical.</span>
+              </div>
+              </span>
                </par>
                <par data-time="1.05" type="text">
                   <span>The SDSs include information about the properties of each chemical; the physical and health hazards; protective measures and safety procedures for handling, storing and transporting the chemical.</span>
@@ -904,22 +924,26 @@
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_13_picture1.png"/>
             </content>
          </topics>
-         <topics name="Safety Data Sheets (SDSs) Sections" data-time="">
+         <topics name="Safety Data Sheets (SDSs) Sections" data-time="0.04">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_14.wav</audio>
          <content align="left">
-               <par data-time="0.14" type="text">
-                  <span>There are 16 categories on a Safety Data Sheet, and GHS required all SDSs be in this uniform format by June 1, 2016.</span>
+               <par data-time="0.15" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.15">There are 16 categories on a Safety Data Sheet, and GHS required all SDSs be in this uniform format by June 1, 2016.</span>
+                  <span data-time="0.27">Furthermore, the format of the Safety Data Sheet was changed to put the information more immediately important to employees at the top, with the more technical information in later sections.</span>
+              </div>
+              </span>
                </par>
-               <par data-time="0.25" type="text">
-                  <span>Furthermore, the format of the Safety Data Sheet was changed to put the information more immediately important to employees at the top, with the more technical information in later sections.</span>
+               <par data-time="0.39" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.39">The information contained in the SDSs is largely similar to the older MSDSs; however now the SDSs are required to be presented in a consistent 16-section format.</span>
+                  <span data-time="0.49">This ensures that the SDSs are easy to read and ‘user friendly’ for workers, to help them better understand the nature of the chemical they’re handling.</span>
+                </div>
+              </span>
                </par>
-               <par data-time="0.38" type="text">
-                  <span>The information contained in the SDSs is largely similar to the older MSDSs; however now the SDSs are required to be presented in a consistent 16-section format.</span>
-               </par>
-               <par data-time="0.49" type="text">
-                  <span>This ensures that the SDSs are easy to read and ‘user friendly’ for workers, to help them better understand the nature of the chemical they’re handling.</span>
-               </par>
-               <par data-time="0.54" type="text">
+               <par data-time="0.55" type="text">
                   <span>Under the new, GHS Safety Data Sheet format, there are 12 mandatory sections, in addition to four non-mandatory sections.</span>
                </par>
                <par data-time="1.09" type="text">
@@ -930,31 +954,31 @@
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_14_picture1.png"/>
             </content>
          </topics>
-         <topics name="Safety Data Sheets (SDSs) Sections" data-time="">
+         <topics name="Safety Data Sheets (SDSs) Sections" data-time="0.05">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_15.wav</audio>
             <content align="left">
-               <par data-time="0.08" type="text">
+               <par data-time="0.09" type="text">
                   <span>To summarize, the following are the sections of the SDSs:</span>
                </par>
-               <par data-time="0.59" type="text">
+               <par data-time="0.12" type="text">
                   <span>
                   <ol>
-                  <li>Chemical Identification</li>
-                  <li>Hazard identification</li>
-                  <li>Ingredients</li>
-                  <li>First-aid measures</li>
-                  <li>Fire-fighting measures</li>
-                  <li>Accidental release measures</li>
-                  <li>Storage and handling information</li>
-                  <li>Exposure and personal protection information</li>
-                  <li>Physical and chemical properties</li>
-                  <li>Stability and reactivity</li>
-                  <li>Toxicological information</li>
-                  <li>Ecological information</li>
-                  <li>Disposal information</li>
-                  <li>Transport information</li>
-                  <li>Regulatory information</li>
-                  <li>Other information</li>
+                  <li><span data-time="0.12">Chemical Identification</span></li>
+                  <li><span data-time="0.15">Hazard identification</span></li>
+                  <li><span data-time="0.17">Ingredients</span></li>
+                  <li><span data-time="0.19">First-aid measures</span></li>
+                  <li><span data-time="0.22">Fire-fighting measures</span></li>
+                  <li><span data-time="0.25">Accidental release measures</span></li>
+                  <li><span data-time="0.29">Storage and handling information</span></li>
+                  <li><span data-time="0.34">Exposure and personal protection information</span></li>
+                  <li><span data-time="0.37">Physical and chemical properties</span></li>
+                  <li><span data-time="0.41">Stability and reactivity</span></li>
+                  <li><span data-time="0.44">Toxicological information</span></li>
+                  <li><span data-time="0.47">Ecological information</span></li>
+                  <li><span data-time="0.49">Disposal information</span></li>
+                  <li><span data-time="0.53">Transport information</span></li>
+                  <li><span data-time="0.56">Regulatory information</span></li>
+                  <li><span data-time="0.59">Other information</span></li>
                   </ol>
                   </span>
                </par>
@@ -966,61 +990,56 @@
          <topics name="Scope of the HAZWOPER Standard">
             <audio>http://localhost/players/course_player/assets/audios/L2_Slide_16(retake).wav</audio>
             <content align="center">
-            <par data-time="2.02" type="text">
+            <par data-time="0.02" type="text">
                   <span> 
                   <table>
   <tr>
-    <th>Sections of SDSs</th>
-    <th>Description </th>
+    <th><span data-time="0.02">Sections of SDSs</span></th>
+    <th>Description</th>
  
   </tr>
   <tr>
     <td><ol>
-    <li>Chemical Identification</li>
-     <li>Hazard identification</li>
-     <li>Ingredients</li>
-     <li>First-aid measures</li>
-     <li>Fire-fighting measures</li>
-     <li>Accidental release measures</li>
-     <li>Storage and handling information</li>
-     <li>Exposure and personal protection information</li>
+    <li><span data-time="0.05">Chemical Identification</span></li>
+     <li><span data-time="0.08">Hazard identification</span></li>
+     <li><span data-time="0.09">Ingredients</span></li>
+     <li><span data-time="0.12">First-aid measures</span></li>
+     <li><span data-time="0.14">Fire-fighting measures</span></li>
+     <li><span data-time="0.17">Accidental release measures</span></li>
+     <li><span data-time="0.21">Storage and handling information</span></li>
+     <li><span data-time="0.24">Exposure and personal protection information</span></li>
     </ol></td>
     <td><ul>
-    <li>
-    Sections 1-8 of a Safety Data Sheet cover general information about the chemical; the name, hazards, composition, safe handling practices, and emergency control measures.
-  </li>
-     <li>
-    For example, here you will find information about how to put out a fire caused by the chemical, and how to prevent dangerous exposure.  In short, these early sections of the SDSs contain information for workers who handle the chemical.
-  </li>
+    <li><span data-time="0.38">Sections 1-8 of a Safety Data Sheet cover general information about the chemical; the name, hazards, composition, safe handling practices, and emergency control measures.</span></li>
+     <li><span data-time="0.54">For example, here you will find information about how to put out a fire caused by the chemical, and how to prevent dangerous exposure.  In short, these early sections of the SDSs contain information for workers who handle the chemical.</span></li>
     </ul></td>
     
   </tr>
   <tr>
     <td>
     <ol>
-    <li>Physical and chemical properties</li>
-    <li>Stability and reactivity</li>
-    <li>Toxicological information</li>
+    <li><span data-time="0.57">Physical and chemical properties</span></li>
+    <li><span data-time="0.599">Stability and reactivity</span></li>
+    <li><span data-time="1.03">Toxicological information</span></li>
+    <li><span data-time="1.05">Other information</span></li>
     </ol>
     </td>
     <td>
     <ul>
-    <li>Sections 9-11 and section 16 contain technical and scientific information about the chemical; its properties, stability and reactivity, toxicological information, and exposure control.  These sections also indicate when the report was written or last revised.</li>
+    <li><span data-time="1.26">Sections 9-11 and section 16 contain technical and scientific information about the chemical; its properties, stability and reactivity, toxicological information, and exposure control.  These sections also indicate when the report was written or last revised.</span></li>
     </ul>
     </td>
     
   </tr>
   <tr>
     <td><ol>
-    <li>Ecological information</li>
-    <li>Disposal information</li>
-    <li>Transport information</li>
-    <li>Regulatory information</li>
-    <li>Other information</li>
+    <li><span data-time="1.32">Ecological information</span></li>
+    <li><span data-time="1.35">Disposal information</span></li>
+    <li><span data-time="1.37">Transport information</span></li>
+    <li><span data-time="1.41">Regulatory information</span></li>
     </ol></td>
     <td><ul>
-    <li>Sections 12-15 are the non-mandatory sections about environmental, transport, disposal, and regulatory issues.  The SDSs must contain these sections to be consistent with the requirements of GHS; however OSHA will not enforce them as these issues fall under the jurisdiction of other agencies.
-</li>
+    <li><span data-time="2.02">Sections 12-15 are the non-mandatory sections about environmental, transport, disposal, and regulatory issues.  The SDSs must contain these sections to be consistent with the requirements of GHS; however OSHA will not enforce them as these issues fall under the jurisdiction of other agencies.</span></li>
     </ul></td>
   </tr>
 </table>
@@ -1028,40 +1047,52 @@
    </par>
             </content>
          </topics>
-         <topics name="SDSs and Employer Responsibilities" data-time="">
+         <topics name="SDSs and Employer Responsibilities" data-time="0.06">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_17.wav</audio>
          <content align="left">
-               <par data-time="0.15" type="text">
-                  <span>Employers must make sure that Safety Data Sheets are easily accessible by workers at all data-times for all the hazardous chemicals in their workplace.</span>
+               <par data-time="0.16" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.16">Employers must make sure that Safety Data Sheets are easily accessible by workers at all data-times for all the hazardous chemicals in their workplace.</span>
+              </div>
+          </span>
                </par>
                <par data-time="0.24" type="text">
-                  <span>SDSs must be kept in a central location, such as in a binder or on a computer - as long as employees have access to the computer</span>
+               	<span>
+               		<div>
+                  <span data-time="0.24">SDSs must be kept in a central location, such as in a binder or on a computer - as long as employees have access to the computer</span>
+                  <span data-time="0.31">during their shift without leaving their station and there is a back-up available in case of a power outage or emergency.</span>
+              </div>
+          </span>
                </par>
-               <par data-time="0.29" type="text">
-                  <span>during their shift without leaving their station and there is a back-up available in case of a power outage or emergency.</span>
+               <par data-time="0.41" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.41">As new information becomes available, the SDSs must be updated so workers always have easy access to current information.</span>
+                  <span data-time="0.47">It is the responsibility of the employer to designate a person for maintaining the SDSs.</span>
+              </div>
+              </span>
                </par>
-               <par data-time="0.39" type="text">
-                  <span>As new information becomes available, the SDSs must be updated so workers always have easy access to current information.</span>
-               </par>
-               <par data-time="0.46" type="text">
-                  <span>It is the responsibility of the employer to designate a person for maintaining the SDSs.</span>
-               </par>
-               <par data-time="0.51" type="link">
+               <par data-time="0.51" type="text">
                <link>https://www.osha.gov/Publications/OSHA3514.pdf</link>
-               <span>Click here for a detailed review of SDSs</span>
+               <span><a href="https://www.osha.gov/Publications/OSHA3514.pdf">Click here for a detailed review of SDSs</a></span>
                </par>
          </content>
          <content align="right">
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_17_picture1.png"/>
             </content>
          </topics>
-         <topics name="Employee Training" data-time="">
+         <topics name="Employee Training" data-time="0.03">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_18.wav</audio>
          <content align="left">
-               <par data-time="0.12" type="text">
-                  <span>Employees have the right to know the potential hazards of chemicals they work with at their job through SDSs, training and a written hazard communication plan.</span>
+               <par data-time="0.13" type="text">
+               	<span>
+                 <div>
+                  <span data-time="0.13">Employees have the right to know the potential hazards of chemicals they work with at their job through SDSs, training and a written hazard communication plan.</span>
+              </div>
+          </span>
                </par>
-               <par data-time="0.19" type="text">
+               <par data-time="0.201" type="text">
                   <span>Employers must establish a training program for employees that provides training upon initial employment,</span>
                </par>
                <par data-time="0.28" type="text">
@@ -1072,42 +1103,48 @@
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_18_picture1.png"/>
             </content>
          </topics>
-        <topics name="Summary" data-time="">
+        <topics name="Summary" data-time="0.02">
          <audio>http://localhost/players/course_player/assets/audios/L2_Slide_19.wav</audio>
          <content align="left">
-               <par data-time="0.12" type="text">
-                  <span>Since chemicals have the potential to cause serious injury or death, OSHA created a Hazard Communication Standard, or HCS, to keep workers safe.</span>
+               <par data-time="0.13" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.13">Since chemicals have the potential to cause serious injury or death, OSHA created a Hazard Communication Standard, or HCS, to keep workers safe.</span>
+                  <span data-time="0.22">This supported the “Right to Know” Law, which states that employees have a right to know details about the hazardous materials they handle.</span>
+              </div>
+          </span>
                </par>
-               <par data-time="0.21" type="text">
-                  <span>This supported the “Right to Know” Law, which states that employees have a right to know details about the hazardous materials they handle.</span>
+               <par data-time="0.33" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.33">In 2012, OSHA aligned its HCS with the international Globally Harmonized System of Classification and Labeling of Chemicals (GHS).</span>
+                  <span data-time="0.501">To bring HCS in line with GHS, important changes were made to labeling and Safety Data Sheets. OSHA’s Material Safety Data Sheets (MSDSs) were changed to Safety Data Sheets (SDSs) under this new system.</span>
+              </div>
+          </span>
                </par>
-               <par data-time="0.32" type="text">
-                  <span>In 2012, OSHA aligned its HCS with the international Globally Harmonized System of Classification and Labeling of Chemicals (GHS).</span>
-               </par>
-               <par data-time="0.49" type="text">
-                  <span>To bring HCS in line with GHS, important changes were made to labeling and Safety Data Sheets. OSHA’s Material Safety Data Sheets (MSDSs) were changed to Safety Data Sheets (SDSs) under this new system.</span>
-               </par>
-               <par data-time="0.57" type="text">
-                  <span>There must be SDSs for each chemical at a work site, and the forms must be in a central location that workers can easily access.</span>
-               </par>
-               <par data-time="1.06" type="text">
-                  <span>Finally, workers must receive training when they start work, and at any data-time a new chemical is introduced into the work environment.</span>
+               <par data-time="0.58" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.58">There must be SDSs for each chemical at a work site, and the forms must be in a central location that workers can easily access.</span>
+                  <span data-time="1.06">Finally, workers must receive training when they start work, and at any data-time a new chemical is introduced into the work environment.</span>
+              </div>
+          </span>
                </par>
          </content>
          <content align="right">
                   <img src="http://localhost/players/course_player/assets/images/L2_slide_19_picture1.png"/>
             </content>
          </topics>
-         <topics name="LESSON QUIZ" data-time="">
+         <topics name="LESSON QUIZ" data-time="0.03">
          <audio>http://localhost/players/course_player/assets/audios/LessonQuiz_Audio.wav</audio>
             <content align="left">
-               <par data-time="0.06" type="text">
+               <par data-time="0.08" type="text">
                   <span><b>It is now data-time to take a quiz and see what you have learned so far!</b></span>
                </par>
                <par data-time="0.32" type="text">
                   <span>
                   <ul>
-                  <li>Please note, you do not have to pass the quiz in order to continue forward. However, it is highly recommended that you pass the quiz (70% or higher) as you will face similar questions in the final exam. Quiz questions give you important insight into the knowledge you should have acquired throughout this course</li>
+                  <li><span data-time="0.32">Please note, you do not have to pass the quiz in order to continue forward. However, it is highly recommended that you pass the quiz (70% or higher) as you will face similar questions in the final exam. Quiz questions give you important insight into the knowledge you should have acquired throughout this course</span></li>
                   </ul>
                   </span>
                </par>
