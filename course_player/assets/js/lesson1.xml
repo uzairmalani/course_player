@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+   <course name="40 Hour HAZWOPER OSHA Online Training">
+      <lesson name="Lesson 1: OSHA AND THE HAZWOPER STANDARD">
+         <topics name="Lesson 1:" data-time="0.02">    
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_1.wav</audio>         
+            <content align="center">
+               <par data-time="0.06" type="text">
+                  <span>OSHA AND THE HAZWOPER STANDARD</span></par>
+            </content>
+
+         </topics>
+
+         <topics name="The Occupational Safety and Health (OSH) Act" data-time="0.06">
+            
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_2.wav</audio>
+            
+            <content align="left">
+               <par data-time="0.23" type="text">
+                  <span>On December 29, 1970, President Nixon signed the Occupational Safety and Health Act of 1970 (OSH Act) into law, establishing the Occupational Safety and Health Administration (OSHA).</span>
+               </par>
+               <par data-time="0.34" type="text">
+                  <span> It is a national public health agency which is dedicated to protecting America’s workers so that no worker should have to choose between their life and job.</span>
+               </par>
+               <par data-time="0.5105" type="text">
+                  <span> The purpose of the OSH Act is: “to assure so far as possible every working man and woman in the Nation safe and healthful working conditions and to preserve our human resources."</span>
+               </par>
+               <par data-time="0.55" type="text">
+               <span><a href="#"><p><span data-time="0.55">Click here for more information on the OSH Act</span></p></a></span>
+               </par>
+               
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_2_picture1.png"/>
+            </content>
+         </topics>
+
+         <topics name="Hazardous Waste Operations and Emergency Response (HAZWOPER)" data-time="0.06">
+            
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_3.wav</audio>
+            
+            <content align="left">
+               <par data-time="0.22" type="text">
+                  <span>The dumping of hazardous substances poses a significant threat and is a serious safety and health problem that continues to endanger the lives of humans and animals and the quality of their environment.</span>
+               </par>
+               <par data-time="0.29" type="text">
+                  <span> The seriousness of this issue has led to OSHA issuing the HAZWOPER Standard.</span>
+               </par>
+               <par data-time="0.42" type="text">
+                  <span>HAZWOPER stands for Hazardous Waste Operations and Emergency Response. HAZWOPER regulations are covered under the Title</span>
+               </par>
+               <par data-time="0.49" type="text">
+                  <link>#</link>
+                  <span><a href="#"> 29 Code of Federal Regulations (CFR), part 1910.120. </a></span>
+               </par>
+            <par data-time="1.02" type="text">
+                  <span>This standard was issued to protect the health and safety of those working at waste sites and to help them handle hazardous substances safely and effectively.</span>
+               </par>
+               <par data-time="1.07" type="text">
+                  <span>OSHA requires HAZWOPER training for anyone who is:</span>
+               </par>
+               <par data-time="1.101" type="text">
+                  <span>
+                  <ul>
+               <li><span data-time="1.101">Cleaning up hazardous waste sites;</span></li>
+               <li><span data-time="1.16">Working with hazardous waste at treatment, storage, and disposal sites; or</span></li>
+               <li><span data-time="1.21">Responding to emergencies concerning hazardous material releases.</span></li>
+                  </ul>
+                  </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_3_picture1.png" />
+            </content>
+         </topics>
+         <topics name="The HAZWOPER Regulation" data-time="0.05">   
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_4.wav</audio>
+            
+            <content align="left">
+               <par data-time="0.07" type="text">
+                  <span>The HAZWOPER regulation </span>
+               </par>
+               <par data-time="0.101" type="text">
+                  <span><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120">29 CFR 1910.120 </a></span>
+               </par>
+               <par data-time="0.26" type="text">
+                  <span>contains 17 different sections. There are also five appendices, Appendix A to Appendix E, that help employers and employees comply with the regulations of this standard.</span>
+               </par>
+               <par data-time="0.39" type="text">
+                  <span>Under federal code, Title 29 CFR 1910.120 establishes Hazardous Waste Operations and Emergency Response regulations concerning:</span>
+               </par>
+               <par data-time="0.43" type="text">
+                  <span>
+                  <ol type="a">
+               <li><span data-time="0.43">Scope, Application, and Definitions</span></li>
+               <li><span data-time="0.46">Safety and Health Program</span></li>
+               <li><span data-time="0.501">Site Characterization and Analysis</span></li>
+               <li><span data-time="0.53">Site Control</span></li>
+               <li><span data-time="0.57">Training (General Site Remediation)</span></li>
+               <li><span data-time="0.59">Medical Surveillance</span></li>
+               <li><span data-time="1.09">Engineering Controls, Work Practices, and Personal Protective Equipment (PPE) for Protection of employees</span></li>
+                  </ol>
+                  </span>
+               </par> 
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_4_picture1.png" />
+            </content>
+         </topics>
+         <topics name="The HAZWOPER Regulation" data-time="0.05">
+            
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_5.wav</audio>
+            
+            <content align="left">
+            <par data-time="0.07" type="text">
+                  <span>
+                  <ol type="a" start="8">
+               <li><span data-time="0.07">Monitoring</span></li>
+               <li><span data-time="0.101">Information Programs</span></li>
+               <li><span data-time="0.14">Handling Drums and Containers</span></li>
+               <li><span data-time="0.17">Decontamination</span></li>
+               <li><span data-time="0.23">Emergency Response at an Uncontrolled Hazardous Waste Site</span></li>
+               <li><span data-time="0.25">Illumination</span></li>
+               <li><span data-time="0.29">Sanitation at Temporary Workplaces</span></li>
+               <li><span data-time="0.33">New Technology Programs</span></li>
+               <li><span data-time="0.38">Certain Operations Conducted Under RCRA</span></li>
+               <li><span data-time="0.43">Emergency Response to Hazardous Substance Releases</span></li>
+                  </ol>
+                  </span>
+               </par>
+               <par data-time="0.51" type="text">
+               <span><a href="table.pdf">Click here to view examples of scope and application of the HAZWOPER standard</a></span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_5_picture1.png" />
+            </content>
+            </topics>
+            <topics name="Scope of the HAZWOPER Standard" data-time="0.04">
+               <audio>http://localhost/players/course_player/assets/audios/L1_Slide_6.wav</audio>
+               <content align="center">
+                  <par data-time="0.07" type="text">
+                  <span>
+                  <table>
+                  <tr>
+                  <th><span data-time="0.07">Sections of the HAZWOPER Standard</span></th>
+                  <th>Description</th>
+                  </tr>
+                  <tr>
+                  <td>
+                  <ol type="a"><li><span data-time="0.11">Scope, Application, and Definitions</span></li>
+                  </ol>
+                  </td>
+                   <td>
+                  <ul>
+                  <li><span data-time="0.16">Section (a) covers the scope and application of this standard.</span></li>
+                  </ul>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <ol type="a" start="2">
+                  <li><span data-time="0.201">Safety and Health Program</span></li>
+                  <li><span data-time="0.24">Site Characterization and Analysis</span></li>
+                  <li><span data-time="0.26">Site Control</span></li>
+                  <li><span data-time="0.301">Training (General Site Remediation)</span></li>
+                  <li><span data-time="0.33">Medical Surveillance</span></li>
+                  <li><span data-time="0.43">Engineering Controls, Work Practices, and Personal Protective Equipment (PPE) for Protection of employees</span></li>
+                  <li><span data-time="0.44">Monitoring</span></li>
+                  <li><span data-time="0.47">Information Programs</span></li>
+                  <li><span data-time="0.501">Handling Drums and Containers</span></li>
+                  <li><span data-time="0.53">Decontamination</span></li>
+                  <li><span data-time="0.59">Emergency Response at an Uncontrolled Hazardous Waste Site</span></li>
+                  <li><span data-time="1.01">Illumination</span></li>
+                  <li><span data-time="1.05">Sanitation at Temporary Workplaces</span></li>
+                  <li><span data-time="1.08">New Technology Programs</span></li>    
+               </ol>
+               </td>
+                  <td><ul>
+                  <li><span data-time="1.21">Sections (b) to (o) of the standard regulates operations where employees are engaged in the cleanup of uncontrolled hazardous waste sites.</span></li>
+                  <li><span data-time="1.32">Section (e) of the HAZWOPER regulation applies to general site workers, and this is by far the largest number of people requiring the HAZWOPER training.</span></li>
+               </ul>
+               </td>
+               </tr>
+               <tr>
+                  <td>
+                  <ol type="a" start="16">
+                  <li><span data-time="1.37">Certain Operations Conducted Under RCRA</span></li>
+                  </ol>
+                  </td>
+                  <td>
+                  <ul>
+                  <li><span data-time="1.49">Section (p) covers those employees who are engaged in treatment, storage and disposal (TSD) facility operations for hazardous waste.</span></li>
+                  </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                  <ol type="a" start="17">
+                  <li><span data-time="1.55">Emergency Response to Hazardous Substance Releases</span></li>
+                  </ol>
+                  </td>
+                  <td>
+                     <ul>
+                  <li><span data-time="2.06">Section (q) covers emergency responders for releases of hazardous substances without regard to the location of the hazard.</span></li>
+                  </ul>
+                  </td>
+               </tr>
+               </table>
+               </span>
+               </par>
+            </content>
+         </topics>
+         <topics name="Appendices to the HAZWOPER Regulation" data-time="0.05">
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_7.wav</audio>
+            <content align="left">
+               <par data-time="0.17" type="text">
+                  <span>There are five appendices to the HAZWOPER regulation that assist employers and employees in complying with the provisions of this standard. These include:</span>
+               </par>
+               <par data-time="0.201" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.201"><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120AppB">Appendix A: Personal protective clothing test methods</a></span></li>
+                  <li><span data-time="0.28"><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120AppB">Appendix B: General description and discussion of the levels of protection and protective gear</a></span></li>
+                  <li><span data-time="0.31"><a href="">Appendix C: Compliance guidelines</a></span></li>
+                  <li><span data-time="0.34"><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120AppD">Appendix D: References</a></span></li>
+                  <li><span data-time="0.38"><a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.120AppE">Appendix E: Training curriculum guidelines</a></span></li>
+                  </ul>                  
+                  </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_7_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Application of the HAZWOPER Standard" data-time="0.05">
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_8.wav</audio>
+            <content align="left">
+               <par data-time="0.09" type="text">
+                  <span>HAZWOPER regulations apply in the following work areas:</span>
+               </par>
+               <par data-time="0.22" type="text">
+                  <span>
+                     <ol>
+                 <li><span data-time="0.22">Clean-up operations required by a government body, whether local, state, federal or other, involving hazardous substances at uncontrolled hazardous waste sites.</span></li>
+                 <li><span data-time="0.34">Corrective measures and clean- up activities at sites covered by the 1976 Resource Conservation and Recovery Act( RCRA).</span></li>
+                 <li><span data-time="0.45">Voluntary clean-up operations at uncontrolled hazardous waste sites by local, state and federal government bodies.</span></li>
+                 <li><span data-time="0.59">Operations involving hazardous waste carried out in treatment, storage or disposal facilities (TSD), by agencies in accordance with the EPA Regulation.</span></li>
+                 <li><span data-time="1.12">Emergency response operations for the release of, or substantial threats of the release of, hazardous substances without regard to the location of the hazard.</span></li>
+              </ol>
+              </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_8_picture1.png" />
+            </content>
+         </topics>
+         <topics name="HAZWOPER Training" data-time="0.03">
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_9.wav</audio>
+            <content align="left">
+               <par data-time="0.11" type="text">
+                  <span>There are several types of HAZWOPER training for the general site worker depending on your job type and experience:</span>
+               </par>
+               <par data-time="0.12" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.12">40-hour training</span></li>
+                  <li><span data-time="0.15">24-hour training</span></li>
+                  <li><span data-time="0.17">8-hour annual refresher</span></li>
+                  </ul>                  
+                  </span>
+               </par>
+              <par data-time="0.27" type="text">
+                  <span>The 40-hour course, which you are just beginning, is intended for workers who perform activities that could expose or potentially expose them</span>
+               </par>
+               <par data-time="0.42" type="text">
+                  <span>to hazardous substances above the Permissible Exposure Limit (PEL) established by OSHA. These individuals usually require the use of Personal Protective Equipment (PPE).</span>
+               </par>
+               <par data-time="0.56" type="text">
+                  <span>The 24-hour HAZWOPER course is for workers who have a temporary or short-term assignment at a HAZWOPER site and will not be exposed to hazardous materials above the PEL established by OSHA,</span>
+               </par>
+               <par data-time="1.07" type="text">
+                  <span> and therefore will not require respiratory protection. These individuals do not require the use of Personal Protective Equipment (PPE).</span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_9_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="HAZWOPER Training" data-time="0.03">
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_10.wav</audio>
+            <content align="left">
+               <par data-time="0.19" type="text">
+                  <span>The 8-hour annual refresher course is required for both the 24-hour and 40-hour certified individuals to re-emphasize the initial training and to update workers on any new policies or procedures.</span>
+               </par>
+               <par data-time="0.26" type="text">
+                  <span>The level of training provided to general site workers should be consistent with their job function and responsibilities.</span>
+               </par>
+              <par data-time="0.39" type="text">
+                  <span>General site workers represent the largest group of people who require the HAZWOPER training. According to OSHA, training should include instruction in the following areas:</span>
+               </par>
+               <par data-time="0.41" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.41">Site Safety and Health plan;</span></li>
+                  <li><span data-time="0.43">Safe work practices;</span></li>
+                  <li><span data-time="0.47">Expected nature of hazards at the worksite;</span></li>
+                  <li><span data-time="0.49">Sampling and monitoring procedures;</span></li>
+                  <li><span data-time="0.55">Safe and effective use of personal protective equipment (PPE);</span></li>
+                  <li><span data-time="0.59">Employee rights and responsibilities; and</span></li>
+                  <li><span data-time="1.03">Site emergencies, rescue and evacuation procedures.</span></li>
+                  </ul>
+                  </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_10_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="The HAZWOPER Standard and Other Regulations" data-time="0.05">
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_11.wav</audio>
+            <content align="left">
+               <par data-time="0.15" type="text">
+                  <span>A number of work tasks performed at a HAZWOPER work-site may over lap and cross over into other areas regulated by OSHA.</span>
+               </par>
+               <par data-time="0.22" type="text">
+                  <span> All of these areas are related to HAZWOPER and will be discussed in detail in the modules that follow.</span>
+               </par>
+              <par data-time="0.36" type="text">
+                  <span> For example Bloodborne Pathogens Standard (29 CFR 1020.1030), Respiratory Protection Standard (29 CFR 1020.134) etc.</span>
+               </par>
+               <par data-time="0.41" type="text">
+                  <span>
+                     <div>
+              <span data-time="0.41"><a href="https://www.osha.gov/law-regs.html"> Click here for more information on OSHA’s Regulations</a></span>
+                     </div>
+                  </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_11_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Rights and Responsibilities: Employer Responsibilities" data-time="0.06">
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_12.wav</audio>
+            <content align="left">
+               <par data-time="0.12" type="text">
+                  <span>Under the OSH Act, employers have the following responsibilities:</span>
+               </par>
+               <par data-time="0.18" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.18">Conspicuously display the OSHA’s Job Safety and Health poster.</span></li>
+                  <li><span data-time="0.31">Inform workers about chemical hazards through training, labels, alarms, color-coded systems, chemical information sheets and various other methods.</span></li>
+                  <li><span data-time="0.37">Maintain records of work-related injuries and illnesses with accuracy.</span></li>
+                  <li><span data-time="0.42">Perform tests in the workplace that are required by OSHA standards, such as air sampling.</span></li>
+                  <li><span data-time="0.49">Provide required personal protective equipment (PPE) at no cost to employee.</span></li>
+                  <li><span data-time="0.54">Provide medical tests required by OSHA standards.</span></li>
+                  <li><span data-time="0.59">Notify OSHA within 8 hours of a workplace fatality.</span></li>
+                  <li><span data-time="1.12">Not retaliate against workers for using their rights as given to them under this law; including their right to report a work-related complaint.</span></li>
+                  </ul>
+                  </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_12_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Rights and Responsibilities: Employer Rights" data-time="0.05">
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_13.wav</audio>
+            <content align="left">
+               <par data-time="0.11" type="text">
+                  <span>Under the OSH Act employees have the following rights:</span>
+               </par>
+               <par data-time="0.15" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.15">File a confidential complaint with OSHA for workplace inspection.</span></li>
+                  <li><span data-time="0.24">Receive information and training related to hazards, methods to prevent harm, and OSHA standards that apply to their workplace.</span></li>
+                  <li><span data-time="0.31">Be given training that must be done in a language that is easy for the workers to understand.</span></li>
+                  <li><span data-time="0.401">Receive information about work-related injuries and illnesses that occur in their workplace.</span></li>
+                  <li><span data-time="0.47">Receive the results obtained from tests and monitoring done to find and measure hazards in their workplace.</span></li>
+                  <li><span data-time="0.52">Receive copies of their work-related medical records.</span></li>
+                  <li><span data-time="0.58">Be a part of an OSHA inspection and speak with the inspector confidentially.</span></li>
+                  <li><span data-time="1.07">File a complaint with OSHA in case of any retaliation by their employer for acting as a “whistleblower”.</span></li>
+                  </ul>
+                  </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_13_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Rights and Responsibilities: Employer Responsibilities" data-time="0.04">
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_14.wav</audio>
+            <content align="left">
+               <par data-time="0.101" type="text">
+                  <span>Employees also have certain responsibilities when it comes to workplace safety,</span>
+               </par>
+               <par data-time="0.18" type="text">
+                  <span>even though OSHA does not cite employees for violations. The employees have the following responsibilities:</span>
+               </par>
+               <par data-time="0.22" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.22">Carefully read the OSHA Job Safety and Health poster.</span></li>
+                  <li><span data-time="0.29">Follow the workplace safety rules and use the required personal protective equipment (PPE).</span></li>
+                  <li><span data-time="0.41">In case of any conditions that pose a risk to the safety and well being of workers, employees must report to their supervisor or file a complaint with OSHA.</span></li>
+                  <li><span data-time="0.48">Responsibly exercise the rights given to them under the OSH Act.</span></li>
+                  </ul>
+                  </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_14_picture1.png"/>
+            </content>
+         </topics>
+          <topics name="Establishment of NIOSH" data-time="0.04">
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_15.wav</audio>
+            <content align="left">
+               <par data-time="0.13" type="text">
+                  <span>The OSH Act resulted in the establishment of both The National Institute for Occupational Safety and Health (NIOSH)</span>
+               </par>
+               <par data-time="0.22" type="text">
+                  <span>and the Occupational Safety and Health Administration (OSHA).NIOSH was established to ensure safe and healthful working conditions by:</span>
+               </par>
+               <par data-time="0.22" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.24">Gathering information;</span></li>
+                  <li><span data-time="0.27">Conducting scientific research;</span></li>
+                  <li><span data-time="0.32">Translating the knowledge gained to create relevant products and services; and</span></li>
+                  <li><span data-time="0.37">Providing training in the field of occupational safety and health.</span></li>
+                  </ul>
+                  </span>
+               </par>
+               <par data-time="0.47" type="text">
+                  <span>NIOSH makes recommendations to OSHA, based on its research findings; regarding the creation or revision of OSHA standards.</span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_15_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Hazardous Waste Legislation" data-time="0.03">
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_16.wav</audio>
+            <content align="left">
+               <par data-time="0.15" type="text">
+                  <span>Congress enacted a number of legislative acts in order to deal with the problems and threats posed by the industrial hazardous waste. These include:</span>
+               </par>
+               <par data-time="0.45" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.45"><b>Resource Conservation and Recovery Act (RCRA):</b>The Resource Conservation and Recovery Act (RCRA) which was passed in 1976. The main goal of RCRA was to create a "cradle to grave" system for the recordkeeping of hazardous wastes. Under this the RCRA hazardous wastes must be tracked from the data-time they are generated until they are finally disposed of off on-site or off-site.</span></li>
+                  <li><span data-time="1.11"><b>Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA):</b>The Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), was passed by the congress in 1980.  CERCLA regulates and enforces the clean-up and remediation of closed and abandoned hazardous waste sites.</span></li>
+                  <li><span data-time="1.34"><b>SARA:</b>The Superfund Amendments and Reauthorization Act (SARA) of 1986 amended CERCLA. This Act stressed the importance of permanent remedies and innovative treatment technologies for cleaning up of hazardous waste sites and increased the focus on human health problems caused by hazardous waste sites.</span></li>
+                  </ul>
+                  </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_16_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Application of the HAZWOPER Standard to Chemical Spills" data-time="0.05">
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_17.wav</audio>
+            <content align="left">
+               <par data-time="0.12" type="text">
+                  <span>In order to get a better understanding of how the various sections of the HAZWOPER Standard apply to various groups;</span>
+               </par>
+               <par data-time="0.18" type="text">
+                  <span>let us apply this standard to chemical spills. There are two types of chemical spills:</span>
+               </par>
+               <par data-time="0.22" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.22"><b>Incidental release:</b>These are simply cleaned-up.</span></li>
+                  <li><span data-time="0.31"><b>Uncontrolled release:</b>This type requires an emergency response effort and requires workers to be trained as responders.</span></li>
+                  </ul>
+                  </span>
+               </par>
+               <par data-time="0.43" type="text">
+                  <span>The response effort is termed as “Emergency Response Phase”. The clean-up phase that follows an emergency response is called the “Post-Emergency Response Cleanup Operation”.</span>
+               </par>
+               <par data-time="0.57" type="text">
+                  <span>The next slide will illustrate the types of chemical spills and the application of the HAZWOPER Standard to these spills.</span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_17_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Application of the HAZWOPER Standard to Chemical Spills" data-time="">
+         <video>http://localhost/players/course_player/assets/video/chemicalspills.mp4</video>
+         </topics>
+         <topics name="Summary" data-time="0.02">
+            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_18.wav</audio>
+            <content align="left">
+               <par data-time="0.13" type="text">
+                  <span>The Occupational Safety and Health Administration (OSHA) establishes workplace standards related to health and safety for various occupations.</span>
+               </par>
+               <par data-time="0.19" type="text">
+                  <span>To protect the health and safety of employees who deal directly with hazardous waste in their daily work</span>
+               </par>
+               <par data-time="0.301" type="text">
+                  <span>OSHA requires a 40-hour HAZWOPER training. This HAZWOPER certification must be renewed every year with an 8-hour refresher course.</span>
+               </par>
+               <par data-time="0.36" type="text">
+                  <span>The HAZWOPER training is required for anyone who is cleaning up hazardous waste sites,</span>
+               </par>
+               <par data-time="0.48" type="text">
+                  <span>working with hazardous waste at treatment, storage or disposal (TSD) sites, or responding to emergencies concerning the release of hazardous materials.</span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_18_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="LESSON QUIZ" data-time="0.03">
+         <audio>http://localhost/players/course_player/assets/audios/LessonQuiz_Audio.wav</audio>
+            <content align="left">
+               <par data-time="0.08" type="text">
+                  <span><b>It is now data-time to take a quiz and see what you have learned so far!</b></span>
+               </par>
+               <par data-time="0.32" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.32">Please note, you do not have to pass the quiz in order to continue forward. However, it is highly recommended that you pass the quiz (70% or higher) as you will face similar questions in the final exam. Quiz questions give you important insight into the knowledge you should have acquired throughout this course</span></li>
+                  </ul>
+                  </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L1_slide_19_picture1.png"/>
+            </content>
+         </topics>
+      </lesson> 
+   </course>
+</root>

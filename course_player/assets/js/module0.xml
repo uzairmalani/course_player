@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+   <course name="40 Hour HAZWOPER OSHA Online Training">
+      <lesson name="Module 1: REGULATORY OVERVIEW">
+         <topics name="Module 1:" data-time="0.03">     
+            <audio>http://localhost/players/course_player/assets/audios/M-Intro1_Slide_1.wav</audio>
+            <content align="center">
+               <par data-time="0.05" type="text">
+                  <span>REGULATORY OVERVIEW</span>
+               </par>
+            </content>
+         </topics>
+         <topics name="Module Overview" data-time="0.03">
+            <audio>http://localhost/players/course_player/assets/audios/M-Intro1_Slide_2.wav</audio>
+            
+            <content align="left">
+               <par data-time="0.07" type="text">
+                  <span>This module covers the regulatory part of the Hazardous </span>
+               </par>
+               <par data-time="0.13" type="text">
+                  <span>Waste Operations and Emergency Response (HAZWOPER) training. It includes:</span>
+               </par>
+               <par data-time="0.17" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.17">Lesson 1: OSHA and The HAZWOPER Standard</span></li>
+                  <li><span data-time="0.21">Lesson 2: Hazard Communication</span></li>
+                  <li><span data-time="0.26">Lesson 3: NFPA System and DOT Labels</span></li>
+                  </ul>                  
+                  </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/M1_Slide_2_Picture1.png" />
+            </content>
+         </topics>
+
+         <topics name="Learning Objectives " data-time="0.02">
+            
+            <audio>http://localhost/players/course_player/assets/audios/M-Intro1_Slide_3.wav</audio>
+            
+            <content align="left">
+               <par data-time="0.06" type="text">
+                  <span>By the end of this module, you will be able to:</span>
+               </par>
+               <par data-time="0.09" type="text">
+               <span>
+               <ul>
+               <li><span data-time="0.09">Define OSHA and explain why it is important;</span></li>
+               <li><span data-time="0.14">Define HAZWOPER and explain who is affected by these regulations;</span></li>
+               <li><span data-time="0.21">Explain why OSHA developed the Hazard Communication Standard (HCS);</span></li>
+               <li><span data-time="0.29">Describe the Globally Harmonized System (GHS) of Classification and Labelling of Chemicals and its importance;</span></li>
+               <li><span data-time="0.34">List required labeling elements under the GHS system;</span></li>
+               <li><span data-time="0.401">Give examples of information that can be found on Safety Data Sheets (SDSs);</span></li>
+               <li><span data-time="0.44">Explain the four parts of the NFPA labelling system;</span></li>
+               <li><span data-time="0.49">List the various Department of Transportation (DOT) chemical hazard classes.</span></li>
+                  </ul>
+                  </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/M1_Slide_2_Picture1.png" />
+            </content>
+         </topics> 
+      </lesson>   
+   </course>
+</root>

@@ -8,7 +8,7 @@ class ControllerCourse extends BaseController {
     		"modules" => array(
     			array(
     			"name"=>"Module 1: REGULATORY OVERVIEW",
-    			"xml" => "/assets/js/course2.xml",
+    			"xml" => "http://localhost/players/course_player/assets/js/module0.xml",
     			"topic" =>array(
 	    		"Module 1",
 	    		"Module Overview",
@@ -17,6 +17,7 @@ class ControllerCourse extends BaseController {
     			"lessons" => array(
 	    			array(
 	    				"name" => "Lesson 1: OSHA AND THE HAZWOPER STANDARD",
+	    				"url"  => "http://localhost/players/course_player/assets/js/lesson1.xml",
 	    				"topic" =>array(
 	    					"Lesson 1:",
 	    					"The Occupational Safety and Health (OSH) Act",
@@ -42,6 +43,7 @@ class ControllerCourse extends BaseController {
 	    			),
 	    			array(
 	    				"name" => "Lesson 2: HAZARD COMMUNICATION",
+	    				"url"  => "http://localhost/players/course_player/assets/js/lesson2.xml",
 	    				"topic" =>array(
 	    					"Lesson 2:",
 	    					"Hazard Communication",
@@ -69,7 +71,7 @@ class ControllerCourse extends BaseController {
     		),
     		array(
     			"name"=>"Module 2: PLANNING AND ORGANIZATION",
-    			"xml" => "/assets/js/course2.xml",
+    			"xml" => "http://localhost/players/course_player/assets/js/module1.xml",
     			"topic" =>array(
 	    		"PLANNING AND ORGANIZATION",
 	    		"Module Overview",
@@ -78,6 +80,7 @@ class ControllerCourse extends BaseController {
     			"lessons" => array(
 	    			array(
 	    				"name" => "Lesson 3: NFPA SYSTEM AND DOT LABELS",
+	    				"url"  => "",
 	    				"topic" =>array(
 	    					"NFPA SYSTEM AND DOT LABELS",
 	    					"NFPA 704 Standard",

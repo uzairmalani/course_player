@@ -3,7 +3,7 @@
    <course name="40 Hour HAZWOPER OSHA Online Training">
       <lesson name="Module 1: REGULATORY OVERVIEW">
          <topics name="Module 1:" data-time="0.03">     
-            <audio>http://localhost/players/course_player/assets/audios/M-Intro1_Slide_1.wav</audio>       
+            <audio>http://localhost/players/course_player/assets/audios/M-Intro1_Slide_1.wav</audio>
             <content align="center">
                <par data-time="0.05" type="text">
                   <span>REGULATORY OVERVIEW</span>
@@ -201,79 +201,79 @@
             </content>
             </topics>
             <topics name="Scope of the HAZWOPER Standard" data-time="0.04">
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_6.wav</audio>
-            <content align="center">
-            <par data-time="0.07" type="text">
-            <span>
-            <table>
-            <tr>
-            <th><span data-time="0.07">Sections of the HAZWOPER Standard</span></th>
-            <th>Description</th>
-            </tr>
-            <tr>
-            <td>
-            <ol type="a"><li><span data-time="0.11">Scope, Application, and Definitions</span></li>
-            </ol>
-            </td>
-             <td>
-            <ul>
-            <li><span data-time="0.16">Section (a) covers the scope and application of this standard.</span></li>
-            </ul>
-            </td>
-            </tr>
-            <tr>
-            <td>
-            <ol type="a" start="2">
-            <li><span data-time="0.201">Safety and Health Program</span></li>
-            <li><span data-time="0.24">Site Characterization and Analysis</span></li>
-            <li><span data-time="0.26">Site Control</span></li>
-      <li><span data-time="0.301">Training (General Site Remediation)</span></li>
-      <li><span data-time="0.33">Medical Surveillance</span></li>
-      <li><span data-time="0.43">Engineering Controls, Work Practices, and Personal Protective Equipment (PPE) for Protection of employees</span></li>
-      <li><span data-time="0.44">Monitoring</span></li>
-      <li><span data-time="0.47">Information Programs</span></li>
-      <li><span data-time="0.501">Handling Drums and Containers</span></li>
-      <li><span data-time="0.53">Decontamination</span></li>
-      <li><span data-time="0.59">Emergency Response at an Uncontrolled Hazardous Waste Site</span></li>
-      <li><span data-time="1.01">Illumination</span></li>
-      <li><span data-time="1.05">Sanitation at Temporary Workplaces</span></li>
-      <li><span data-time="1.08">New Technology Programs</span></li>    
-   </ol>
-   </td>
-      <td><ul>
-      <li><span data-time="1.21">Sections (b) to (o) of the standard regulates operations where employees are engaged in the cleanup of uncontrolled hazardous waste sites.</span></li>
-      <li><span data-time="1.32">Section (e) of the HAZWOPER regulation applies to general site workers, and this is by far the largest number of people requiring the HAZWOPER training.</span></li>
-   </ul>
-   </td>
-   </tr>
-   <tr>
-      <td>
-      <ol type="a" start="16">
-      <li><span data-time="1.37">Certain Operations Conducted Under RCRA</span></li>
-      </ol>
-      </td>
-      <td>
-      <ul>
-      <li><span data-time="1.49">Section (p) covers those employees who are engaged in treatment, storage and disposal (TSD) facility operations for hazardous waste.</span></li>
-      </ul>
-      </td>
-   </tr>
-   <tr>
-      <td>
-      <ol type="a" start="17">
-      <li><span data-time="1.55">Emergency Response to Hazardous Substance Releases</span></li>
-      </ol>
-      </td>
-      <td>
-      	<ul>
-      <li><span data-time="2.06">Section (q) covers emergency responders for releases of hazardous substances without regard to the location of the hazard.</span></li>
-      </ul>
-      </td>
-   </tr>
-   </table>
-   </span>
-   </par>
-   </content>
+               <audio>http://localhost/players/course_player/assets/audios/L1_Slide_6.wav</audio>
+               <content align="center">
+                  <par data-time="0.07" type="text">
+                  <span>
+                  <table>
+                  <tr>
+                  <th><span data-time="0.07">Sections of the HAZWOPER Standard</span></th>
+                  <th>Description</th>
+                  </tr>
+                  <tr>
+                  <td>
+                  <ol type="a"><li><span data-time="0.11">Scope, Application, and Definitions</span></li>
+                  </ol>
+                  </td>
+                   <td>
+                  <ul>
+                  <li><span data-time="0.16">Section (a) covers the scope and application of this standard.</span></li>
+                  </ul>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td>
+                  <ol type="a" start="2">
+                  <li><span data-time="0.201">Safety and Health Program</span></li>
+                  <li><span data-time="0.24">Site Characterization and Analysis</span></li>
+                  <li><span data-time="0.26">Site Control</span></li>
+                  <li><span data-time="0.301">Training (General Site Remediation)</span></li>
+                  <li><span data-time="0.33">Medical Surveillance</span></li>
+                  <li><span data-time="0.43">Engineering Controls, Work Practices, and Personal Protective Equipment (PPE) for Protection of employees</span></li>
+                  <li><span data-time="0.44">Monitoring</span></li>
+                  <li><span data-time="0.47">Information Programs</span></li>
+                  <li><span data-time="0.501">Handling Drums and Containers</span></li>
+                  <li><span data-time="0.53">Decontamination</span></li>
+                  <li><span data-time="0.59">Emergency Response at an Uncontrolled Hazardous Waste Site</span></li>
+                  <li><span data-time="1.01">Illumination</span></li>
+                  <li><span data-time="1.05">Sanitation at Temporary Workplaces</span></li>
+                  <li><span data-time="1.08">New Technology Programs</span></li>    
+               </ol>
+               </td>
+                  <td><ul>
+                  <li><span data-time="1.21">Sections (b) to (o) of the standard regulates operations where employees are engaged in the cleanup of uncontrolled hazardous waste sites.</span></li>
+                  <li><span data-time="1.32">Section (e) of the HAZWOPER regulation applies to general site workers, and this is by far the largest number of people requiring the HAZWOPER training.</span></li>
+               </ul>
+               </td>
+               </tr>
+               <tr>
+                  <td>
+                  <ol type="a" start="16">
+                  <li><span data-time="1.37">Certain Operations Conducted Under RCRA</span></li>
+                  </ol>
+                  </td>
+                  <td>
+                  <ul>
+                  <li><span data-time="1.49">Section (p) covers those employees who are engaged in treatment, storage and disposal (TSD) facility operations for hazardous waste.</span></li>
+                  </ul>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                  <ol type="a" start="17">
+                  <li><span data-time="1.55">Emergency Response to Hazardous Substance Releases</span></li>
+                  </ol>
+                  </td>
+                  <td>
+                  	<ul>
+                  <li><span data-time="2.06">Section (q) covers emergency responders for releases of hazardous substances without regard to the location of the hazard.</span></li>
+                  </ul>
+                  </td>
+               </tr>
+               </table>
+               </span>
+               </par>
+            </content>
          </topics>
          <topics name="Appendices to the HAZWOPER Regulation" data-time="0.05">
             <audio>http://localhost/players/course_player/assets/audios/L1_Slide_7.wav</audio>

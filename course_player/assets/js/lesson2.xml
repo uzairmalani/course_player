@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+   <course name="40 Hour HAZWOPER OSHA Online Training">
+      <lesson name="Lesson 2: HAZARD COMMUNICATION">
+        <topics name="Lesson 2:" data-time="0.02">
+            <audio>http://localhost/players/course_player/assets/audios/L2_Slide_1.wav</audio>
+            <content align="center">
+               <par data-time="0.05" type="text">
+                  <span>HAZARD COMMUNICATION</span></par>
+            </content>
+        </topics>
+        <topics name="Hazard Communication" data-time="0.03">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_2.wav</audio>
+            <content align="left">
+               <par data-time="0.12" type="text">
+           		<span>
+           			<div>
+                  <span data-time="0.12">Chemicals directly or indirectly affect our daily lives, impacting our food, health and lifestyle.</span>
+                  <span data-time="0.22">While chemicals can be helpful in many ways, they can also have serious and somedata-times deadly impacts on human health and the environment.</span>
+                  <span data-time="0.33">For example, chemicals can cause heart diseases, burns and rashes, kidney and lung damage, sterility, cancer and many more deadly side effects.</span>
+                  </div>
+              	</span>
+               </par>
+               <par data-time="0.45" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.45">Due to the possibility of severe injury, it is important to have readily available information on the hazardous properties of chemicals and recommended control measures.</span>
+              </div>
+              </span>
+               </par>
+               <par data-time="0.51" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.51">This is the purpose of OSHA’s Hazard Communication Standard, or HCS.</span>  
+                <span data-time="1.04"> It requires employers to provide workers with information and identities of workplace chemicals to help them make smart decisions about chemical hazards to which they are exposed.</span>
+            </div>
+            </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_2_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Hazard Communication Standard (HCS)" data-time="0.05">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_3.wav</audio>
+            <content align="left">
+               <par data-time="0.17" type="text">
+               	<span>
+                 <div>
+                  <span data-time="0.17">The HCS ensures that all chemicals produced, imported, or used by American companies are evaluated, and the information is communicated to workers</span>
+                  <span data-time="0.29">Information on the Hazard Communication Standard can be found in OSHA regulation <a href="">29 CFR Part 1910.1200.</a></span>
+              </div>
+              </span>
+               </par>
+               <par data-time="0.37" type="text">
+                  <span>The Hazard Communication Standard requires that employers provide employees with information through:</span>
+               </par>
+               <par data-time="0.45" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.45">A written program for each location to cover chemical safety, hazard communication and safe work procedures;</span></li>
+                  <li><span data-time="0.48">Labelling containers of hazardous chemicals;</span></li>
+                  <li><span data-time="0.55">Safety Data Sheets (SDSs) which provide detailed information about a hazardous chemical; and</span></li>
+                  <li><span data-time="1.01">Training employees on labelling and SDSs information.</span></li>
+                  </ul>
+                  </span>
+               </par>  
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_3_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Substances not covered by HCS" data-time="0.05">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_4.wav</audio>
+            <content align="left">
+               <par data-time="0.12" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.12">Some substances are not covered by HCS because they fall under the jurisdiction of regulations</span>
+                  <span data-time="0.201">other than OSHA’s Hazard Communication Standard <a href="">29 CFR Part 1910.1200.</a></span>
+              </div>
+              </span>
+               </par>
+               <par data-time="0.24" type="text">
+                  <span>The chemicals not included under HCS are:</span>
+               </par>
+               <par data-time="0.28" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.28">Hazardous wastes defined by RCRA</span></li>
+                  <li><span data-time="0.34">Any hazardous substance defined by CERCLA</span></li>
+                  <li><span data-time="0.35">Tobacco products</span></li>
+                  <li><span data-time="0.37">Wood products</span></li>
+                  <li><span data-time="0.39">Food or alcoholic beverages</span></li>
+                  <li><span data-time="0.399">Drugs</span></li>
+                  <li><span data-time="0.41">Cosmetics</span></li>
+                  <li><span data-time="0.45">Ionizing and non-ionizing radiation</span></li>
+                  <li><span data-time="0.49">Biological hazards</span></li>
+                  </ul>
+                  </span>
+               </par>  
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_4_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Globally Harmonized System (GHS)" data-time="0.06">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_5.wav</audio>
+            <content align="left">
+               <par data-time="0.19" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.19">In 2012, OSHA modified the HCS to fall in line with the United Nations’ Globally Harmonized System of Classification and Labeling of chemicals,</span>
+                  <span data-time="0.301">also known as GHS. The GHS is a system used to harmonize and standardize the classification and labeling of chemicals.</span>
+                  <span data-time="0.41">It is a comprehensive approach for determining health, physical, and environmental hazards of chemicals. This system is updated every two years to keep it current.</span>
+              </div>
+              </span>
+               </par>
+               <par data-time="0.57" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.57">The main objective of this system is for the same set of rules for classifying hazards, and the same format and content for labels and safety data sheets (SDSs) to be be adopted and used around the world.</span>
+                  <span data-time="1.14">Thus, increasing the quality and consistency of information provided to workers, employers and chemical users. GHS went partially into effect in 2012,and was fully effective by June 1, 2016.</span>
+                  </div>
+              </span>
+              </par>
+              <par data-time="1.32" type="text">
+                  <span data-time="1.32">A very important benefit that came from aligning OSHA’s HCS with the international GHS is that now every chemical imported into the United States is accompanied by easily understandable hazard and precaution information.</span>
+              </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_5_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Which substances are covered by the GHS?" data-time="0.05">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_6.wav</audio>
+            <content align="left">
+               <par data-time="0.18" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.18">The GHS regulations covers only hazardous chemicals. During the classification process, the manufacturer or importer must determine whether the chemical is hazardous or not.</span>
+                  <span data-time="0.33">With the alignment of GHS to HCS, the hazard information became consistent in format making it easier to understand for both the employees and the employers.</span>
+                  <span data-time="0.41">GHS simply communicates the inherent risks of chemicals, and each country can implement its own chemical controls.</span>
+              </div>
+              </span>
+               </par>
+               <par data-time="0.54" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.54">The GHS has explicit criteria for the classification of hazardous chemicals which help determine both physical and health hazards. All these hazards will be discussed in detail in later lessons.</span>
+              </div>
+              </span>
+               </par>
+               <par data-time="1.06" type="text">
+               	<span>
+               		<div>
+                  <span data-time="1.06">In order to stay safe, workers must receive training from their employers, and they should always use safe handling procedures, read labels, and check SDSs.</span>
+              </div>
+              </span>
+               </par> 
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_6_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Changes to HCS under GHS" data-time="0.06">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_7.wav</audio>
+            <content align="left">
+               <par data-time="0.17" type="text">
+                  <span>When OSHA modified its Hazard Communications Standard to align with the Globally Harmonized System, several key revisions to the HCS happened:</span>
+               </par>
+               <par data-time="0.28" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.28">Permissible exposure limit (PEL), threshold limit value (TLV) and carcinogen status for hazardous chemicals were to be disclosed.</span></li>
+                  <li><span data-time="0.39">A new category was created that is Hazards Not Otherwise Classified (HNOC). These are disclosed on the Safety Data Sheets, not via a label.</span></li>
+                  <li><span data-time="0.52">Pyrophoric gases, simple asphyxiant, and combustible dusts are no longer listed as hazards not otherwise classified (HNOC), but are instead discussed individually.</span></li>
+                  <li><span data-time="1.06">Chemical mixtures for which data is not available, allows for educated guesses to be made based on similar mixes concerning the health hazards they pose to the exposed workers.</span></li>
+                  </ul>
+                  </span>
+               </par>
+               <par data-time="1.19" type="text">
+                  <span>These changes are aimed at improving the quality and consistency in classification and labelling of chemicals allowing workers to avoid injuries and remain safe.</span>
+               </par> 
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_7_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Hazardous Material Labeling" data-time="0.03">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_8.wav</audio>
+            <content align="left">
+               <par data-time="0.13" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.13">One way of conveying specific information about a chemical to workers is via a HAZCOM label. Chemical manufacturers and importers</span>
+                  <span data-time="0.22">must create labels based on the classification of that particular chemical and make sure they are clearly displayed on each product.</span>
+              </div>
+              </span>
+               </par>
+               <par data-time="0.29" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.31">Labels contain important information, and workers should make sure to read them before beginning any work around workplace chemicals.</span>
+                  <span data-time="0.44">Labels under GHS are substantially different from other systems, such as  Hazardous Materials Identification System (HMIS) and National Fire Protection Association (NFPA).</span>
+              </div>
+              </span>
+               </par>
+               <par data-time="1.02" type="text">
+                  <span>For example under the NFPA and HMIS systems, “0” was least hazardous and “4” was most hazardous. Under the GHS severity ratings, “4” is least hazardous and “1” is most hazardous.</span>
+               </par> 
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_8_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Labeling Requirements" data-time="0.03">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_9.wav</audio>
+            <content align="left">
+               <par data-time="0.14" type="text">
+                  <span>In 2012, OSHA adopted new hazardous material labeling requirements to fall into line with the Globally Harmonized System (GHS).</span>
+               </par>
+               <par data-time="0.24" type="text">
+                  <span>Under this system, all hazardous chemicals shipped after June 1, 2015 must be clearly labeled in English with the following elements:</span>
+               </par>
+               <par data-time="0.31" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.31">A product identifier, which is the chemical name, common name, trade name, or other designation;</span></li>
+                  <li><span data-time="0.37">Pictograms, which are graphics, or pictures, that quickly give information about the chemical;</span></li>
+                  <li><span data-time="0.46">A signal word, such as “Danger” or “Warning”, to indicate the level of caution that should be used with that particular chemical or mix;</span></li>
+                  <li><span data-time="0.54">Hazard statements, which describe the type of potential hazard, such as, “Causes damage to kidneys when absorbed through the skin;”</span></li>
+                  <li><span data-time="1.07">Precautionary statements, which describe measures that should be taken to minimize the impact of the chemical, such as, “If skin irritation occurs, seek medical help;” and</span></li>
+                  <li><span data-time="1.14">Name, address and telephone number of the manufacturer, importer, or any other responsible party.</span></li>
+                  </ul>
+                  </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_9_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Pictograms" data-time="0.02">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_10.wav</audio>
+            <content align="left">
+               <par data-time="0.11" type="text">
+                  <span>Pictograms are black pictures on a white background, surrounded by a red square frame set on the point.</span>
+               </par>
+               <par data-time="0.23" type="text">
+                  <span>The graphic representation on the next slide shows the symbol, name and associated hazards for each pictogram. GHS uses nine pictograms to communicate hazard information:</span>
+               </par>
+               <par data-time="0.26" type="text">
+                  <span>
+                  <ol>
+                  <li><span data-time="0.26">Explosive</span></li>
+                  <li><span data-time="0.28">Flammable</span></li>
+                  <li><span data-time="0.301">Oxidizing</span></li>
+                  <li><span data-time="0.32">Compressed gas</span></li>
+                  <li><span data-time="0.34">Corrosive</span></li>
+                  <li><span data-time="0.36">Toxic</span></li>
+                  <li><span data-time="0.38">Irritant</span></li>
+                  <li><span data-time="0.401">Health hazard</span></li>
+                  <li><span data-time="0.43">Environmental hazard</span></li>
+                  </ol>
+                  </span>
+               </par>
+               <par data-time="0.52" type="text">
+                  <span>However, HCS does not include “environmental hazard”, since environmental issues fall outside OSHA’s scope.</span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_10_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Pictograms" data-time="0.03">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_11.wav</audio>
+         <content align="center">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_11_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Pictograms Categories" data-time="0.03">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_12.wav</audio>
+         <content align="left">
+         <par data-time="0.14" type="text">
+                  <span>These nine types of pictograms may have different categories, so it’s possible you may see a flame pictogram with a signal word “Danger” on one canister,</span>
+               </par>
+               <par data-time="0.26" type="text">
+                  <span>and a flame pictogram with a signal word “Warning” on another canister.  This would indicate the same type of hazard in the two materials, but at different levels of severity.</span>
+               </par>
+         </content>
+         <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_12_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Safety Data Sheets (SDSs)" data-time="0.04">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_13.wav</audio>
+         <content align="left">
+         <par data-time="0.11" type="text">
+         	<span>
+         		<div>
+                  <span data-time="0.11">In addition to the labeling changes that happened when OSHA aligned their HCS and GHS standards,</span>
+                  <span data-time="0.201">there were also important changes to data sheets that manufacturers or importers have to supply about their product.  We’ll look at those now.</span>
+              </div>
+              </span>
+               </par>
+               <par data-time="0.33" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.33">Under GHS guidelines, OSHA documents that were formerly known as Material Safety Data Sheets (MSDSs) became known as Safety Data Sheets (SDSs).</span>
+              </div>
+              </span>
+               </par>
+               <par data-time="0.39" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.401">These are informational sheets provided by chemical manufacturers or importers to employers.</span>
+                  <span data-time="0.52">Employers must have an SDSs for every hazardous chemical on hand. The primary use of SDSs is to inform employees of potential risks from exposure to the chemical.</span>
+              </div>
+              </span>
+               </par>
+               <par data-time="1.05" type="text">
+                  <span>The SDSs include information about the properties of each chemical; the physical and health hazards; protective measures and safety procedures for handling, storing and transporting the chemical.</span>
+               </par>
+         </content>
+         <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_13_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Safety Data Sheets (SDSs) Sections" data-time="0.04">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_14.wav</audio>
+         <content align="left">
+               <par data-time="0.15" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.15">There are 16 categories on a Safety Data Sheet, and GHS required all SDSs be in this uniform format by June 1, 2016.</span>
+                  <span data-time="0.27">Furthermore, the format of the Safety Data Sheet was changed to put the information more immediately important to employees at the top, with the more technical information in later sections.</span>
+              </div>
+              </span>
+               </par>
+               <par data-time="0.39" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.39">The information contained in the SDSs is largely similar to the older MSDSs; however now the SDSs are required to be presented in a consistent 16-section format.</span>
+                  <span data-time="0.49">This ensures that the SDSs are easy to read and ‘user friendly’ for workers, to help them better understand the nature of the chemical they’re handling.</span>
+                </div>
+              </span>
+               </par>
+               <par data-time="0.55" type="text">
+                  <span>Under the new, GHS Safety Data Sheet format, there are 12 mandatory sections, in addition to four non-mandatory sections.</span>
+               </par>
+               <par data-time="1.09" type="text">
+                  <span>The four sections that are not required to be filled out concern ecological, transport, disposal, and regulatory information.</span>
+               </par>
+         </content>
+         <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_14_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Safety Data Sheets (SDSs) Sections" data-time="0.05">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_15.wav</audio>
+            <content align="left">
+               <par data-time="0.09" type="text">
+                  <span>To summarize, the following are the sections of the SDSs:</span>
+               </par>
+               <par data-time="0.12" type="text">
+                  <span>
+                  <ol>
+                  <li><span data-time="0.12">Chemical Identification</span></li>
+                  <li><span data-time="0.15">Hazard identification</span></li>
+                  <li><span data-time="0.17">Ingredients</span></li>
+                  <li><span data-time="0.19">First-aid measures</span></li>
+                  <li><span data-time="0.22">Fire-fighting measures</span></li>
+                  <li><span data-time="0.25">Accidental release measures</span></li>
+                  <li><span data-time="0.29">Storage and handling information</span></li>
+                  <li><span data-time="0.34">Exposure and personal protection information</span></li>
+                  <li><span data-time="0.37">Physical and chemical properties</span></li>
+                  <li><span data-time="0.41">Stability and reactivity</span></li>
+                  <li><span data-time="0.44">Toxicological information</span></li>
+                  <li><span data-time="0.47">Ecological information</span></li>
+                  <li><span data-time="0.49">Disposal information</span></li>
+                  <li><span data-time="0.53">Transport information</span></li>
+                  <li><span data-time="0.56">Regulatory information</span></li>
+                  <li><span data-time="0.59">Other information</span></li>
+                  </ol>
+                  </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_15_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Scope of the HAZWOPER Standard">
+            <audio>http://localhost/players/course_player/assets/audios/L2_Slide_16(retake).wav</audio>
+            <content align="center">
+            <par data-time="0.02" type="text">
+                  <span> 
+                  <table>
+  <tr>
+    <th><span data-time="0.02">Sections of SDSs</span></th>
+    <th>Description</th>
+ 
+  </tr>
+  <tr>
+    <td><ol>
+    <li><span data-time="0.05">Chemical Identification</span></li>
+     <li><span data-time="0.08">Hazard identification</span></li>
+     <li><span data-time="0.09">Ingredients</span></li>
+     <li><span data-time="0.12">First-aid measures</span></li>
+     <li><span data-time="0.14">Fire-fighting measures</span></li>
+     <li><span data-time="0.17">Accidental release measures</span></li>
+     <li><span data-time="0.21">Storage and handling information</span></li>
+     <li><span data-time="0.24">Exposure and personal protection information</span></li>
+    </ol></td>
+    <td><ul>
+    <li><span data-time="0.38">Sections 1-8 of a Safety Data Sheet cover general information about the chemical; the name, hazards, composition, safe handling practices, and emergency control measures.</span></li>
+     <li><span data-time="0.54">For example, here you will find information about how to put out a fire caused by the chemical, and how to prevent dangerous exposure.  In short, these early sections of the SDSs contain information for workers who handle the chemical.</span></li>
+    </ul></td>
+    
+  </tr>
+  <tr>
+    <td>
+    <ol>
+    <li><span data-time="0.57">Physical and chemical properties</span></li>
+    <li><span data-time="0.599">Stability and reactivity</span></li>
+    <li><span data-time="1.03">Toxicological information</span></li>
+    <li><span data-time="1.05">Other information</span></li>
+    </ol>
+    </td>
+    <td>
+    <ul>
+    <li><span data-time="1.26">Sections 9-11 and section 16 contain technical and scientific information about the chemical; its properties, stability and reactivity, toxicological information, and exposure control.  These sections also indicate when the report was written or last revised.</span></li>
+    </ul>
+    </td>
+    
+  </tr>
+  <tr>
+    <td><ol>
+    <li><span data-time="1.32">Ecological information</span></li>
+    <li><span data-time="1.35">Disposal information</span></li>
+    <li><span data-time="1.37">Transport information</span></li>
+    <li><span data-time="1.41">Regulatory information</span></li>
+    </ol></td>
+    <td><ul>
+    <li><span data-time="2.02">Sections 12-15 are the non-mandatory sections about environmental, transport, disposal, and regulatory issues.  The SDSs must contain these sections to be consistent with the requirements of GHS; however OSHA will not enforce them as these issues fall under the jurisdiction of other agencies.</span></li>
+    </ul></td>
+  </tr>
+</table>
+   </span>
+   </par>
+            </content>
+         </topics>
+         <topics name="SDSs and Employer Responsibilities" data-time="0.06">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_17.wav</audio>
+         <content align="left">
+               <par data-time="0.16" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.16">Employers must make sure that Safety Data Sheets are easily accessible by workers at all data-times for all the hazardous chemicals in their workplace.</span>
+              </div>
+          </span>
+               </par>
+               <par data-time="0.24" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.24">SDSs must be kept in a central location, such as in a binder or on a computer - as long as employees have access to the computer</span>
+                  <span data-time="0.31">during their shift without leaving their station and there is a back-up available in case of a power outage or emergency.</span>
+              </div>
+          </span>
+               </par>
+               <par data-time="0.41" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.41">As new information becomes available, the SDSs must be updated so workers always have easy access to current information.</span>
+                  <span data-time="0.47">It is the responsibility of the employer to designate a person for maintaining the SDSs.</span>
+              </div>
+              </span>
+               </par>
+               <par data-time="0.51" type="text">
+               <link>https://www.osha.gov/Publications/OSHA3514.pdf</link>
+               <span><a href="https://www.osha.gov/Publications/OSHA3514.pdf">Click here for a detailed review of SDSs</a></span>
+               </par>
+         </content>
+         <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_17_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="Employee Training" data-time="0.03">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_18.wav</audio>
+         <content align="left">
+               <par data-time="0.13" type="text">
+               	<span>
+                 <div>
+                  <span data-time="0.13">Employees have the right to know the potential hazards of chemicals they work with at their job through SDSs, training and a written hazard communication plan.</span>
+              </div>
+          </span>
+               </par>
+               <par data-time="0.201" type="text">
+                  <span>Employers must establish a training program for employees that provides training upon initial employment,</span>
+               </par>
+               <par data-time="0.28" type="text">
+                  <span>as well as training when a new chemical is introduced into the work environment or whenever there is a change in procedure in the workplace.</span>
+               </par>
+         </content>
+         <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_18_picture1.png"/>
+            </content>
+         </topics>
+        <topics name="Summary" data-time="0.02">
+         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_19.wav</audio>
+         <content align="left">
+               <par data-time="0.13" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.13">Since chemicals have the potential to cause serious injury or death, OSHA created a Hazard Communication Standard, or HCS, to keep workers safe.</span>
+                  <span data-time="0.22">This supported the “Right to Know” Law, which states that employees have a right to know details about the hazardous materials they handle.</span>
+              </div>
+          </span>
+               </par>
+               <par data-time="0.33" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.33">In 2012, OSHA aligned its HCS with the international Globally Harmonized System of Classification and Labeling of Chemicals (GHS).</span>
+                  <span data-time="0.501">To bring HCS in line with GHS, important changes were made to labeling and Safety Data Sheets. OSHA’s Material Safety Data Sheets (MSDSs) were changed to Safety Data Sheets (SDSs) under this new system.</span>
+              </div>
+          </span>
+               </par>
+               <par data-time="0.58" type="text">
+               	<span>
+               		<div>
+                  <span data-time="0.58">There must be SDSs for each chemical at a work site, and the forms must be in a central location that workers can easily access.</span>
+                  <span data-time="1.06">Finally, workers must receive training when they start work, and at any data-time a new chemical is introduced into the work environment.</span>
+              </div>
+          </span>
+               </par>
+         </content>
+         <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_19_picture1.png"/>
+            </content>
+         </topics>
+         <topics name="LESSON QUIZ" data-time="0.03">
+         <audio>http://localhost/players/course_player/assets/audios/LessonQuiz_Audio.wav</audio>
+            <content align="left">
+               <par data-time="0.08" type="text">
+                  <span><b>It is now data-time to take a quiz and see what you have learned so far!</b></span>
+               </par>
+               <par data-time="0.32" type="text">
+                  <span>
+                  <ul>
+                  <li><span data-time="0.32">Please note, you do not have to pass the quiz in order to continue forward. However, it is highly recommended that you pass the quiz (70% or higher) as you will face similar questions in the final exam. Quiz questions give you important insight into the knowledge you should have acquired throughout this course</span></li>
+                  </ul>
+                  </span>
+               </par>
+            </content>
+            <content align="right">
+                  <img src="http://localhost/players/course_player/assets/images/L2_slide_20_picture1.png"/>
+            </content>
+         </topics>
+      </lesson>
+    </course>
+</root>
