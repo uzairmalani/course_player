@@ -11,8 +11,7 @@
             </content>
          </topics>
          <topics name="Module Overview" data-time="0.03">
-            <audio>http://localhost/players/course_player/assets/audios/M-Intro1_Slide_2.wav</audio>
-            
+            <audio>http://localhost/players/course_player/assets/audios/M-Intro1_Slide_2.wav</audio>       
             <content align="left">
                <par data-time="0.07" type="text">
                   <span>This module covers the regulatory part of the Hazardous </span>

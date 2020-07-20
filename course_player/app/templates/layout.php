@@ -29,15 +29,18 @@
     <link rel="icon" href="players/course_player/assets/images/favicon.ico" type="image/x-icon">
     <script src="players/course_player/assets/vendor/jquery/jquery.min.js"></script>
     <script src="players/course_player/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
     <script src="players/course_player/assets/vendor/bootstrap-slider/bootstrap-slider.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-visibility/1.0.11/jquery-visibility.min.js"></script>
-    
+   
       <script  src="players/course_player/assets/js/xmlToJson.js"></script>
     <script  src="players/course_player/assets/js/script.js"></script>
   
 </head>
 <body>
+  
   <div id="content">
     <?php echo $yield; ?>
   </div>

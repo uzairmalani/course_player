@@ -1,3 +1,4 @@
+
 var player = null;
 var progressBar = null;
 var lessons = null;
@@ -8,28 +9,52 @@ var obj = {};
 var lesson_count=0;
 var course = "";
 var Modules="";
+var coruse_toc;
+var base_url= window.location.href +"assets/js/";
+
 $(document).ready( function(){
-	$.getJSON("http://localhost/players/course_player/get_course/1",
+console.log(base_url);
+
+	// $(window).load(function() {
+	// 	// Animate loader off screen
+	// 	$(".se-pre-con").fadeOut("slow");
+	// });
+	function ViewData(){
+		$.ajax({
+		            type:"get",
+		            dataType: "json",
+		            url:'http://localhost/players/course_player/get_topic',
+		            success:function(data){
+		            	console.log(data);
+		            }
+		           
+		});
+	}
+
+	$.getJSON(window.location.href+"/get_topic/1",
 		function(data){
 		    	Modules = data['modules'];   	
     });
-	var url = "http://localhost/players/course_player/assets/js/course2.xml";
-	fetch(url).then(response=>response.text()).then( data => {
+
+	
+	var url = window.location.href+"/assets/js/module0.xml";
+	//fetch(url).then(response=>response.text()).then( data => {
 		var link ='';
 		var img = '';
 		var count = '';
 		var center = false;
 
-		let xml = $.parseXML(data);
-	    obj = $(xml);
+		//let xml = $.parseXML(data);
+	   // obj = $(xml);
 
-	    lessons = obj.find('lesson');
-
+	   // lessons = obj.find('lesson');
+	
 	function selectModule (Module){
+
 		var Modules = Module;
 		if(Array.isArray(Modules)){
 			for(var i = 0;i < Modules.length; i++){
-	  			course +='<div class="option-heading"><i class="fa fa-angle-down" aria-hidden="true"></i><a class="lesson" data-rel="'+i+'" href="http://localhost/players/course_player/">'
+	  			course +='<div class="option-heading"><i class="fa fa-angle-down" aria-hidden="true"></i><a class="lesson"  data-module="'+i+'" data-rel="'+i+'" href="'+window.location.href+'">'
 	 			+Modules[i].name+'</a></div>';
 	 			course +='<div class="option-content is-hidden">';
 	 		if(Modules[i].lessons){
@@ -41,7 +66,7 @@ $(document).ready( function(){
 	 		course += '</div>';	
 	 		}
 		}else{
-		 	course +='<div class="option-heading"><i class="fa fa-angle-down" aria-hidden="true"></i><a class="lesson" data-rel="0" href="http://localhost/players/course_player/">'
+		 	course +='<div class="option-heading"><i class="fa fa-angle-down" aria-hidden="true"></i><a class="lesson" data-module="0" data-rel="0" href="'+window.location.href+'">'
 	 		+Modules.name+'</a></div>';
 	 		course +='<div class="option-content is-hidden">';
 	 		if(Modules.lessons){
@@ -53,12 +78,22 @@ $(document).ready( function(){
 	 		course += '</div>';
 		}
 	}
-	selectModule(Modules);
+	getLesson(url,0);
+	setTimeout(function() {
+		selectModule(Modules);
+	},200);
+	
+	setTimeout(function() {
+		$('.sidenav').prepend(course);
+		play(0);
+		player.load();
+		player.play();
 
-	$('.sidenav').prepend(course);			
-	getLesson(0,0);
-	play(0);
-});
+		;},500);	
+	
+
+	
+//});
 	$('.sidenav').resizable({
 		minWidth: '250',
 		handles: 'e, w',
@@ -105,7 +140,7 @@ $(document).ready( function(){
 		 		+Topics+'</a>';	
 		}
 	}
-
+	
 
 	$(document).on('click', '.option-heading', function(e){
 		e.preventDefault()
@@ -125,34 +160,37 @@ $(document).ready( function(){
 	 	var lesson =parseInt($(this).attr('data-lesson'));
 	 	var topic =parseInt($(this).attr('data-topic'));
 	 	var xmlLesson="";
-	 	var modulesss = $(this).parent().siblings('.lesson').attr('data-module');
-	 	lesson +=1;
+	 	
 
 	 	$('#player-container').html("");
 		$('.slides').html("");
 
 		if($(this).attr('data-modules')){
-	  		getLesson(modules,topic);
+	  		xmlLesson=base_url+Modules[modules].xml;
+	  		console.log(xmlLesson);
 	 	}else{
-	 		getLesson(lesson,topic);
+	 		var modulesss = $(this).parent().siblings('.lesson').attr('data-module');
+	 		console.log(modulesss , lesson);
+	 		xmlLesson=base_url + Modules[modulesss].lessons[lesson].url;
 		}
+
+		getLesson(xmlLesson,topic);
 			
 		$('.play-narration i').removeClass('fa-pause-circle').addClass('fa-play-circle');
-		
+		setTimeout(function() {
 		play(topic);
+		},300);
+		
 
 		setTimeout(function() {
+		player.load();
 	    player.play();
-	    $('.play-narration i').addClass('fa-pause-circle').removeClass('fa-play-circle');}, 2000);
-
-		$('.player'+topic+'').on('canplaythrough', function(e) {
-			var duration=$(this).duration;
-			duration = Math.round(duration);
-
+	    $('.play-narration i').addClass('fa-pause-circle').removeClass('fa-play-circle');}, 400);
+		setTimeout(function() {
 			$('.start-time').text('0:00');
 			currentValue = 0;
-			initializeSlider(duration, [], 0);
-		});
+			initializeSlider(null, [], 0);
+	},500);
 
 		return false;
 
@@ -161,48 +199,72 @@ $(document).ready( function(){
 	$(document).on('click', '.lesson', function(e){
 		e.preventDefault()
 		var i = $(this).data('rel');
+		var imodules = $(this).attr('data-module');
+		var xmlLesson =""
+		
+		if($(this).attr('data-lesson')){
+		var ilesson = $(this).attr('data-lesson');
+		console.log('lessons');
+		xmlLesson=base_url +Modules[imodules].lessons[ilesson].url;
+		}else{
+			console.log('module');
+		xmlLesson=base_url+Modules[imodules].xml;
+		}
+		
+
 		$('#player-container').html("");
 		$('.slides').html("");
 
-		getLesson(i,0);
+		getLesson(xmlLesson,0);
 		$('.play-narration i').removeClass('fa-pause-circle').addClass('fa-play-circle');
-		
-		play(0);
 
 		setTimeout(function() {
-	        player.play();
-	    	$('.play-narration i').addClass('fa-pause-circle').removeClass('fa-play-circle');}, 2000);
-
-		$('.player0').on('canplaythrough', function(e) {
-			var duration=$(this).duration;
-			duration = Math.round(duration);
-
+			play(0);
+		},300);
+		setTimeout(function() {
+		player.load();
+	    player.play();
+	    $('.play-narration i').addClass('fa-pause-circle').removeClass('fa-play-circle');}, 400);
+		setTimeout(function() {
 			$('.start-time').text('0:00');
 			currentValue = 0;
-			initializeSlider(duration, [], 0);
-		});
-	});
+			initializeSlider(null, [], 0);
+	},500);
+
+});
 
 
 	
 
 
 
-	function getLesson(index,topic){
-		var select_topic=topic;
-		var lesson1 = $(lessons[index]);
-		// Main Topics view
-		let topics = lesson1.find('topics');
-		console.log(topics);
-		if (topics.length > 0) {
-			for (i = 0; i < topics.length; i++) {	
-				multipleTopic(topics[i], i,select_topic);
+	function getLesson(xml_lesson,topic){
+		let url = xml_lesson;
+		var lesson = {};
+		var topics=null;
+		$(".se-pre-con").fadeIn("slow");
+	    fetch(url).then(response=>response.text()).then( data => {
+	    	let xml = $.parseXML(data);
+	    	//$(".se-pre-con").fadeOut("slow");
+		    lesson1 = $(xml);
+
+			var select_topic=topic;
+			// var lesson1 = $(lessons[index]);
+			// Main Topics view
+			let topics = lesson1.find('topics');
+			
+			if (topics.length > 0) {
+				for (i = 0; i < topics.length; i++) {	
+					multipleTopic(topics[i], i,select_topic);
+				}
+				//SelectPlayer(topic ,count)
+			} else {
+				//quest +='<h2  id=Question>'+topics+'</h2>';  
+				multipleTopic(topics, 0, select_topic);		
 			}
 
-		} else {
-			//quest +='<h2  id=Question>'+topics+'</h2>';  
-			multipleTopic(topics, 0, select_topic);		
-		}
+		});
+
 	}
 
 
@@ -404,10 +466,13 @@ $(document).ready( function(){
 		e.preventDefault();
 		var isOpened = $(this).hasClass('open');
 		var width = '0';
-		if(!isOpened)
+		if(!isOpened){
 			width = '250px';
+			$('.se-pre-con').css('width' ,'82%');
+		}
 		$('.sidenav').css('width',width);
 		$('#main').css('margin-left',width);
+		$('.se-pre-con').css('width' ,'100%');
 		$(this).toggleClass('open');
 		return false;
 	});
@@ -415,6 +480,7 @@ $(document).ready( function(){
 	$(document).on('click','.sidenav .closebtn', function(e) {
 		e.preventDefault();
 		$('.open-sidenav').trigger('click');
+		$('.se-pre-con').css('width' ,'100%');
 		return false;
 	});
 
@@ -427,14 +493,14 @@ $(document).ready( function(){
 	function play(count){
 		var count = count;
 		player = $('.player'+count+'')[0];
-		
 		$(player).on('canplaythrough', function(e) {
 			var duration=player.duration;
 			duration = Math.round(duration);
-			if(progressBar == null && $('#player_slider').length > 0) {
+			if($('#player_slider').length > 0) {
 				initializeSlider(duration, [], 0);
 			}
-			
+		//$(".se-pre-con").fadeOut("slow");
+		$(".se-pre-con").fadeOut("slow");	
 		});
 		player.ontimeupdate = function() {
 			jQuery(".end-time").html(fancyTimeFormat(player.duration));
@@ -471,7 +537,7 @@ $(document).ready( function(){
 			
 			$('.play-narration i').removeClass('fa-pause-circle').addClass('fa-play-circle');
 			var length1 = $('.slide_'+count+'').next().length;
-
+ 
 			if(length1 > 0) {
 				$('.slide_'+count+'').fadeOut('fast');
 			$('.slide_'+count+'').hide();

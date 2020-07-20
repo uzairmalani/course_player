@@ -5,6 +5,8 @@
   <a href="http://localhost/players/course_player/">Lesson 3: Lorem Ipsum is simply dummy text of the printing</a>
   <a href="http://localhost/players/course_player/">Lesson 4: Lorem Ipsum is simply dummy text of the printing</a> -->
 </div>
+ 
+
 <div id="main" class="">
 	<div>
 		<nav class="navbar navbar-expand-lg navbar-light">
@@ -29,6 +31,8 @@
 		  </div>
 		</nav>
 		<div class="player-div pb-4">
+				 <div class="se-pre-con">
+				 </div>
 			<div class=slides>
 			
 			</div>
@@ -56,7 +60,7 @@
 				</div>
 			</div>
 
-	
+		
 		</div>
 	<!-- 	<div class="player-div slide2 pb-4">
 			<div class="container-fluid slide-section">
@@ -99,8 +103,7 @@
 
 	
 		</div> -->
-	</div>
-	</div>
+
 
 	<div class="popup" data-popup="popup-1">
 	<div class="popup-inner">
@@ -117,3 +120,7 @@
 	  </div>
 	</div>
 </div>
+<script>
+		// Wait for window load
+	
+	</script>	

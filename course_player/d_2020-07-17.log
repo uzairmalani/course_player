@@ -1,0 +1,20 @@
+Trace[	 at 1  /home/usawdistri901/public_html/ibberp_app/app/controllers/ControllerCustomer.php (line 146) -&gt; d(4)
+	 at 3  /home/usawdistri901/public_html/ibberp_app/vendor/Slim/Route.php (line 173) -&gt; call_user_func_array(2)
+	 at 5  /home/usawdistri901/public_html/ibberp_app/vendor/Slim/Route.php (line 462) -&gt; call_user_func_array(2)
+	 at 6  /home/usawdistri901/public_html/ibberp_app/vendor/Slim/Slim.php (line 1326) -&gt; dispatch(0)
+	 at 7  /home/usawdistri901/public_html/ibberp_app/vendor/Slim/Middleware/Flash.php (line 85) -&gt; call(0)
+	 at 8  /home/usawdistri901/public_html/ibberp_app/vendor/Slim/Middleware/MethodOverride.php (line 92) -&gt; call(0)
+	 at 9  /home/usawdistri901/public_html/ibberp_app/vendor/Slim/Middleware/PrettyExceptions.php (line 67) -&gt; call(0)
+	 at 10  /home/usawdistri901/public_html/ibberp_app/vendor/Slim/Slim.php (line 1271) -&gt; call(0)
+	 at 11  /home/usawdistri901/public_html/ibberp_app/index.php (line 28) -&gt; run(0)
+]
+Array
+(
+    [User_id] =&gt; 102
+    [products] =&gt; Array
+        (
+            [29979] =&gt; 500
+        )
+
+    [vendor_id] =&gt; 38316
+)

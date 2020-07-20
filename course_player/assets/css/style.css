@@ -25,6 +25,12 @@
 	background-color: #000;
 	color: #fff;
 }
+
+/*add the over flow into the left side*/
+.option-content.is-hidden {
+    overflow-y: auto;
+    max-height: 500px;
+}
 /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
@@ -162,7 +168,90 @@ padding: 0px 0px 0px 16px;
 .option-lesson{
    padding: 16px 0px 5px 30px;
 }
+/*.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(../images/loader-64x/Preloader_2.gif) center no-repeat #fff;
+}*/
+div#mySidenav{
+  z-index: 999999;
+  overflow: hidden;
+}
+/* resing issue of left side */
 
+div#mySidenav .ui-resizable-handle.ui-resizable-e {
+    width: 30px;
+    z-index: 99999;
+}
+.se-pre-con{
+  background: url(../images/loader-64x/Preloader_2.gif) center no-repeat #fff;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    /* background: aquamarine; */
+    position: fixed;
+}
+/*#loader{
+            position: relative;
+            width: 50px;
+            height: 50px;
+            border: 2px solid rgba(255,255,255,0.2);
+            border-radius: 50px;
+            top:100px;
+            left:50%;
+            margin-left: -25px;
+            animation-name: spinner 0.4s linear infinite;
+          -webkit-animation: spinner 0.4s linear  infinite;
+          -moz-animation: spinner 0.4s linear  infinite; 
+            }
+        #loader:before{
+            position: absolute;
+            content:'';
+            display: block;
+            background-color: rgba(0,0,0,0.2);
+            width: 80px;
+            height: 80px;
+            border-radius: 80px;
+            top: -15px;
+            left: -15px;
+            }
+        #loader:after{
+            position: absolute;
+            content:'';
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            border-top:2px solid white;
+            border-bottom:2px solid white;
+            border-left:2px solid white;
+            border-right:2px solid transparent;
+            top: -2px;
+            left: -2px;
+            }
+        
+        @keyframes spinner{
+            from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}
+            }
+
+        @-webkit-keyframes spinner{
+            from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}
+            }
+
+        @-moz-keyframes spinner{
+            from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}
+            }
+
+
+*/
 /*********POPUP*************/
   .popup {
   width:100%;
