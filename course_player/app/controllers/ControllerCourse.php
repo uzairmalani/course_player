@@ -28,6 +28,7 @@ class ControllerCourse extends BaseController {
 			if($value['type']=='m' && $value['level']==1){
 				$course['modules'][] = array_merge(
 					array(
+						'id' => $value['module_id'],
 						'name' => $value['module_name'],
 						'xml' => $value['module_url']
 					),
@@ -38,10 +39,22 @@ class ControllerCourse extends BaseController {
 		// print_r($modules);
 		//print_r($course);
 		// $result = array_merge($course, $modules);
-		// print_r($result);
+		 // print_r($course);
 		echo json_encode($course);
 
 
+	}
+
+	function viewCourse(){
+		$courses=ORM::for_table('course')
+			->table_alias('c')
+			->select_many(array("course_name" => "c.name","course_category"=>"cat.name"))
+			->select_many("c.id")
+			->select_expr("DATE_FORMAT(c.modified_date ,'%m-%d-%Y') as modified_date")->select_expr("DATE_FORMAT(c.publish_date ,'%m-%d-%Y') as publish_date")
+			->join("course_category" ,'cat.id = c.course_category', 'cat')
+			->find_array();
+
+		echo json_encode($courses);
 	}
 
 	function getChildren($topics, $id, $level, $type){
@@ -59,11 +72,15 @@ class ControllerCourse extends BaseController {
 				if($value['type'] == 'l'){	
 					$aChild['lessons'][] = array_merge(
 					array(
+						'id' => $value[$name.'_id'],
 						'name' => $value[$name.'_name'],
 						'url' => $value[$name.'_url']
 					),$this->getChildren($topics, $value['type_id'], $value['level'] + 1, 'lesson'));
 				} else {
-					$aChild[$name][]= $value[$name.'_name'];	
+					$aChild[$name][]= array(
+						'id' => $value[$name.'_id'],
+						'name' => $value[$name.'_name']
+					);	
 				}
 				$i +=1;
 			}

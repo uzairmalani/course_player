@@ -1,7 +1,14 @@
 <?php
+// use Psr\Http\Message\ServerRequestInterface as Request;
+// use Psr\Http\Server\RequestHandlerInterface as RequestHandler;
+// use Slim\Factory\AppFactory;
+// use Slim\Psr7\Response;
 require_once 'config.php';
 require_once 'constants.php';
+
+
 initSession(SESSION_NAME);
+
 
 $app->config(array('templates.path' => 'app/templates'));
 
@@ -22,6 +29,7 @@ function my_autoloader($className) {
     }
 }
 spl_autoload_register("my_autoloader");
+
 
 require_once 'routes.php';
 $app->run();

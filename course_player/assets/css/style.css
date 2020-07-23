@@ -15,6 +15,9 @@
 .navbar {
 	background-color: transparent;
 }
+.dropdown-menu{
+      left: -97px;
+}
 #player_slider {
 	width: 100%;
 }

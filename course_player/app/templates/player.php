@@ -1,3 +1,23 @@
+<?php 
+include_once(dirname(__DIR__) .'/controllers/connection.php');
+$token = openssl_random_pseudo_bytes(16);
+ 
+//Convert the binary data into hexadecimal representation.
+$token = bin2hex($token);
+$user=ORM::for_table('user_sesson')
+	->where("user_id",1)
+	->find_one();
+if(!$user){
+	$user=ORM::for_table('user_sesson')->create();
+$user->set(array(
+		"user_id"=>1,
+		"token" => $token
+	));
+$user->save();
+}
+ 
+?>
+
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn">&times;</a>
   <!-- <a href="http://localhost/players/course_player/">Lesson 1: Lorem Ipsum is simply dummy text of the printing</a>
@@ -26,10 +46,31 @@
 		      <!--  -->
 			    <input class="form-control mr-sm-2" type="search" placeholder="Search Content" aria-label="Search">
 		      <button class="btn btn-outline-primary my-2 my-sm-0 btn-search" type="submit">Search</button>
-		      <button class="btn btn-link mycol-md-4 text-center-2 my-sm-0" title="Ask Question"><i class="fa fa-question"></i></button>
+		   <!--    <button class="btn btn-link mycol-md-4 text-center-2 my-sm-0" title="Ask Question"><i class="fa fa-question"></i></button> -->
 		    </form>
 		  </div>
+		  <ul class="navbar-nav ml-auto">
+				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle drop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <!-- <a class="dropdown-item" href="#">Edit Profile</a>
+						<a class="dropdown-item" href="#">Setting</a> -->
+						<div class="dropdown-divider"></div> <a class="dropdown-item" href="logout.php">Sign Out</a>
+					</div>
+				</li>
+			</ul>
 		</nav>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle drop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img class="img-profile rounded-circle" src="img/user.png"></a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <!-- <a class="dropdown-item" href="#">Edit Profile</a>
+						<a class="dropdown-item" href="#">Setting</a> -->
+						<div class="dropdown-divider"></div> <a class="dropdown-item" href="logout.php">Sign Out</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
 		<div class="player-div pb-4">
 				 <div class="se-pre-con">
 				 </div>

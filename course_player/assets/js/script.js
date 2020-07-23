@@ -1,4 +1,3 @@
-
 var player = null;
 var progressBar = null;
 var lessons = null;
@@ -13,44 +12,22 @@ var coruse_toc;
 var base_url= window.location.href +"assets/js/";
 
 $(document).ready( function(){
-console.log(base_url);
 
-	// $(window).load(function() {
-	// 	// Animate loader off screen
-	// 	$(".se-pre-con").fadeOut("slow");
-	// });
-	function ViewData(){
-		$.ajax({
-		            type:"get",
-		            dataType: "json",
-		            url:'http://localhost/players/course_player/get_topic',
-		            success:function(data){
-		            	console.log(data);
-		            }
-		           
-		});
-	}
-
+	//fetching TOC
 	$.getJSON(window.location.href+"/get_topic/1",
 		function(data){
-		    	Modules = data['modules'];   	
+		    Modules = data['modules'];   	
     });
-
 	
+
 	var url = window.location.href+"/assets/js/module0.xml";
-	//fetch(url).then(response=>response.text()).then( data => {
 		var link ='';
 		var img = '';
 		var count = '';
 		var center = false;
 
-		//let xml = $.parseXML(data);
-	   // obj = $(xml);
-
-	   // lessons = obj.find('lesson');
-	
+	//display TOC
 	function selectModule (Module){
-
 		var Modules = Module;
 		if(Array.isArray(Modules)){
 			for(var i = 0;i < Modules.length; i++){
@@ -78,22 +55,27 @@ console.log(base_url);
 	 		course += '</div>';
 		}
 	}
+
 	getLesson(url,0);
+
 	setTimeout(function() {
 		selectModule(Modules);
-	},200);
-	
+		player = $('.player0').find('source').attr("data-rel");
+		$('.player0').find('source').attr("src",player);
+		console.log(player);
+	},600);
+
 	setTimeout(function() {
 		$('.sidenav').prepend(course);
 		play(0);
+		
+		;},700);
+
+	setTimeout(function() {
 		player.load();
 		player.play();
+	},800);
 
-		;},500);	
-	
-
-	
-//});
 	$('.sidenav').resizable({
 		minWidth: '250',
 		handles: 'e, w',
@@ -126,22 +108,21 @@ console.log(base_url);
 
 		}
 	}
+
 	function SelectTopics(lesson,i, parent){
 		var parent = parent;
 		var Topics= lesson.topic;
 		if(Array.isArray(Topics)){
 		 	for(var j = 0;j < Topics.length; j++){
 		  		course +='<a class="topics" data-'+parent+'="'+i+'" data-topic="'+j+'" href="#">'
-		 		+Topics[j]+'</a>';	
+		 		+Topics[j].name+'</a>';	
 		 	}
 		 	
 		} else {
 		  	course +='<a class="topics" data-'+parent+'="'+i+'" data-topic="1" href="#">'
-		 		+Topics+'</a>';	
+		 		+Topics.name+'</a>';	
 		}
 	}
-	
-
 	$(document).on('click', '.option-heading', function(e){
 		e.preventDefault()
 	 	$(this).toggleClass('is-active').next(".option-content").stop().slideToggle(500);
@@ -160,7 +141,6 @@ console.log(base_url);
 	 	var lesson =parseInt($(this).attr('data-lesson'));
 	 	var topic =parseInt($(this).attr('data-topic'));
 	 	var xmlLesson="";
-	 	
 
 	 	$('#player-container').html("");
 		$('.slides').html("");
@@ -178,19 +158,25 @@ console.log(base_url);
 			
 		$('.play-narration i').removeClass('fa-pause-circle').addClass('fa-play-circle');
 		setTimeout(function() {
-		play(topic);
-		},300);
-		
+		player = $('.player'+topic+'').find('source').attr("data-rel");
+		$('.player'+topic+'').find('source').attr("src",player);
+		console.log(player);
+		},500);	
 
+
+		setTimeout(function() {
+		play(topic);
+		},700);
+		
 		setTimeout(function() {
 		player.load();
 	    player.play();
-	    $('.play-narration i').addClass('fa-pause-circle').removeClass('fa-play-circle');}, 400);
+	    $('.play-narration i').addClass('fa-pause-circle').removeClass('fa-play-circle');}, 900);
 		setTimeout(function() {
 			$('.start-time').text('0:00');
 			currentValue = 0;
 			initializeSlider(null, [], 0);
-	},500);
+		},950);
 
 		return false;
 
@@ -219,54 +205,48 @@ console.log(base_url);
 		$('.play-narration i').removeClass('fa-pause-circle').addClass('fa-play-circle');
 
 		setTimeout(function() {
-			play(0);
-		},300);
+		player = $('.player0').find('source').attr("data-rel");
+		$('.player0').find('source').attr("src",player);
+		console.log(player);
+		},500);	
 		setTimeout(function() {
-		player.load();
-	    player.play();
-	    $('.play-narration i').addClass('fa-pause-circle').removeClass('fa-play-circle');}, 400);
+			play(0);
+		},700);
+
+		setTimeout(function() {
+			player.load();
+	   		player.play();
+	   		$('.play-narration i').addClass('fa-pause-circle').removeClass('fa-play-circle');
+	   	}, 900);
+
 		setTimeout(function() {
 			$('.start-time').text('0:00');
 			currentValue = 0;
 			initializeSlider(null, [], 0);
-	},500);
+		},900);
 
-});
-
-
-	
-
-
+	});
 
 	function getLesson(xml_lesson,topic){
 		let url = xml_lesson;
 		var lesson = {};
 		var topics=null;
-		$(".se-pre-con").fadeIn("slow");
+		$(".se-pre-con").fadeIn("fast");
 	    fetch(url).then(response=>response.text()).then( data => {
 	    	let xml = $.parseXML(data);
-	    	//$(".se-pre-con").fadeOut("slow");
 		    lesson1 = $(xml);
-
 			var select_topic=topic;
-			// var lesson1 = $(lessons[index]);
-			// Main Topics view
 			let topics = lesson1.find('topics');
 			
 			if (topics.length > 0) {
 				for (i = 0; i < topics.length; i++) {	
 					multipleTopic(topics[i], i,select_topic);
 				}
-				//SelectPlayer(topic ,count)
 			} else {
-				//quest +='<h2  id=Question>'+topics+'</h2>';  
 				multipleTopic(topics, 0, select_topic);		
 			}
-
 		});
-
 	}
-
 
 	function setNarration(){
 		var minTime = 0;
@@ -366,11 +346,10 @@ console.log(base_url);
 		if (aud.length) {
 	 		var Audio=aud.html();
 	 		var audio ='<audio class="player'+count+'">';
-			audio +='<source src="'+Audio+'" type="audio/mp3">'
+			audio +='<source src="" data-rel="'+Audio+'" type="audio/mp3">'
 			audio +='</audio>';
 			$('#player-container').append(audio);
 		} 
-
 	}
 
 	//Dispay Content
@@ -499,7 +478,6 @@ console.log(base_url);
 			if($('#player_slider').length > 0) {
 				initializeSlider(duration, [], 0);
 			}
-		//$(".se-pre-con").fadeOut("slow");
 		$(".se-pre-con").fadeOut("slow");	
 		});
 		player.ontimeupdate = function() {
@@ -539,14 +517,19 @@ console.log(base_url);
 			var length1 = $('.slide_'+count+'').next().length;
  
 			if(length1 > 0) {
+			play_id=count+1;
+			player = $('.player'+play_id+'').find('source').attr("data-rel");
+			$('.player'+play_id+'').find('source').attr("src",player);
 				$('.slide_'+count+'').fadeOut('fast');
 			$('.slide_'+count+'').hide();
 			$('.slide_'+count+'').next().show( "slide", {direction: "right" }, 2000 );
-
+			
 			paragraphs = [];
-			play(count+1);
+			
 			progressBar.bootstrapSlider('setValue',0);
 			setTimeout(function() {
+				play(play_id);
+			player.load();
 	        player.play();
 	    	$('.play-narration i').addClass('fa-pause-circle').removeClass('fa-play-circle');}, 2000);
 			
@@ -627,4 +610,4 @@ console.log(base_url);
 	$(document).on('hide', function() {
 		if(player != null && !player.paused)
 			playPausePlayer();
-	});
+	}); 
