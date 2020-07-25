@@ -6,6 +6,24 @@
   font-style:normal;
   font-display:block
 }
+a.topics.active {
+    color: yellow;
+}
+a.backbtn {
+    /* top: 57px; */
+    position: absolute;
+    top: 0;
+    right: 207px;
+    font-size:36px !important;
+    margin-left: 50px;
+}
+a.playCourse {
+    color: blue;
+    cursor: pointer;
+}
+#EditorFirstStep thead {
+    background: #ffcd05;
+}'
 .navbar-brand img {
 	width: 75px;
 }

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,8 +13,9 @@
     <meta http-equiv="pragma" content="no-cache" />
     <base href="<?php echo HTTP_MAIN_SERVER ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="players/course_player//assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+   <!--  <link href="players/course_player/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
     <link href="players/course_player/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="players/course_player/assets/vendor/bootstrap-slider/bootstrap-slider.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">

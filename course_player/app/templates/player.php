@@ -1,25 +1,10 @@
 <?php 
-include_once(dirname(__DIR__) .'/controllers/connection.php');
-$token = openssl_random_pseudo_bytes(16);
- 
-//Convert the binary data into hexadecimal representation.
-$token = bin2hex($token);
-$user=ORM::for_table('user_sesson')
-	->where("user_id",1)
-	->find_one();
-if(!$user){
-	$user=ORM::for_table('user_sesson')->create();
-$user->set(array(
-		"user_id"=>1,
-		"token" => $token
-	));
-$user->save();
-}
- 
+
 ?>
 
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn">&times;</a>
+	<a href="http://localhost/players/course_player/" class="backbtn">&larr;</a>
+  	<a href="javascript:void(0)" class="closebtn">&times;</a>
   <!-- <a href="http://localhost/players/course_player/">Lesson 1: Lorem Ipsum is simply dummy text of the printing</a>
   <a href="http://localhost/players/course_player/">Lesson 2: Lorem Ipsum is simply dummy text of the printing</a>
   <a href="http://localhost/players/course_player/">Lesson 3: Lorem Ipsum is simply dummy text of the printing</a>
@@ -33,8 +18,7 @@ $user->save();
 		  <button class="btn btn-link my-2 my-sm-0 open-sidenav" title="Ask Question">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
-		  <a class="navbar-brand" href="http://localhost/players/course_player/">
-			<img src="players/course_player/assets/images/logo.png">
+		  <a class="navbar-brand" href="">
 		  </a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -62,7 +46,7 @@ $user->save();
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle drop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <img class="img-profile rounded-circle" src="img/user.png"></a>
+        <img class="img-profile rounded-circle" src=""></a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <!-- <a class="dropdown-item" href="#">Edit Profile</a>
 						<a class="dropdown-item" href="#">Setting</a> -->
 						<div class="dropdown-divider"></div> <a class="dropdown-item" href="logout.php">Sign Out</a>
@@ -161,7 +145,13 @@ $user->save();
 	  </div>
 	</div>
 </div>
-<script>
-		// Wait for window load
+<script type="text/javascript">
+	$(document).ready(function () {
+        startplayer();
+       setInterval(function()
+		{
+			tracking();
+		}, 5000);
+    });
 	
 	</script>	
