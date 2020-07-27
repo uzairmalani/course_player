@@ -147,7 +147,9 @@
 </div>
 <script type="text/javascript">
 	$(document).ready(function () {
+		
         startplayer();
+
        setInterval(function()
 		{
 			tracking();

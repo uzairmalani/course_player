@@ -3,7 +3,7 @@
    <course name="40 Hour HAZWOPER OSHA Online Training">
       <lesson name="Module 1: REGULATORY OVERVIEW">
          <topics name="Module 1:" data-time="0.03">     
-            <audio>http://localhost/players/course_player/assets/audios/M-Intro1_Slide_1.wav</audio>
+            <audio>/M-Intro1_Slide_1.wav</audio>
             <content align="center">
                <par data-time="0.05" type="text">
                   <span>REGULATORY OVERVIEW</span>
@@ -11,7 +11,7 @@
             </content>
          </topics>
          <topics name="Module Overview" data-time="0.03">
-            <audio>http://localhost/players/course_player/assets/audios/M-Intro1_Slide_2.wav</audio>       
+            <audio>/M-Intro1_Slide_2.wav</audio>       
             <content align="left">
                <par data-time="0.07" type="text">
                   <span>This module covers the regulatory part of the Hazardous </span>
@@ -30,13 +30,13 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/M1_Slide_2_Picture1.png" />
+                  <img src="/M1_Slide_2_Picture1.png" />
             </content>
          </topics>
 
          <topics name="Learning Objectives " data-time="0.02">
             
-            <audio>http://localhost/players/course_player/assets/audios/M-Intro1_Slide_3.wav</audio>
+            <audio>/M-Intro1_Slide_3.wav</audio>
             
             <content align="left">
                <par data-time="0.06" type="text">
@@ -58,7 +58,7 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/M1_Slide_2_Picture1.png" />
+                  <img src="/M1_Slide_2_Picture1.png" />
             </content>
          </topics> 
       </lesson>   

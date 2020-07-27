@@ -3,15 +3,14 @@
    <course name="40 Hour HAZWOPER OSHA Online Training">
       <lesson name="Lesson 1: OSHA AND THE HAZWOPER STANDARD">
          <topics name="Lesson 1:" data-time="0.02">    
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_1.wav</audio>         
+            <audio>/L1_Slide_1.wav</audio>         
             <content align="center">
                <par data-time="0.06" type="text">
                   <span>OSHA AND THE HAZWOPER STANDARD</span></par>
             </content>
          </topics>
-         <topics name="The Occupational Safety and Health (OSH) Act" data-time="0.06">
-            
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_2.wav</audio>
+         <topics name="The Occupational Safety and Health (OSH) Act" data-time="0.06">            
+            <audio>/L1_Slide_2.wav</audio>
             
             <content align="left">
                <par data-time="0.23" type="text">
@@ -29,13 +28,13 @@
                
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_2_picture1.png"/>
+                  <img src="/L1_slide_2_picture1.png"/>
             </content>
          </topics>
 
          <topics name="Hazardous Waste Operations and Emergency Response (HAZWOPER)" data-time="0.06">
             
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_3.wav</audio>
+            <audio>/L1_Slide_3.wav</audio>
             
             <content align="left">
                <par data-time="0.22" type="text">
@@ -68,11 +67,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_3_picture1.png" />
+                  <img src="/L1_slide_3_picture1.png" />
             </content>
          </topics>
          <topics name="The HAZWOPER Regulation" data-time="0.05">   
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_4.wav</audio>
+            <audio>/L1_Slide_4.wav</audio>
             
             <content align="left">
                <par data-time="0.07" type="text">
@@ -102,12 +101,12 @@
                </par> 
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_4_picture1.png" />
+                  <img src="/L1_slide_4_picture1.png" />
             </content>
          </topics>
          <topics name="The HAZWOPER Regulation" data-time="0.05">
             
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_5.wav</audio>
+            <audio>/L1_Slide_5.wav</audio>
             
             <content align="left">
             <par data-time="0.07" type="text">
@@ -131,11 +130,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_5_picture1.png" />
+                  <img src="/L1_slide_5_picture1.png" />
             </content>
             </topics>
             <topics name="Scope of the HAZWOPER Standard" data-time="0.04">
-               <audio>http://localhost/players/course_player/assets/audios/L1_Slide_6.wav</audio>
+               <audio>/L1_Slide_6.wav</audio>
                <content align="center">
                   <par data-time="0.07" type="text">
                   <span>
@@ -210,7 +209,7 @@
             </content>
          </topics>
          <topics name="Appendices to the HAZWOPER Regulation" data-time="0.05">
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_7.wav</audio>
+            <audio>/L1_Slide_7.wav</audio>
             <content align="left">
                <par data-time="0.17" type="text">
                   <span>There are five appendices to the HAZWOPER regulation that assist employers and employees in complying with the provisions of this standard. These include:</span>
@@ -228,11 +227,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_7_picture1.png"/>
+                  <img src="/L1_slide_7_picture1.png"/>
             </content>
          </topics>
          <topics name="Application of the HAZWOPER Standard" data-time="0.05">
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_8.wav</audio>
+            <audio>/L1_Slide_8.wav</audio>
             <content align="left">
                <par data-time="0.09" type="text">
                   <span>HAZWOPER regulations apply in the following work areas:</span>
@@ -250,11 +249,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_8_picture1.png" />
+                  <img src="/L1_slide_8_picture1.png" />
             </content>
          </topics>
          <topics name="HAZWOPER Training" data-time="0.03">
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_9.wav</audio>
+            <audio>/L1_Slide_9.wav</audio>
             <content align="left">
                <par data-time="0.11" type="text">
                   <span>There are several types of HAZWOPER training for the general site worker depending on your job type and experience:</span>
@@ -282,11 +281,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_9_picture1.png"/>
+                  <img src="/L1_slide_9_picture1.png"/>
             </content>
          </topics>
          <topics name="HAZWOPER Training" data-time="0.03">
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_10.wav</audio>
+            <audio>/L1_Slide_10.wav</audio>
             <content align="left">
                <par data-time="0.19" type="text">
                   <span>The 8-hour annual refresher course is required for both the 24-hour and 40-hour certified individuals to re-emphasize the initial training and to update workers on any new policies or procedures.</span>
@@ -312,11 +311,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_10_picture1.png"/>
+                  <img src="/L1_slide_10_picture1.png"/>
             </content>
          </topics>
          <topics name="The HAZWOPER Standard and Other Regulations" data-time="0.05">
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_11.wav</audio>
+            <audio>/L1_Slide_11.wav</audio>
             <content align="left">
                <par data-time="0.15" type="text">
                   <span>A number of work tasks performed at a HAZWOPER work-site may over lap and cross over into other areas regulated by OSHA.</span>
@@ -336,11 +335,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_11_picture1.png"/>
+                  <img src="/L1_slide_11_picture1.png"/>
             </content>
          </topics>
          <topics name="Rights and Responsibilities: Employer Responsibilities" data-time="0.06">
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_12.wav</audio>
+            <audio>/L1_Slide_12.wav</audio>
             <content align="left">
                <par data-time="0.12" type="text">
                   <span>Under the OSH Act, employers have the following responsibilities:</span>
@@ -361,11 +360,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_12_picture1.png"/>
+                  <img src="/L1_slide_12_picture1.png"/>
             </content>
          </topics>
          <topics name="Rights and Responsibilities: Employer Rights" data-time="0.05">
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_13.wav</audio>
+            <audio>/L1_Slide_13.wav</audio>
             <content align="left">
                <par data-time="0.11" type="text">
                   <span>Under the OSH Act employees have the following rights:</span>
@@ -386,11 +385,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_13_picture1.png"/>
+                  <img src="/L1_slide_13_picture1.png"/>
             </content>
          </topics>
          <topics name="Rights and Responsibilities: Employer Responsibilities" data-time="0.04">
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_14.wav</audio>
+            <audio>/L1_Slide_14.wav</audio>
             <content align="left">
                <par data-time="0.101" type="text">
                   <span>Employees also have certain responsibilities when it comes to workplace safety,</span>
@@ -410,11 +409,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_14_picture1.png"/>
+                  <img src="/L1_slide_14_picture1.png"/>
             </content>
          </topics>
           <topics name="Establishment of NIOSH" data-time="0.04">
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_15.wav</audio>
+            <audio>/L1_Slide_15.wav</audio>
             <content align="left">
                <par data-time="0.13" type="text">
                   <span>The OSH Act resulted in the establishment of both The National Institute for Occupational Safety and Health (NIOSH)</span>
@@ -437,11 +436,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_15_picture1.png"/>
+                  <img src="/L1_slide_15_picture1.png"/>
             </content>
          </topics>
          <topics name="Hazardous Waste Legislation" data-time="0.03">
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_16.wav</audio>
+            <audio>/L1_Slide_16.wav</audio>
             <content align="left">
                <par data-time="0.15" type="text">
                   <span>Congress enacted a number of legislative acts in order to deal with the problems and threats posed by the industrial hazardous waste. These include:</span>
@@ -457,11 +456,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_16_picture1.png"/>
+                  <img src="/L1_slide_16_picture1.png"/>
             </content>
          </topics>
          <topics name="Application of the HAZWOPER Standard to Chemical Spills" data-time="0.05">
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_17.wav</audio>
+            <audio>/L1_Slide_17.wav</audio>
             <content align="left">
                <par data-time="0.12" type="text">
                   <span>In order to get a better understanding of how the various sections of the HAZWOPER Standard apply to various groups;</span>
@@ -485,14 +484,14 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_17_picture1.png"/>
+                  <img src="/L1_slide_17_picture1.png"/>
             </content>
          </topics>
          <topics name="Application of the HAZWOPER Standard to Chemical Spills" data-time="">
          <video>http://localhost/players/course_player/assets/video/chemicalspills.mp4</video>
          </topics>
          <topics name="Summary" data-time="0.02">
-            <audio>http://localhost/players/course_player/assets/audios/L1_Slide_18.wav</audio>
+            <audio>/L1_Slide_18.wav</audio>
             <content align="left">
                <par data-time="0.13" type="text">
                   <span>The Occupational Safety and Health Administration (OSHA) establishes workplace standards related to health and safety for various occupations.</span>
@@ -511,11 +510,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_18_picture1.png"/>
+                  <img src="/L1_slide_18_picture1.png"/>
             </content>
          </topics>
          <topics name="LESSON QUIZ" data-time="0.03">
-         <audio>http://localhost/players/course_player/assets/audios/LessonQuiz_Audio.wav</audio>
+         <audio>/LessonQuiz_Audio.wav</audio>
             <content align="left">
                <par data-time="0.08" type="text">
                   <span><b>It is now data-time to take a quiz and see what you have learned so far!</b></span>
@@ -529,7 +528,7 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L1_slide_19_picture1.png"/>
+                  <img src="/L1_slide_19_picture1.png"/>
             </content>
          </topics>
       </lesson> 

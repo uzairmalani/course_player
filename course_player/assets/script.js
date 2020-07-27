@@ -13,7 +13,7 @@ var courseID;
 var getTrackid="";
 var getTracktime;
 //var base_url= window.location.href +"assets/js/";
-var base_url= 'http://localhost/players/course_player/'
+var base_url= 'http://player.ljwebmgmt.com/'
 var url = base_url+"/assets/js/module0.xml";
 var link ='';
 var img = '';
@@ -154,7 +154,7 @@ $(document).on('click','.playCourse', function(){
 		// 	player = $('.player0').find('source').attr("data-rel");
 		// 	$('.player0').find('source').attr("src",player);
 		
-		 },900);
+		 },600);
 
 		setTimeout(function() {
 			$('.sidenav').prepend(course);
@@ -162,7 +162,7 @@ $(document).on('click','.playCourse', function(){
 			//play(0);
 			activeClass();
 			
-			;},1100);
+			;},700);
 
 		// setTimeout(function() {
 	
@@ -260,16 +260,16 @@ $(document).on('click','.playCourse', function(){
 		player = $('.player'+topic+'').find('source').attr("data-rel");
 		$('.player'+topic+'').find('source').attr("src",player);
 
-		},1000);	
+		},3000);	
 
 
 		setTimeout(function() {
 		play(topic);
-		},1100);
+		},3100);
 		
 		setTimeout(function() {
 		player.load();
-	    }, 1300);
+	    }, 3300);
 		setTimeout(function() {
 			var value = fancyTimeFormat(getTracktime);
 			console.log(value);
@@ -283,7 +283,7 @@ $(document).on('click','.playCourse', function(){
 			//initializeSlider(null, [], getTracktime);
 			//player.play();
 			activeClass();
-		},1550);
+		},3550);
 
 		return false;
 
@@ -498,7 +498,7 @@ $(document).on('click','.playCourse', function(){
 
 		if(image.length > 0){
 			var img1=image.attr('src');
-		 	img +='<img src="'+base_url+'/assets/images/'+img1+'" class="img-fluid img-thumbnail align_'+align+'">'
+		 	img +='<img src="/assets/images/'+img1+'" class="img-fluid img-thumbnail align_'+align+'">'
 		}
 		
 		return [quest,  link, img];

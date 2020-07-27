@@ -3,14 +3,14 @@
    <course name="40 Hour HAZWOPER OSHA Online Training">
       <lesson name="Lesson 2: HAZARD COMMUNICATION">
         <topics name="Lesson 2:" data-time="0.02">
-            <audio>http://localhost/players/course_player/assets/audios/L2_Slide_1.wav</audio>
+            <audio>/L2_Slide_1.wav</audio>
             <content align="center">
                <par data-time="0.05" type="text">
                   <span>HAZARD COMMUNICATION</span></par>
             </content>
         </topics>
         <topics name="Hazard Communication" data-time="0.03">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_2.wav</audio>
+         <audio>/L2_Slide_2.wav</audio>
             <content align="left">
                <par data-time="0.12" type="text">
            		<span>
@@ -38,11 +38,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_2_picture1.png"/>
+                  <img src="/L2_slide_2_picture1.png"/>
             </content>
          </topics>
          <topics name="Hazard Communication Standard (HCS)" data-time="0.05">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_3.wav</audio>
+         <audio>/L2_Slide_3.wav</audio>
             <content align="left">
                <par data-time="0.17" type="text">
                	<span>
@@ -67,11 +67,11 @@
                </par>  
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_3_picture1.png"/>
+                  <img src="/L2_slide_3_picture1.png"/>
             </content>
          </topics>
          <topics name="Substances not covered by HCS" data-time="0.05">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_4.wav</audio>
+         <audio>/L2_Slide_4.wav</audio>
             <content align="left">
                <par data-time="0.12" type="text">
                	<span>
@@ -101,11 +101,11 @@
                </par>  
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_4_picture1.png"/>
+                  <img src="/L2_slide_4_picture1.png"/>
             </content>
          </topics>
          <topics name="Globally Harmonized System (GHS)" data-time="0.06">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_5.wav</audio>
+         <audio>/L2_Slide_5.wav</audio>
             <content align="left">
                <par data-time="0.19" type="text">
                	<span>
@@ -129,11 +129,11 @@
               </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_5_picture1.png"/>
+                  <img src="/L2_slide_5_picture1.png"/>
             </content>
          </topics>
          <topics name="Which substances are covered by the GHS?" data-time="0.05">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_6.wav</audio>
+         <audio>/L2_Slide_6.wav</audio>
             <content align="left">
                <par data-time="0.18" type="text">
                	<span>
@@ -160,11 +160,11 @@
                </par> 
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_6_picture1.png"/>
+                  <img src="/L2_slide_6_picture1.png"/>
             </content>
          </topics>
          <topics name="Changes to HCS under GHS" data-time="0.06">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_7.wav</audio>
+         <audio>/L2_Slide_7.wav</audio>
             <content align="left">
                <par data-time="0.17" type="text">
                   <span>When OSHA modified its Hazard Communications Standard to align with the Globally Harmonized System, several key revisions to the HCS happened:</span>
@@ -184,11 +184,11 @@
                </par> 
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_7_picture1.png"/>
+                  <img src="/L2_slide_7_picture1.png"/>
             </content>
          </topics>
          <topics name="Hazardous Material Labeling" data-time="0.03">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_8.wav</audio>
+         <audio>/L2_Slide_8.wav</audio>
             <content align="left">
                <par data-time="0.13" type="text">
                	<span>
@@ -211,11 +211,11 @@
                </par> 
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_8_picture1.png"/>
+                  <img src="/L2_slide_8_picture1.png"/>
             </content>
          </topics>
          <topics name="Labeling Requirements" data-time="0.03">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_9.wav</audio>
+         <audio>/L2_Slide_9.wav</audio>
             <content align="left">
                <par data-time="0.14" type="text">
                   <span>In 2012, OSHA adopted new hazardous material labeling requirements to fall into line with the Globally Harmonized System (GHS).</span>
@@ -237,11 +237,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_9_picture1.png"/>
+                  <img src="/L2_slide_9_picture1.png"/>
             </content>
          </topics>
          <topics name="Pictograms" data-time="0.02">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_10.wav</audio>
+         <audio>/L2_Slide_10.wav</audio>
             <content align="left">
                <par data-time="0.11" type="text">
                   <span>Pictograms are black pictures on a white background, surrounded by a red square frame set on the point.</span>
@@ -269,17 +269,17 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_10_picture1.png"/>
+                  <img src="/L2_slide_10_picture1.png"/>
             </content>
          </topics>
          <topics name="Pictograms" data-time="0.03">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_11.wav</audio>
+         <audio>/L2_Slide_11.wav</audio>
          <content align="center">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_11_picture1.png"/>
+                  <img src="/L2_slide_11_picture1.png"/>
             </content>
          </topics>
          <topics name="Pictograms Categories" data-time="0.03">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_12.wav</audio>
+         <audio>/L2_Slide_12.wav</audio>
          <content align="left">
          <par data-time="0.14" type="text">
                   <span>These nine types of pictograms may have different categories, so it’s possible you may see a flame pictogram with a signal word “Danger” on one canister,</span>
@@ -289,11 +289,11 @@
                </par>
          </content>
          <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_12_picture1.png"/>
+                  <img src="/L2_slide_12_picture1.png"/>
             </content>
          </topics>
          <topics name="Safety Data Sheets (SDSs)" data-time="0.04">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_13.wav</audio>
+         <audio>/L2_Slide_13.wav</audio>
          <content align="left">
          <par data-time="0.11" type="text">
          	<span>
@@ -323,11 +323,11 @@
                </par>
          </content>
          <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_13_picture1.png"/>
+                  <img src="/L2_slide_13_picture1.png"/>
             </content>
          </topics>
          <topics name="Safety Data Sheets (SDSs) Sections" data-time="0.04">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_14.wav</audio>
+         <audio>/L2_Slide_14.wav</audio>
          <content align="left">
                <par data-time="0.15" type="text">
                	<span>
@@ -353,11 +353,11 @@
                </par>
          </content>
          <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_14_picture1.png"/>
+                  <img src="/L2_slide_14_picture1.png"/>
             </content>
          </topics>
          <topics name="Safety Data Sheets (SDSs) Sections" data-time="0.05">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_15.wav</audio>
+         <audio>/L2_Slide_15.wav</audio>
             <content align="left">
                <par data-time="0.09" type="text">
                   <span>To summarize, the following are the sections of the SDSs:</span>
@@ -386,11 +386,11 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_15_picture1.png"/>
+                  <img src="/L2_slide_15_picture1.png"/>
             </content>
          </topics>
          <topics name="Scope of the HAZWOPER Standard">
-            <audio>http://localhost/players/course_player/assets/audios/L2_Slide_16(retake).wav</audio>
+            <audio>/L2_Slide_16(retake).wav</audio>
             <content align="center">
             <par data-time="0.02" type="text">
                   <span> 
@@ -450,7 +450,7 @@
             </content>
          </topics>
          <topics name="SDSs and Employer Responsibilities" data-time="0.06">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_17.wav</audio>
+         <audio>/L2_Slide_17.wav</audio>
          <content align="left">
                <par data-time="0.16" type="text">
                	<span>
@@ -481,11 +481,11 @@
                </par>
          </content>
          <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_17_picture1.png"/>
+                  <img src="/L2_slide_17_picture1.png"/>
             </content>
          </topics>
          <topics name="Employee Training" data-time="0.03">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_18.wav</audio>
+         <audio>/L2_Slide_18.wav</audio>
          <content align="left">
                <par data-time="0.13" type="text">
                	<span>
@@ -502,11 +502,11 @@
                </par>
          </content>
          <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_18_picture1.png"/>
+                  <img src="/L2_slide_18_picture1.png"/>
             </content>
          </topics>
         <topics name="Summary" data-time="0.02">
-         <audio>http://localhost/players/course_player/assets/audios/L2_Slide_19.wav</audio>
+         <audio>/L2_Slide_19.wav</audio>
          <content align="left">
                <par data-time="0.13" type="text">
                	<span>
@@ -534,11 +534,11 @@
                </par>
          </content>
          <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_19_picture1.png"/>
+                  <img src="/L2_slide_19_picture1.png"/>
             </content>
          </topics>
          <topics name="LESSON QUIZ" data-time="0.03">
-         <audio>http://localhost/players/course_player/assets/audios/LessonQuiz_Audio.wav</audio>
+         <audio>/LessonQuiz_Audio.wav</audio>
             <content align="left">
                <par data-time="0.08" type="text">
                   <span><b>It is now data-time to take a quiz and see what you have learned so far!</b></span>
@@ -552,7 +552,7 @@
                </par>
             </content>
             <content align="right">
-                  <img src="http://localhost/players/course_player/assets/images/L2_slide_20_picture1.png"/>
+                  <img src="/L2_slide_20_picture1.png"/>
             </content>
          </topics>
       </lesson>
