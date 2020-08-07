@@ -10,6 +10,8 @@ var course = "";
 var Modules="";
 var coruse_toc;
 var courseID;
+var userID;
+
 var getTrackid="";
 var getTracktime;
 //var base_url= window.location.href +"assets/js/";
@@ -20,6 +22,7 @@ var img = '';
 var count = '';
 var center = false;
 
+
 var CourseTable =  $('#CourseList tbody');
 	$.ajax({
 		type: 'GET',
@@ -27,14 +30,20 @@ var CourseTable =  $('#CourseList tbody');
 		success: function(list){
 			var CourseData = JSON.parse(list)
 			CourseData.forEach(course => {
-				$('#CourseList tbody').append('<tr><td><a href="'+base_url+'player" data-rel="'+course.id+'" class="playCourse">'+course.course_name+'</a><td>'+course.course_category+'</td><td>'+course.modified_date+'</td><td>'+course.publish_date+'</td></tr>');
+				$('#CourseList tbody').append('<tr><td><a data-rel="'+course.id+'" class="playCourse">'+course.course_name+'</a><td>'+course.course_category+'</td><td>'+course.modified_date+'</td><td>'+course.publish_date+'</td></tr>');
 			})
 		}
 	});
 
 $(document).on('click','.playCourse', function(){
 	courseID = $(this).attr('data-rel');
-	localStorage.setItem("courseId", courseID);
+
+	window.location.href =base_url+"player/"+courseID; 
+	$.getJSON(base_url+"/player/"+courseID,
+		function(data){
+		    console.log(data);
+
+    });
 
 
 });
@@ -59,6 +68,7 @@ $(document).on('click','.playCourse', function(){
     		url: base_url+"/user_tracking",
 			data:{
 			courseid:courseID,
+			userid:userID,
 			topicid:topicID,
 			durations:duration,
 			currenttime:current_time,
@@ -132,9 +142,12 @@ $(document).on('click','.playCourse', function(){
 
 	}
 	function startplayer(){
-		courseID = localStorage.getItem("courseId");
+		courseID = $("#course_id").val();
+		userID = $("#user_id").val();
+		console.log(courseID);
+		//courseID = localStorage.getItem("courseId");
 		fetchingTOC(courseID);
-		 $.getJSON(base_url+"/get_user_tracking/"+courseID+"/1",
+		 $.getJSON(base_url+"/get_user_tracking/"+courseID+"/"+userID+"",
 			function(data){
 				
 			  getTrackid = parseInt(data['topic_id']);
@@ -154,7 +167,7 @@ $(document).on('click','.playCourse', function(){
 		// 	player = $('.player0').find('source').attr("data-rel");
 		// 	$('.player0').find('source').attr("src",player);
 		
-		 },900);
+		 },1200);
 
 		setTimeout(function() {
 			$('.sidenav').prepend(course);
@@ -162,7 +175,7 @@ $(document).on('click','.playCourse', function(){
 			//play(0);
 			activeClass();
 			
-			;},1100);
+			;},1300);
 
 		// setTimeout(function() {
 	
@@ -260,16 +273,16 @@ $(document).on('click','.playCourse', function(){
 		player = $('.player'+topic+'').find('source').attr("data-rel");
 		$('.player'+topic+'').find('source').attr("src",player);
 
-		},1000);	
+		},2000);	
 
 
 		setTimeout(function() {
 		play(topic);
-		},1100);
+		},2100);
 		
 		setTimeout(function() {
 		player.load();
-	    }, 1300);
+	    }, 2200);
 		setTimeout(function() {
 			var value = fancyTimeFormat(getTracktime);
 			console.log(value);
@@ -283,7 +296,7 @@ $(document).on('click','.playCourse', function(){
 			//initializeSlider(null, [], getTracktime);
 			//player.play();
 			activeClass();
-		},1550);
+		},2550);
 
 		return false;
 
@@ -375,6 +388,7 @@ $(document).on('click','.playCourse', function(){
 		let time = t.attr('data-time');
 		var quest ='<h2 data-time="" class="heading"><span data-time="'+time+'">'+name+'</span></h2>';
 		let content = t.find('content'); 
+		SelectPlayer(topic ,count);
 			if (content.length > 0) {
 				for(var cont of content){
 					aContent = getContent(cont, count);
@@ -436,7 +450,7 @@ $(document).on('click','.playCourse', function(){
 
 
 		
-		SelectPlayer(topic ,count)
+		
 	}
 
 	function SelectPlayer(topics ,i){

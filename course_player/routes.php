@@ -11,7 +11,7 @@ $app->get('/','ControllerPlayer:view');
 $app->get('/editor','ControllerPlayer:viewEditor');
 $app->get('/get_course/:id','ControllerCourse:GetCourse');
 $app->get('/get_topic/:id','ControllerCourse:Gettopic');
-$app->get('/player/','ControllerPlayer:viewplayer');
+$app->get('/player/:course_id/:user_id','ControllerPlayer:viewplayer');
 $app->get('/viewcourse','ControllerCourse:viewCourse');
 $app->get('/get_user_tracking/:course_id/:user_id','ControllerUser:get_track');
 
@@ -21,3 +21,4 @@ $app->post('/addtopic','ControllerCoursetoc:createTopic');
 $app->post('/addcourse','ControllerCoursetoc:createCourse');
 $app->post('/addmodule','ControllerCoursetoc:createModule');
 $app->post('/addlesson','ControllerCoursetoc:createLesson');
+$app->post('/addquize','ControllerQuize:createQuzie');

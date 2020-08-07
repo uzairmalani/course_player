@@ -34,7 +34,7 @@
 		    </form>
 		  </div>
 		  <ul class="navbar-nav ml-auto">
-				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle drop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle drop" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <?php print_r($data['user_name']); ?>
     </a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <!-- <a class="dropdown-item" href="#">Edit Profile</a>
 						<a class="dropdown-item" href="#">Setting</a> -->
@@ -56,6 +56,10 @@
 		</div>
 	</nav>
 		<div class="player-div pb-4">
+			<input type="hidden" name="course_id" id="course_id" value=
+<?php print_r($data['course_id']); ?>>
+<input type="hidden" name="user_id" id="user_id" value=
+<?php print_r($data['user_id']); ?>>
 				 <div class="se-pre-con">
 				 </div>
 			<div class=slides>

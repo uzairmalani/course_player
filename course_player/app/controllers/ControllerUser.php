@@ -2,11 +2,36 @@
 include_once('connection.php');
 
 class ControllerUser extends BaseController {
-		function track(){
+
+	function getWpUser(){
 			$res = array();
 			try {
+				$url="https://qa.hazwoper-osha.com/wp-json/wp/v2/users";
+		        $ch = curl_init();
+		        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+		        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		        curl_setopt($ch, CURLOPT_URL,$url);
+		        $result=curl_exec($ch);
+		        $posts = json_decode($result, true);
+				
+				$res['success'] = "ok";
+			} catch(Exception $ex) {
+				$res['error'] = $ex->getMessage();
+			}
+			echo json_encode($posts);
+		}
+		function track(){
+			$res = array();
+			$userID=substr(base64_decode($_POST['userid']),16);
+			try {
+
+				$user_id=ORM::for_table('user')
+						->select('id')
+						->where('wp_user_id' , $userID)
+						->find_one();
+
 				$track = ORM::for_table('course_tracking')
-						->where('user_id' , 1)
+						->where('user_id' ,$user_id->id)
 						->where('course_id', $_POST['courseid'])
 						->where('topic_id' ,$_POST['topicid'])
 						->find_one();
@@ -23,7 +48,7 @@ class ControllerUser extends BaseController {
 					$track->set("current_time"  , $_POST['currenttime']);
 				}
 				$track->set(array(
-					"user_id" => 1,
+					"user_id" => $user_id->id,
 					"course_id" => $_POST['courseid'],
 					"topic_id" => $_POST['topicid'],		
 					"updated_on" => date("Y-m-d H:i:s"),
@@ -43,15 +68,21 @@ class ControllerUser extends BaseController {
 
 		function get_track($course_id,$user_id){
 			$res = array();
+
+			$userID=substr(base64_decode($user_id),16);
 			try {
+				$userId=ORM::for_table('user')
+						->select('id')
+						->where('wp_user_id' , $userID)
+						->find_one();	
 				$track = ORM::for_table('course_tracking')
-							->where('user_id' , $user_id)
+							->where('user_id' , $userId->id)
 							->where('course_id', $course_id)
 							->where('is_completed' , 0)
 							->find_one();
 				if(!$track){
 					$track = ORM::for_table('course_tracking')
-							->where('user_id' , $user_id)
+							->where('user_id' , $userId->id)
 							->where('course_id', $course_id)
 							->where('is_completed' , 1)
 							->order_by_desc('id')
@@ -66,7 +97,7 @@ class ControllerUser extends BaseController {
 
 					$track=ORM::for_table('course_tracking')->create();
 					$track->set(array(
-					"user_id" => 1,
+					"user_id" => $userId->id,
 					"course_id" => $course_id,
 					"topic_id" => $toc->topic_id,		
 					"updated_on" => date("Y-m-d H:i:s"),
